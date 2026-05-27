@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
+*.log
+# 抓取中间缓存（产物 HTML 要提交，故 reports/ 不忽略）
+.cache_fetch/

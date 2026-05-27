@@ -1,0 +1,135 @@
+# 喵仔仔 AI 日报 · 信息源注册表
+# 字段：name 来源名 / category A|B|C / type rss|web / url 地址 / enabled 是否启用
+# MVP 阶段只启用有可靠 RSS 的源。无 RSS 的标 type:web 且 enabled:false，待网页抓取功能完成再开。
+# 详细说明见技能 references/sources.md
+
+sources:
+  # ---------- A. 前沿社区与聚合平台 ----------
+  - name: Hacker News (Front Page)
+    category: A
+    type: rss
+    url: https://hnrss.org/frontpage?points=100
+    enabled: true
+
+  - name: Hacker News (AI 关键词)
+    category: A
+    type: rss
+    url: https://hnrss.org/newest?q=AI+OR+LLM+OR+OpenAI+OR+Anthropic
+    enabled: true
+
+  - name: Product Hunt
+    category: A
+    type: rss
+    url: https://www.producthunt.com/feed
+    enabled: false   # 噪音大，确认关键词粗筛够强后再开
+
+  - name: The Rundown AI
+    category: A
+    type: web
+    url: https://www.therundown.ai/
+    enabled: false   # newsletter，无标准 RSS，待网页抓取
+
+  - name: aifeed.fyi
+    category: A
+    type: web
+    url: https://aifeed.fyi/
+    enabled: false   # 聚合页，待网页抓取
+
+  - name: GitHub Trending
+    category: A
+    type: web
+    url: https://github.com/trending
+    enabled: false   # 无官方 RSS，待网页抓取
+
+  # ---------- B. 顶尖专家分析 ----------
+  - name: The Batch (Andrew Ng)
+    category: B
+    type: web
+    url: https://www.deeplearning.ai/the-batch/
+    enabled: false   # deeplearning.ai 全站已无可用 RSS（端点 404/500），待网页抓取
+
+  - name: Import AI (Jack Clark)
+    category: B
+    type: rss
+    url: https://importai.substack.com/feed
+    enabled: true
+
+  # ---------- C. 一手信息与官方动态 ----------
+  - name: OpenAI Blog
+    category: C
+    type: rss
+    url: https://openai.com/blog/rss.xml
+    enabled: true
+
+  - name: Google DeepMind
+    category: C
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+
+  - name: Google AI Blog
+    category: C
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    enabled: true
+
+  - name: Anthropic News
+    category: C
+    type: web
+    url: https://www.anthropic.com/news
+    enabled: false   # RSS 待确认，找到后切 type:rss 并启用
+
+  - name: Meta Engineering (AI/Infra)
+    category: C
+    type: rss
+    url: https://engineering.fb.com/feed/
+    enabled: true   # ai.meta.com/blog 无 RSS，用 Meta 官方工程博客顶替（含 AI/Infra/ML），靠粗筛+LLM 过滤非 AI 内容
+
+  - name: Meta AI Blog
+    category: C
+    type: web
+    url: https://ai.meta.com/blog/
+    enabled: false   # 官方 AI 博客无 RSS，待网页抓取
+
+  - name: Microsoft AI Blog
+    category: C
+    type: rss
+    url: https://blogs.microsoft.com/ai/feed/
+    enabled: true
+
+  - name: MIT News - AI
+    category: C
+    type: rss
+    url: https://news.mit.edu/rss/topic/artificial-intelligence2
+    enabled: true
+
+  - name: BAIR Blog (Berkeley)
+    category: C
+    type: rss
+    url: https://bair.berkeley.edu/blog/feed.xml
+    enabled: true
+
+# 评分维度权重（调参用，改完同步到技能 references/scoring-and-tags.md）
+scoring_weights:
+  source_authority_score: 0.20
+  freshness_score: 0.15
+  ai_relevance_score: 0.20
+  product_relevance_score: 0.20
+  technical_impact_score: 0.15
+  community_heat_score: 0.10
+
+# 受控标签词表（禁止 LLM 自创，超出此表的标签会被丢弃）
+allowed_tags:
+  - LLM
+  - Agent
+  - RAG
+  - Multimodal
+  - AI Coding
+  - AI Infra
+  - AI Product
+  - AI Business
+  - AI Safety
+  - AI Regulation
+  - Research
+  - Open Source
+  - Benchmark
