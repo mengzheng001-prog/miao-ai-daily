@@ -86,13 +86,16 @@ def _call_claude(prompt: str) -> str:
     鉴权走 CLAUDE_CODE_OAUTH_TOKEN / ANTHROPIC_API_KEY 环境变量（由 shell 环境注入）。
     """
     result = subprocess.run(
-        ["claude", "-p", prompt],
+        ["claude", "-p", "--output-format", "text", prompt],
         capture_output=True,
         text=True,
         timeout=600,
     )
     if result.returncode != 0:
-        raise RuntimeError(f"claude -p 失败: {result.stderr[:500]}")
+        raise RuntimeError(
+            f"claude -p 退出码 {result.returncode}; "
+            f"stderr={result.stderr[:400]!r}; stdout={result.stdout[:400]!r}"
+        )
     return result.stdout
 
 
