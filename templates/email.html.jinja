@@ -1,15 +1,19 @@
-{#- 邮件专用模板：内联样式、纯色、序号写实，规避邮件客户端不支持的渐变文字/伪元素 -#}
+{#- 邮件版：短通知 + 大按钮 → 点击跳转 GitHub Pages 完整网页 -#}
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
 <body style="margin:0;padding:0;background:#eef2f7;font-family:-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#1a2433;">
-<div style="max-width:680px;margin:0 auto;padding:16px;">
+<div style="max-width:600px;margin:0 auto;padding:18px;">
 
-  <!-- 标题 -->
-  <div style="background:#13315c;border-radius:14px;padding:22px 20px;text-align:center;color:#fff;">
+  <!-- 顶部标题 + 大 CTA -->
+  <div style="background:#13315c;border-radius:14px;padding:26px 20px;text-align:center;color:#fff;">
     <div style="font-size:24px;font-weight:800;">🐱 喵仔仔 AI 日报</div>
-    <div style="margin-top:6px;color:#bcd2f0;font-size:14px;">每日精选最值得关注的 AI 行业资讯 · {{ date_cn }}</div>
-    <div style="margin-top:4px;color:#7fa8d6;font-size:12px;">{{ generated_at }}</div>
+    <div style="margin-top:6px;color:#bcd2f0;font-size:14px;">{{ date_cn }}</div>
+    <div style="margin-top:3px;color:#7fa8d6;font-size:12px;">{{ generated_at }}</div>
+    <div style="margin-top:20px;">
+      <a href="{{ pages_url }}" style="display:inline-block;background:#06b6d4;color:#fff;text-decoration:none;font-size:17px;font-weight:700;padding:13px 32px;border-radius:8px;box-shadow:0 4px 14px rgba(6,182,212,0.45);">📰 打开今日完整日报 →</a>
+    </div>
+    <div style="margin-top:10px;color:#7fa8d6;font-size:11px;">完整卡片版 · hover 辉光 · 可点跳原文</div>
   </div>
 
   <!-- 数据概览 -->
@@ -24,93 +28,25 @@
     </tr>
   </table>
 
-  <!-- Top3 -->
+  <!-- Top3 预览（让你扫一眼今天有啥） -->
   <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">今日最值得关注</div>
   {% for it in top3 %}
-  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:14px;margin-bottom:12px;box-shadow:0 4px 16px rgba(6,182,212,0.20);">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
-      <tr>
-        <td valign="top" width="44" style="padding-right:10px;">
-          <div style="width:34px;height:34px;border-radius:50%;background:#1e40af;color:#fff;text-align:center;line-height:34px;font-weight:800;font-size:15px;box-shadow:0 3px 9px rgba(6,182,212,0.5);">{{ loop.index }}</div>
-        </td>
-        <td valign="top">
-          <a href="{{ it.url }}" style="font-size:16px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
-          <div style="font-size:12px;color:#5b6b82;margin:6px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
-          <div style="font-size:14px;color:#33415a;">{{ it.summary_zh }}</div>
-        </td>
-        <td valign="top" width="68" align="center" style="padding-left:8px;">
-          <div style="background:#eef5ff;border:1px solid #dce6f7;border-radius:8px;padding:6px 4px;">
-            <div style="font-size:20px;font-weight:800;color:#1e40af;line-height:1;">{{ it.final_score }}</div>
-            <div style="font-size:10px;color:#5b6b82;margin-top:3px;">评分</div>
-          </div>
-        </td>
-      </tr>
-    </table>
-    {% if it.why_zh %}<div style="margin-top:10px;font-size:13px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:6px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
-    <div style="margin-top:10px;"><a href="{{ it.url }}" style="display:inline-block;background:#1e40af;color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:6px 14px;border-radius:6px;">阅读原文 ↗</a></div>
+  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:13px 15px;margin-bottom:10px;box-shadow:0 3px 12px rgba(6,182,212,0.15);">
+    <div style="font-size:12px;color:#5b6b82;margin-bottom:4px;font-weight:600;">#{{ loop.index }} · 评分 {{ it.final_score }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
+    <a href="{{ it.url }}" style="font-size:15px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
+    {% if it.why_zh %}<div style="margin-top:6px;font-size:13px;color:#33415a;">💡 {{ it.why_zh }}</div>{% endif %}
   </div>
   {% endfor %}
 
-  <!-- 精选资讯 -->
-  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">精选资讯</div>
-  {% for it in items %}
-  <div style="background:#fff;border:1px solid #e3e9f2;border-radius:12px;padding:13px 14px;margin-bottom:10px;box-shadow:0 3px 12px rgba(6,182,212,0.13);">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
-      <tr>
-        <td valign="top" width="40" style="padding-right:10px;">
-          <div style="width:30px;height:30px;border-radius:50%;background:#2563eb;color:#fff;text-align:center;line-height:30px;font-weight:800;font-size:13px;box-shadow:0 2px 7px rgba(6,182,212,0.4);">{{ loop.index + 3 }}</div>
-        </td>
-        <td valign="top">
-          <a href="{{ it.url }}" style="font-size:15px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
-          <div style="font-size:12px;color:#5b6b82;margin:5px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
-          <div style="font-size:13.5px;color:#33415a;">{{ it.summary_zh }}</div>
-        </td>
-        <td valign="top" width="58" align="center" style="padding-left:8px;">
-          <div style="background:#eef5ff;border:1px solid #dce6f7;border-radius:7px;padding:5px 3px;">
-            <div style="font-size:17px;font-weight:800;color:#1e40af;line-height:1;">{{ it.final_score }}</div>
-            <div style="font-size:10px;color:#5b6b82;margin-top:2px;">评分</div>
-          </div>
-        </td>
-      </tr>
-    </table>
-    {% if it.why_zh %}<div style="margin-top:8px;font-size:12.5px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:5px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
-    <div style="margin-top:9px;"><a href="{{ it.url }}" style="font-size:12.5px;color:#1e40af;text-decoration:underline;font-weight:600;">阅读原文 ↗</a></div>
-  </div>
-  {% endfor %}
-
-  <!-- 今日关键词 -->
-  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">今日关键词</div>
-  <div style="font-size:13px;color:#33415a;line-height:2;">
-    {% for k in keywords %}<span style="display:inline-block;background:#eef3fb;border:1px solid #dce6f7;border-radius:18px;padding:3px 11px;margin:0 5px 5px 0;">{{ k.tag }} <b style="color:#0e7490;">{{ k.count }}</b></span>{% endfor %}
+  <!-- 底部再来一个 CTA，方便扫完直接点 -->
+  <div style="text-align:center;margin:26px 0 12px;">
+    <a href="{{ pages_url }}" style="display:inline-block;background:#1e40af;color:#fff;text-decoration:none;font-size:15px;font-weight:700;padding:12px 26px;border-radius:8px;box-shadow:0 3px 10px rgba(30,64,175,0.3);">查看全部 10 条 + PM 启发 →</a>
   </div>
 
-  <!-- PM 启发 -->
-  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">今日 AI 产品经理启发</div>
-  {% for p in pm_insights %}
-  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:12px 14px;margin-bottom:9px;">
-    <div style="font-size:15px;font-weight:800;color:#1e40af;margin-bottom:3px;">{{ loop.index }}. {{ p.point }}</div>
-    {% if p.detail %}<div style="font-size:13.5px;color:#46546b;">{{ p.detail }}</div>{% endif %}
+  <div style="text-align:center;color:#5b6b82;font-size:11px;margin-top:18px;line-height:1.6;">
+    每天北京时间 10:00 自动生成<br>
+    <a href="{{ pages_url }}" style="color:#5b6b82;text-decoration:underline;">{{ pages_url }}</a>
   </div>
-  {% endfor %}
-
-  <!-- 来源生态 -->
-  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">资讯来源生态</div>
-  <div style="background:#fff;border:1px solid #e3e9f2;border-radius:12px;padding:6px 14px;">
-    {% for s in source_eco %}<div style="font-size:13px;color:#33415a;padding:6px 0;border-bottom:1px dashed #e3e9f2;">{{ s.category }} · {{ s.name }} — {{ s.count }} 条</div>{% endfor %}
-  </div>
-
-  <!-- 原文来源列表（集中点链接的入口）-->
-  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">原文来源列表</div>
-  <div style="background:#fff;border:1px solid #e3e9f2;border-radius:12px;padding:6px 14px;">
-    {% for s in source_list %}
-    <div style="padding:7px 0;border-bottom:1px dashed #e3e9f2;font-size:13px;">
-      <a href="{{ s.url }}" style="color:#1e40af;text-decoration:underline;font-weight:600;">{{ s.title }}</a>
-      <span style="color:#5b6b82;"> · {{ s.source }} ↗</span>
-    </div>
-    {% endfor %}
-  </div>
-
-  <div style="text-align:center;color:#5b6b82;font-size:12px;margin-top:26px;">喵仔仔 AI 日报 · 用最少时间掌握最新 AI 行业动态</div>
 </div>
 </body>
 </html>

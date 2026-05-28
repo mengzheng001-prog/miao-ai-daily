@@ -1,6 +1,7 @@
 """渲染层：用 Jinja2 把聚合数据渲染成单文件 HTML。"""
 from __future__ import annotations
 
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -32,6 +33,10 @@ def build_context(agg: dict[str, Any], pm_insights: list[dict[str, str]], now: d
     ctx["generated_at"] = "北京时间 " + now.strftime("%Y-%m-%d %H:%M")
     ctx["pm_insights"] = pm_insights
     ctx["fmt_publish"] = _fmt_publish  # 模板里调用
+    # GitHub Pages 公开网址（邮件大按钮指向这里）。可通过环境变量覆盖。
+    ctx["pages_url"] = os.environ.get(
+        "PAGES_URL", "https://mengzheng001-prog.github.io/miao-ai-daily/"
+    )
     return ctx
 
 

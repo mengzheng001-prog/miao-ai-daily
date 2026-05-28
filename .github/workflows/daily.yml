@@ -45,6 +45,8 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
+          # GitHub Pages 公开网址，邮件大按钮指向这里
+          PAGES_URL: https://mengzheng001-prog.github.io/miao-ai-daily/
         run: python -m src.main
 
       - name: Commit report back to repo
