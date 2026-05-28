@@ -35,13 +35,21 @@ def build_context(agg: dict[str, Any], pm_insights: list[dict[str, str]], now: d
     return ctx
 
 
-def render_html(ctx: dict[str, Any]) -> str:
-    env = Environment(
+def _env() -> Environment:
+    return Environment(
         loader=FileSystemLoader(str(TEMPLATE_DIR)),
         autoescape=select_autoescape(["html"]),
     )
-    template = env.get_template("report.html.jinja")
-    return template.render(**ctx)
+
+
+def render_html(ctx: dict[str, Any]) -> str:
+    """渲染浏览器版（report.html.jinja）。"""
+    return _env().get_template("report.html.jinja").render(**ctx)
+
+
+def render_email(ctx: dict[str, Any]) -> str:
+    """渲染邮件版（email.html.jinja）：内联样式、纯色，适配邮件客户端。"""
+    return _env().get_template("email.html.jinja").render(**ctx)
 
 
 def write_reports(html: str, now: datetime) -> Path:

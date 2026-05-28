@@ -65,8 +65,11 @@ def run(dry_run: bool = False, date_str: str | None = None) -> int:
     path = write_reports(html, now)
     logger.info("已生成日报：%s", path)
 
-    # 7. 可选邮件推送
-    # TODO: 若配置了 SMTP_*，把 html 作为正文/附件发送给 MAIL_TO（见 architecture.md）
+    # 7. 邮件推送（配置了 SMTP_* 才发，否则自动跳过）
+    from .render import render_email
+    from .mailer import send_report
+
+    send_report(render_email(ctx), subject=f"喵仔仔 AI 日报 - {ctx['date_cn']}")
     return 0
 
 

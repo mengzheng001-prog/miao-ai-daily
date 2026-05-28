@@ -39,6 +39,12 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # 备选：按量计费。二选一。
           # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 邮件推送（配齐这 5 个 Secret 才会发，否则自动跳过）
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
         run: python -m src.main
 
       - name: Commit report back to repo
