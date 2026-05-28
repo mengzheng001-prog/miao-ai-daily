@@ -27,12 +27,26 @@
   <!-- Top3 -->
   <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">今日最值得关注</div>
   {% for it in top3 %}
-  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:14px;margin-bottom:11px;">
-    <div style="font-size:13px;color:#0e7490;font-weight:700;margin-bottom:4px;">#{{ loop.index }} · 评分 {{ it.final_score }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
-    <a href="{{ it.url }}" style="font-size:16px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
-    <div style="font-size:12px;color:#5b6b82;margin:6px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }}</div>
-    <div style="font-size:14px;color:#33415a;">{{ it.summary_zh }}</div>
-    {% if it.why_zh %}<div style="margin-top:8px;font-size:13px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:6px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
+  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:14px;margin-bottom:12px;box-shadow:0 4px 16px rgba(6,182,212,0.20);">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+      <tr>
+        <td valign="top" width="44" style="padding-right:10px;">
+          <div style="width:34px;height:34px;border-radius:50%;background:#1e40af;color:#fff;text-align:center;line-height:34px;font-weight:800;font-size:15px;box-shadow:0 3px 9px rgba(6,182,212,0.5);">{{ loop.index }}</div>
+        </td>
+        <td valign="top">
+          <a href="{{ it.url }}" style="font-size:16px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
+          <div style="font-size:12px;color:#5b6b82;margin:6px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
+          <div style="font-size:14px;color:#33415a;">{{ it.summary_zh }}</div>
+        </td>
+        <td valign="top" width="68" align="center" style="padding-left:8px;">
+          <div style="background:#eef5ff;border:1px solid #dce6f7;border-radius:8px;padding:6px 4px;">
+            <div style="font-size:20px;font-weight:800;color:#1e40af;line-height:1;">{{ it.final_score }}</div>
+            <div style="font-size:10px;color:#5b6b82;margin-top:3px;">评分</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    {% if it.why_zh %}<div style="margin-top:10px;font-size:13px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:6px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
     <div style="margin-top:10px;"><a href="{{ it.url }}" style="display:inline-block;background:#1e40af;color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:6px 14px;border-radius:6px;">阅读原文 ↗</a></div>
   </div>
   {% endfor %}
@@ -40,11 +54,26 @@
   <!-- 精选资讯 -->
   <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">精选资讯</div>
   {% for it in items %}
-  <div style="background:#fff;border:1px solid #e3e9f2;border-radius:12px;padding:13px 14px;margin-bottom:10px;">
-    <a href="{{ it.url }}" style="font-size:15px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
-    <div style="font-size:12px;color:#5b6b82;margin:5px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }} · 评分 {{ it.final_score }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
-    <div style="font-size:13.5px;color:#33415a;">{{ it.summary_zh }}</div>
-    {% if it.why_zh %}<div style="margin-top:7px;font-size:12.5px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:5px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
+  <div style="background:#fff;border:1px solid #e3e9f2;border-radius:12px;padding:13px 14px;margin-bottom:10px;box-shadow:0 3px 12px rgba(6,182,212,0.13);">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+      <tr>
+        <td valign="top" width="40" style="padding-right:10px;">
+          <div style="width:30px;height:30px;border-radius:50%;background:#2563eb;color:#fff;text-align:center;line-height:30px;font-weight:800;font-size:13px;box-shadow:0 2px 7px rgba(6,182,212,0.4);">{{ loop.index + 3 }}</div>
+        </td>
+        <td valign="top">
+          <a href="{{ it.url }}" style="font-size:15px;font-weight:700;color:#1e40af;text-decoration:underline;">{{ it.title }}</a>
+          <div style="font-size:12px;color:#5b6b82;margin:5px 0;">{{ it.source }}（{{ it.category }}）· {{ fmt_publish(it.published_at) }}{% for t in it.tags %} · {{ t }}{% endfor %}</div>
+          <div style="font-size:13.5px;color:#33415a;">{{ it.summary_zh }}</div>
+        </td>
+        <td valign="top" width="58" align="center" style="padding-left:8px;">
+          <div style="background:#eef5ff;border:1px solid #dce6f7;border-radius:7px;padding:5px 3px;">
+            <div style="font-size:17px;font-weight:800;color:#1e40af;line-height:1;">{{ it.final_score }}</div>
+            <div style="font-size:10px;color:#5b6b82;margin-top:2px;">评分</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+    {% if it.why_zh %}<div style="margin-top:8px;font-size:12.5px;color:#1e40af;background:#eef5ff;border-left:3px solid #06b6d4;padding:5px 9px;">💡 {{ it.why_zh }}</div>{% endif %}
     <div style="margin-top:9px;"><a href="{{ it.url }}" style="font-size:12.5px;color:#1e40af;text-decoration:underline;font-weight:600;">阅读原文 ↗</a></div>
   </div>
   {% endfor %}
