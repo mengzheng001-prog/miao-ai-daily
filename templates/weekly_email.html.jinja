@@ -1,0 +1,48 @@
+{#- 周报邮件版：短通知 + 大按钮 → 点击跳转完整周报网页 -#}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
+<body style="margin:0;padding:0;background:#eef2f7;font-family:-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;color:#1a2433;">
+<div style="max-width:600px;margin:0 auto;padding:18px;">
+
+  <!-- 顶部标题 + 大 CTA -->
+  <div style="background:#13315c;border-radius:14px;padding:26px 20px;text-align:center;color:#fff;">
+    <div style="font-size:24px;font-weight:800;">🐱 喵仔仔 AI 周报</div>
+    <div style="margin-top:6px;color:#bcd2f0;font-size:14px;">本周 AI 重点回顾 · {{ range_cn }}</div>
+    <div style="margin-top:3px;color:#7fa8d6;font-size:12px;">{{ generated_at }}</div>
+    <div style="margin-top:20px;">
+      <a href="{{ weekly_url }}" style="display:inline-block;background:#06b6d4;color:#fff;text-decoration:none;font-size:17px;font-weight:700;padding:13px 32px;border-radius:8px;box-shadow:0 4px 14px rgba(6,182,212,0.45);">📊 打开完整周报 →</a>
+    </div>
+    <div style="margin-top:10px;color:#7fa8d6;font-size:11px;">覆盖 {{ stats.days }} 天 · {{ stats.items }} 条入选 · {{ stats.shown }} 条本周重点</div>
+  </div>
+
+  <!-- 本周总览 -->
+  {% if overview %}
+  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:14px 16px;margin-top:14px;font-size:14px;color:#33415a;">
+    {{ overview }}
+  </div>
+  {% endif %}
+
+  <!-- 本周重点预览 -->
+  {% if highlights %}
+  <div style="font-size:17px;font-weight:800;margin:24px 0 10px;color:#1e40af;border-left:4px solid #06b6d4;padding-left:9px;">本周重点</div>
+  {% for h in highlights %}
+  <div style="background:#fff;border:1px solid #e3e9f2;border-left:4px solid #06b6d4;border-radius:12px;padding:13px 15px;margin-bottom:10px;box-shadow:0 3px 12px rgba(6,182,212,0.15);">
+    <div style="font-size:15px;font-weight:700;color:#1e40af;">{{ h.point }}</div>
+    {% if h.detail %}<div style="margin-top:6px;font-size:13px;color:#33415a;">{{ h.detail }}</div>{% endif %}
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  <!-- 底部 CTA -->
+  <div style="text-align:center;margin:26px 0 12px;">
+    <a href="{{ weekly_url }}" style="display:inline-block;background:#1e40af;color:#fff;text-decoration:none;font-size:15px;font-weight:700;padding:12px 26px;border-radius:8px;box-shadow:0 3px 10px rgba(30,64,175,0.3);">查看本周全部重点 + 每日回看 →</a>
+  </div>
+
+  <div style="text-align:center;color:#5b6b82;font-size:11px;margin-top:18px;line-height:1.6;">
+    每周日北京时间自动生成<br>
+    <a href="{{ pages_url }}" style="color:#5b6b82;text-decoration:underline;">{{ pages_url }}</a>
+  </div>
+</div>
+</body>
+</html>

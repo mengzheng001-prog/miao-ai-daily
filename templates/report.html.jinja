@@ -190,6 +190,20 @@
     {% endfor %}
   </div>
 
+  <!-- 11 历史回看：最近 7 天 + 最新周报 -->
+  <h2>最近 7 天</h2>
+  <div class="srclist">
+    {% for h in history %}
+    <a href="{{ h.url }}"><span>{{ h.label }}{% if h.is_today %} · 今天{% endif %}</span><span class="s">查看 ↗</span></a>
+    {% endfor %}
+  </div>
+  {% if weekly_link %}
+  <h2>每周总结</h2>
+  <div class="srclist">
+    <a href="{{ weekly_link.url }}"><span>本周 AI 重点回顾（{{ weekly_link.label }}）</span><span class="s">查看 ↗</span></a>
+  </div>
+  {% endif %}
+
   <footer>喵仔仔 AI 日报 · 用最少时间掌握最新 AI 行业动态</footer>
 </div>
 </body>

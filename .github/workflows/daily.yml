@@ -2,9 +2,12 @@ name: 喵仔仔 AI 日报
 
 on:
   schedule:
-    # 02:00 UTC = 北京时间 10:00。GitHub cron 高峰可能延迟，对日报可接受。
-    - cron: "0 2 * * *"
-  workflow_dispatch: {}   # 支持手动触发
+    # 兜底用。准时由外部触发器（cron-job.org 每天 10:00 调 workflow_dispatch）负责。
+    # GitHub schedule 整点高峰会排队延迟数小时，故这里只作 fallback：
+    # 03:11 UTC = 北京时间 11:11，错开整点、晚于外部触发；若外部已跑成功，
+    # main.py 的幂等会跳过，不会重复发邮件。
+    - cron: "11 3 * * *"
+  workflow_dispatch: {}   # 外部触发器 / 手动触发都走这里
 
 permissions:
   contents: write   # 用于把生成的 HTML 提交回仓库
