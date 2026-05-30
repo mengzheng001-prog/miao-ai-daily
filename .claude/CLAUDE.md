@@ -32,4 +32,5 @@
 - bot 每天把日报 commit 回 `main`，本地 push 前常需先 `git fetch` + `git rebase origin/main`（两边改的文件通常不重叠，rebase 干净）。
 
 ## 待办 / 风险
-- 外部触发器（cron-job.org）需手动配一次才真正准时：建 token → curl 验证 → 网页填表。配完前仍只有 GitHub cron 兜底（11:11 且可能延迟）。
+- 外部触发器已配（2026-05-31，cron-job.org）：每天 Asia/Shanghai 10:00 POST workflow_dispatch，时区/method=POST/body `{"ref":"main"}`/三个 header（Authorization Bearer token、Accept、X-GitHub-Api-Version）齐全。token 是 GitHub fine-grained（仅本仓库 Actions 读写）。
+- 风险：该 token 有有效期，到期后外部触发会静默失败、退回 GitHub cron 兜底（11:11 可能延迟）。token 过期或换仓库时需在 cron-job.org 重配 Authorization header。
