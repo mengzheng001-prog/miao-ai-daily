@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喵仔仔 AI 周报 - 2026年05月25日 – 05月31日</title>
+<style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --ink:#1a2433; --sub:#5b6b82;
+    --line:#e3e9f2; --blue:#2563eb; --blue-deep:#1e40af; --cyan:#06b6d4;
+    --glow:rgba(6,182,212,.28); --chip:#eef3fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+
+  header{text-align:center;padding:28px 0 22px;
+    background:linear-gradient(135deg,#0b1f3a 0%,#13315c 60%,#0e2a4d 100%);
+    border-radius:18px;color:#fff;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 120px at 50% -20%,var(--glow),transparent 70%)}
+  header h1{font-size:30px;font-weight:800;letter-spacing:.5px;position:relative}
+  header .sub{margin-top:8px;color:#bcd2f0;font-size:15px;position:relative}
+  header .gen{margin-top:6px;color:#7fa8d6;font-size:13px;position:relative}
+
+  h2{font-size:19px;margin:34px 0 14px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:4px;height:18px;border-radius:3px;
+    background:linear-gradient(var(--blue),var(--cyan))}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 12px;text-align:center}
+  .stat .num{font-size:28px;font-weight:800;
+    background:linear-gradient(90deg,var(--blue),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .lbl{font-size:12px;color:var(--sub);margin-top:4px}
+
+  /* 本周总览 */
+  .overview{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px 20px;font-size:15px;color:#33415a;margin-top:18px}
+
+  /* 重点（与日报 PM 启发同款） */
+  .insight-list{list-style:none;counter-reset:ins;display:flex;flex-direction:column;gap:10px}
+  .insight-list li{counter-increment:ins;background:var(--card);border:1px solid var(--line);
+    border-left:4px solid var(--cyan);border-radius:12px;padding:13px 16px 13px 46px;position:relative}
+  .insight-list li::before{content:counter(ins);position:absolute;left:12px;top:13px;
+    width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));
+    color:#fff;font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 9px var(--glow)}
+  .insight-list .pt{display:block;font-weight:800;font-size:15.5px;margin-bottom:4px;
+    background:linear-gradient(90deg,var(--blue-deep),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .insight-list .dt{font-size:13.5px;color:#46546b;line-height:1.55}
+
+  /* 卡片 */
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px;margin-bottom:14px;transition:.2s ease;position:relative}
+  .card:hover{transform:translateY(-2px);border-color:var(--cyan);box-shadow:0 8px 28px var(--glow)}
+  .card .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .card h3{font-size:17px;font-weight:700;line-height:1.45}
+  .meta{font-size:12.5px;color:var(--sub);margin:7px 0 9px}
+  .meta .cat{display:inline-block;padding:1px 7px;border-radius:6px;
+    background:var(--chip);color:var(--blue-deep);font-weight:600;margin-right:6px}
+  .summary{font-size:14.5px;color:#33415a}
+  .score{flex-shrink:0;text-align:center;min-width:48px}
+  .score .v{font-size:20px;font-weight:800;color:var(--blue)}
+  .bar{height:4px;border-radius:3px;background:var(--line);margin-top:3px;overflow:hidden}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+
+  .kw{display:flex;flex-wrap:wrap;gap:9px}
+  .kw .k{padding:5px 13px;border-radius:22px;background:var(--card);
+    border:1px solid var(--line);font-size:13px;font-weight:600}
+  .kw .k b{color:var(--cyan);margin-left:5px}
+
+  .srclist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+  .srclist a{display:flex;justify-content:space-between;gap:10px;
+    padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .srclist a:last-child{border-bottom:none}
+  .srclist a:hover{color:var(--blue)}
+  .srclist .s{color:var(--sub);flex-shrink:0}
+
+  .home{display:inline-block;margin-top:8px;color:var(--blue);font-size:13.5px}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:36px}
+  @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🐱 喵仔仔 AI 周报</h1>
+    <div class="sub">本周 AI 重点回顾 · 2026年05月25日 – 05月31日</div>
+    <div class="gen">北京时间 2026-05-31 03:21（每周日北京时间自动生成）</div>
+  </header>
+
+  <!-- 数据概览 -->
+  <div class="stats">
+    <div class="stat"><div class="num">1</div><div class="lbl">覆盖天数</div></div>
+    <div class="stat"><div class="num"><built-in method items of dict object at 0x7fa752f633c0></div><div class="lbl">本周入选</div></div>
+    <div class="stat"><div class="num">1</div><div class="lbl">本周重点</div></div>
+    <div class="stat"><div class="num">2</div><div class="lbl">本周关键词</div></div>
+  </div>
+
+  <!-- 本周总览 -->
+  
+  <h2>本周总览</h2>
+  <div class="overview">本周 AI 行业资本持续向基础设施层集中，统一模型访问与路由平台获得市场强烈认可。多模型并用正从技术探索走向工程实践主流，开发者对「模型无关」工具链的依赖快速加深，AI 基础设施赛道的竞争格局正在加速成型。</div>
+  
+
+  <!-- 本周重点 -->
+  
+  <h2>本周重点</h2>
+  <ol class="insight-list">
+    
+    <li><span class="pt">基础设施层融资持续高温</span><span class="dt">本周超亿美元级融资落地 AI 基础设施赛道，资本对底层工具链的押注力度不减，行业共识是：模型能力之争已延伸至接入层与调度层。</span></li>
+    
+    <li><span class="pt">统一 API 路由成开发新标配</span><span class="dt">单一接口聚合数百 LLM 的模式获市场验证，开发者无需绑定单一供应商即可灵活切换模型，「多模型并用」正成为现代 AI 应用的工程默认选择。</span></li>
+    
+    <li><span class="pt">多模型策略降低供应商依赖风险</span><span class="dt">通过路由层抽象屏蔽底层差异，企业可在成本、性能、合规之间动态权衡，避免因单一厂商调价或服务中断而陷入被动，架构弹性成核心竞争力。</span></li>
+    
+  </ol>
+  
+
+  <!-- 本周最值得关注 -->
+  <h2>本周最值得关注</h2>
+  
+  <a class="card" href="https://openrouter.ai/announcements/series-b" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>OpenRouter raises $113M Series B</h3></div>
+      <div class="score"><div class="v">82</div>
+        <div class="bar"><i style="width:82%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 05-31 01:27</div>
+    <div class="summary">OpenRouter 完成 1.13 亿美元 B 轮融资。OpenRouter 是一个统一 AI 模型 API 路由平台，让开发者通过单一接口访问数百个主流 LLM。此轮融资规模可观，将加速其基础设施扩张，进一步巩固其在多模型接入市场的核心地位，HN 社区反响热烈。</div>
+  </a>
+  
+
+  <!-- 本周关键词 -->
+  <h2>本周关键词</h2>
+  <div class="kw">
+    <span class="k">AI Infra<b>1</b></span><span class="k">AI Business<b>1</b></span>
+  </div>
+
+  <!-- 每日回看 -->
+  <h2>本周每日日报</h2>
+  <div class="srclist">
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-05-31.html"><span>05-31（周日）</span><span class="s">查看 ↗</span></a>
+    
+  </div>
+  <a class="home" href="https://mengzheng001-prog.github.io/miao-ai-daily/">← 回到日报首页</a>
+
+  <footer>喵仔仔 AI 周报 · 一周一次，掌握 AI 行业主线</footer>
+</div>
+</body>
+</html>

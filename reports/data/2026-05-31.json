@@ -1,0 +1,78 @@
+{
+  "date": "2026-05-31",
+  "date_cn": "2026年05月31日（周日）",
+  "top3": [
+    {
+      "id": "b46b229278107b7a",
+      "title": "OpenRouter raises $113M Series B",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://openrouter.ai/announcements/series-b",
+      "published_raw": "Sat, 30 May 2026 17:27:28 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        30,
+        17,
+        27,
+        28,
+        5,
+        150,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://openrouter.ai/announcements/series-b\">https://openrouter.ai/announcements/series-b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48338660\">https://news.ycombinator.com/item?id=48338660</a></p>\n<p>Points: 144</p>\n<p># Comments: 58</p>",
+      "published_at": "2026-05-31T01:27:28+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 88,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 72,
+        "community_heat_score": 76
+      },
+      "final_score": 82,
+      "summary_zh": "OpenRouter 完成 1.13 亿美元 B 轮融资。OpenRouter 是一个统一 AI 模型 API 路由平台，让开发者通过单一接口访问数百个主流 LLM。此轮融资规模可观，将加速其基础设施扩张，进一步巩固其在多模型接入市场的核心地位，HN 社区反响热烈。",
+      "why_zh": "AI API聚合基础设施获重大资本背书，影响多模型生态接入格局。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    }
+  ],
+  "items": [],
+  "keywords": [
+    {
+      "tag": "AI Infra",
+      "count": 1
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1190,
+    "selected": 1,
+    "keywords": 2
+  },
+  "pm_insights": [
+    {
+      "point": "统一接口是开发者最稀缺的基础设施",
+      "detail": "多模型并存格局下，切换与集成成本高企。提供标准化聚合层的平台能快速成为开发者的流量枢纽，是典型的基础设施护城河打法。"
+    },
+    {
+      "point": "聚合即产品，中间层价值不可低估",
+      "detail": "不自研模型，只做路由与分发，同样能获得巨额融资。AI生态中，连接资源与用户的中间平台往往比单点能力产品更具规模化潜力。"
+    },
+    {
+      "point": "多模型策略正在成为企业标配",
+      "detail": "单一模型依赖风险高、成本不可控。产品设计时应预留多模型切换能力，让用户按场景、成本、效果灵活选择，而非绑定单一供应商。"
+    },
+    {
+      "point": "开发者工具的口碑传播效率极高",
+      "detail": "技术社区的热烈反响能快速拉动高质量用户增长。面向开发者的产品应优先打磨核心体验与文档，让口碑成为最低成本的获客渠道。"
+    }
+  ]
+}
