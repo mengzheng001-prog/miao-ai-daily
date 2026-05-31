@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import os
 import sys
 from datetime import datetime
 
@@ -47,11 +48,16 @@ def run(dry_run: bool = False, date_str: str | None = None, force: bool = False)
             logger.error("--date 格式应为 YYYY-MM-DD")
             return 2
 
-    # 幂等：今天已成功生成过日报就跳过，避免外部触发器 + cron 兜底重复发两封邮件。
-    # 判据是当天结构化数据已落盘（成功跑完才会写）。--force 可强制重跑。
-    if not dry_run and not force:
-        if (DATA_DIR / f"{now.strftime('%Y-%m-%d')}.json").exists():
-            logger.info("今天 %s 已生成过日报，跳过（避免重复）。如需重跑用 --force。", now.strftime("%Y-%m-%d"))
+    # 幂等：只对兜底的 schedule 触发生效。
+    # 外部触发器(workflow_dispatch) 是北京 10:00 准时主力，每次都应正式投递——
+    # 不能因为当天早些时候的调试/测试运行落过 json 就被跳过（曾导致 10:00 邮件漏发）。
+    # 兜底 cron(11:11，event=schedule) 只在主力当天已成功(json 已落盘)时跳过，避免重复发两封。
+    # --force 可强制重跑、绕过此判断。
+    event = os.environ.get("GITHUB_EVENT_NAME", "")
+    today = now.strftime("%Y-%m-%d")
+    if not dry_run and not force and event == "schedule":
+        if (DATA_DIR / f"{today}.json").exists():
+            logger.info("兜底触发：今天 %s 主力已生成过日报，跳过避免重复。如需重跑用 --force。", today)
             return 0
 
     # 1. 抓取
