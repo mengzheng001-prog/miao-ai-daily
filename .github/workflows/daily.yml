@@ -7,7 +7,12 @@ on:
     # 03:11 UTC = 北京时间 11:11，错开整点、晚于外部触发；若外部已跑成功，
     # main.py 的幂等会跳过，不会重复发邮件。
     - cron: "11 3 * * *"
-  workflow_dispatch: {}   # 外部触发器 / 手动触发都走这里
+  workflow_dispatch:        # 外部触发器 / 手动触发都走这里
+    inputs:
+      force:
+        description: "强制重跑（忽略当天幂等跳过），用于手动补发"
+        type: boolean
+        default: false
 
 permissions:
   contents: write   # 用于把生成的 HTML 提交回仓库
@@ -50,7 +55,12 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
           # GitHub Pages 公开网址，邮件大按钮指向这里
           PAGES_URL: https://mengzheng001-prog.github.io/miao-ai-daily/
-        run: python -m src.main
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            python -m src.main --force
+          else
+            python -m src.main
+          fi
 
       - name: Commit report back to repo
         run: |
