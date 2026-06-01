@@ -1,0 +1,451 @@
+{
+  "date": "2026-06-01",
+  "date_cn": "2026年06月01日（周一）",
+  "top3": [
+    {
+      "id": "5073a5386964fd9c",
+      "title": "Tell HN: Meta's AI support feature allows Instagram accounts to be stolen",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48350239",
+      "published_raw": "Sun, 31 May 2026 22:11:40 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        22,
+        11,
+        40,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>If the AI support option is enabled for your Instagram account (it appears to be A/B tested for only a percentage of accounts), anyone can hijack it with little effort. Simply get on a proxy or VPN close to the account's region, then ask the agent to send a code to an arbitrary email address. Once you receive the code, pass it forward to the agent, and it'll provide you with a password reset link which you can then use to sign into the account.<p>Posting here for any Meta employees who may be reading. This flaw has been around for at least a few days and has been used to hijack over 100 high-value Instagram accounts. The correct patch would be to disable the AI support feature entirely for the time being until this is sorted and revert accounts and usernames that have been hijacked over the last few days. This is a pretty important flaw and it's currently being exploited in blackhat circles. The steps above are public knowledge in these circles and can be found trivially on Telegram.<p>Edit: I wouldn't be surprised if this was never acknowledged by Meta. Several months ago in February, there was an exploit that allowed anyone to view the email address and phone number on file for any Instagram account. No acknowledgement from Meta. IMO they should've filed an SEC 8-K for an issue like that. Also, this flaw was unpatched when I posted about it - not sure if it's since been patched.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48350239\">https://news.ycombinator.com/item?id=48350239</a></p>\n<p>Points: 13</p>\n<p># Comments: 5</p>",
+      "published_at": "2026-06-01T06:11:40+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 72,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 85,
+        "technical_impact_score": 88,
+        "community_heat_score": 62
+      },
+      "final_score": 77,
+      "summary_zh": "HN用户披露Meta Instagram AI客服功能存在严重安全漏洞：攻击者使用代理IP即可欺骗AI代理将验证码发送至任意邮箱，进而获取密码重置链接完全劫持账号，无需原账号任何凭证，该功能目前在部分账号A/B测试中。",
+      "why_zh": "主流平台AI Agent安全漏洞真实案例，直接威胁数亿用户账户安全，警示行业。",
+      "tags": [
+        "AI Safety",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "262973d297241514",
+      "title": "US takes step to halt Nvidia AI chip shipments to Chinese firms outside China",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/",
+      "published_raw": "Mon, 01 Jun 2026 00:54:32 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        0,
+        54,
+        32,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/\">https://www.reuters.com/world/china/us-takes-step-halt-nvidia-ai-chip-shipments-chinese-firms-outside-china-2026-05-31/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48351466\">https://news.ycombinator.com/item?id=48351466</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-01T08:54:32+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 75,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 70,
+        "technical_impact_score": 75,
+        "community_heat_score": 50
+      },
+      "final_score": 76,
+      "summary_zh": "据路透社报道，美国政府正采取措施阻止英伟达AI芯片向位于中国境外的中资企业出货（如中东、东南亚子公司），旨在堵住现行出口管制漏洞，进一步限制中国通过海外实体获取高端AI算力资源，影响全球供应链格局。",
+      "why_zh": "直接影响全球AI算力格局，加速供应链去中国化重构。",
+      "tags": [
+        "AI Infra",
+        "AI Regulation",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "82b4b54c83a24b1a",
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "published_raw": "Sun, 31 May 2026 15:04:52 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        15,
+        4,
+        52,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://prismml.com/news/bonsai-image-4b\">https://prismml.com/news/bonsai-image-4b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48346257\">https://news.ycombinator.com/item?id=48346257</a></p>\n<p>Points: 287</p>\n<p># Comments: 98</p>",
+      "published_at": "2026-05-31T23:04:52+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 82,
+        "technical_impact_score": 88,
+        "community_heat_score": 72
+      },
+      "final_score": 76,
+      "summary_zh": "PrismML发布Bonsai Image 4B，采用1-bit量化技术的40亿参数图像生成模型，专为本地消费级设备优化。极低内存占用配合高质量图像输出，使普通硬件也能运行大规模图像生成模型，HN获287点高关注。",
+      "why_zh": "1-bit量化突破本地图像生成硬件瓶颈，大幅降低部署门槛。",
+      "tags": [
+        "Multimodal",
+        "Research",
+        "Open Source"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "2873c622cddf5581",
+      "title": "Odysseus – self-hosted AI workspace",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "published_raw": "Sun, 31 May 2026 15:50:34 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        15,
+        50,
+        34,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/pewdiepie-archdaemon/odysseus\">https://github.com/pewdiepie-archdaemon/odysseus</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48346693\">https://news.ycombinator.com/item?id=48346693</a></p>\n<p>Points: 116</p>\n<p># Comments: 61</p>",
+      "published_at": "2026-05-31T23:50:34+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 85,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 78,
+        "technical_impact_score": 65,
+        "community_heat_score": 55
+      },
+      "final_score": 73,
+      "summary_zh": "Odysseus是一款开源自托管AI工作区，发布于GitHub并获HN社区关注。支持本地私有化部署AI助手及工作流，用户可在不依赖云服务的前提下运行AI功能，数据完全本地可控，适合对隐私有高要求的个人和企业用户。",
+      "why_zh": "自托管AI工作区满足数据隐私刚需，开源降低私有化部署门槛。",
+      "tags": [
+        "Agent",
+        "AI Product",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "a7d95025cca2b770",
+      "title": "Unlawful by design: Exposing the human rights costs of generative AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.amnesty.org/en/documents/pol40/0996/2026/en/",
+      "published_raw": "Mon, 01 Jun 2026 01:41:59 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        1,
+        41,
+        59,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.amnesty.org/en/documents/pol40/0996/2026/en/\">https://www.amnesty.org/en/documents/pol40/0996/2026/en/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48351721\">https://news.ycombinator.com/item?id=48351721</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-01T09:41:59+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 50,
+        "technical_impact_score": 40,
+        "community_heat_score": 35
+      },
+      "final_score": 63,
+      "summary_zh": "国际特赦组织发布报告，系统揭露生成式AI在数据采集、算法偏见、隐私侵害及内容审核方面对人权造成的深层损害，指出当前AI开发模式从设计层面即违反人权标准，呼吁各国政府和企业建立有效监管机制。",
+      "why_zh": "权威人权机构正式发声，将加速全球AI监管立法压力。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "1c48ca40fe8f8ae0",
+      "title": "G7 Agrees on Shared Language Around Open-Source AI, Open Weights AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.phoronix.com/news/G7-On-Open-Source-AI",
+      "published_raw": "Sun, 31 May 2026 21:49:33 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        21,
+        49,
+        33,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.phoronix.com/news/G7-On-Open-Source-AI\">https://www.phoronix.com/news/G7-On-Open-Source-AI</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48350096\">https://news.ycombinator.com/item?id=48350096</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-01T05:49:33+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 62,
+        "freshness_score": 75,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 52,
+        "technical_impact_score": 58,
+        "community_heat_score": 15
+      },
+      "final_score": 61,
+      "summary_zh": "G7 国家就「开源 AI」与「开放权重 AI」的定义达成共同语言框架，旨在为成员国政策制定提供统一术语基础，避免各国在 AI 监管中因概念不同产生分歧，对未来开源 AI 治理标准具有指向意义。",
+      "why_zh": "G7 统一开源 AI 定义，将直接影响各国监管政策走向。",
+      "tags": [
+        "AI Regulation",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "bdd8a1b799ef0ccf",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "published_raw": "Sun, 31 May 2026 16:37:34 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        16,
+        37,
+        34,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://darylcecile.net/notes/speed-of-prototyping-age-of-ai\">https://darylcecile.net/notes/speed-of-prototyping-age-of-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48347153\">https://news.ycombinator.com/item?id=48347153</a></p>\n<p>Points: 112</p>\n<p># Comments: 61</p>",
+      "published_at": "2026-06-01T00:37:34+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 35,
+        "freshness_score": 82,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 60,
+        "technical_impact_score": 50,
+        "community_heat_score": 52
+      },
+      "final_score": 58,
+      "summary_zh": "开发者博主分享AI时代原型开发速度的切身感受：AI编码工具使从想法到可运行原型的时间大幅压缩，但也引发对代码质量、工程深度思考减少的隐忧，并探讨这一变化对产品开发文化的深层影响。",
+      "why_zh": "一线工程师视角，真实反映AI编程工具对开发效率与工程文化的冲击。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "c13e753add11c309",
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "published_raw": "Sun, 31 May 2026 17:02:23 +0000",
+      "published_parsed": [
+        2026,
+        5,
+        31,
+        17,
+        2,
+        23,
+        6,
+        151,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/\">https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48347354\">https://news.ycombinator.com/item?id=48347354</a></p>\n<p>Points: 118</p>\n<p># Comments: 184</p>",
+      "published_at": "2026-06-01T01:02:23+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 50,
+        "ai_relevance_score": 50,
+        "product_relevance_score": 65,
+        "technical_impact_score": 30,
+        "community_heat_score": 55
+      },
+      "final_score": 55,
+      "summary_zh": "Meta正式推出Instagram、Facebook、WhatsApp订阅服务，并披露AI功能将作为后续订阅权益纳入，标志着Meta将AI能力变现与社交平台订阅经济深度捆绑，为平台AI商业化提供新路径。",
+      "why_zh": "科技巨头将AI与订阅捆绑变现，为行业AI商业化提供参考范式。",
+      "tags": [
+        "AI Product",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "2a99f1c1c516a7d6",
+      "title": "Karpathy LLM Wiki pattern integrated into Obsidian agenic workflow",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/pssah4/vault-operator",
+      "published_raw": "Mon, 01 Jun 2026 00:03:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        0,
+        3,
+        11,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/pssah4/vault-operator\">https://github.com/pssah4/vault-operator</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48351115\">https://news.ycombinator.com/item?id=48351115</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-01T08:03:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 40,
+        "freshness_score": 72,
+        "ai_relevance_score": 68,
+        "product_relevance_score": 55,
+        "technical_impact_score": 45,
+        "community_heat_score": 18
+      },
+      "final_score": 52,
+      "summary_zh": "开发者将Karpathy提出的LLM Wiki模式集成到Obsidian知识管理系统，构建AI驱动的个人知识库智能体工作流，支持自动笔记链接、内容更新和知识图谱维护，开源发布在GitHub。",
+      "why_zh": "将前沿LLM工作流模式落地主流知识管理工具，实用性强可直接参考复用。",
+      "tags": [
+        "Agent",
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "c7d7ef0fdcfaaf48",
+      "title": "How bosses should talk about AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.economist.com/business/2026/05/28/how-should-bosses-talk-about-ai",
+      "published_raw": "Mon, 01 Jun 2026 01:49:25 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        1,
+        49,
+        25,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.economist.com/business/2026/05/28/how-should-bosses-talk-about-ai\">https://www.economist.com/business/2026/05/28/how-should-bosses-talk-about-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48351772\">https://news.ycombinator.com/item?id=48351772</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-01T09:49:25+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 55,
+        "ai_relevance_score": 55,
+        "product_relevance_score": 45,
+        "technical_impact_score": 20,
+        "community_heat_score": 15
+      },
+      "final_score": 49,
+      "summary_zh": "《经济学人》刊文探讨企业领导者应如何与员工沟通AI议题：建议诚实面对不确定性、避免过度承诺，需在员工岗位替代焦虑与AI生产力机遇之间取得平衡，为企业AI转型提供管理层沟通参考框架。",
+      "why_zh": "经济学人视角，为企业AI落地的组织沟通策略提供参考。",
+      "tags": [
+        "AI Business"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 5
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 3
+    },
+    {
+      "tag": "AI Business",
+      "count": 3
+    },
+    {
+      "tag": "Open Source",
+      "count": 3
+    },
+    {
+      "tag": "AI Safety",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 1
+    },
+    {
+      "tag": "Multimodal",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    },
+    {
+      "tag": "LLM",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1210,
+    "selected": 10,
+    "keywords": 11
+  },
+  "pm_insights": [
+    {
+      "point": "AI功能安全需纳入核心产品设计",
+      "detail": "AI客服/助手上线前必须完成攻击面评估，验证流程等敏感操作不能完全委托给AI代理执行，安全审查应前置而非事后修补。"
+    },
+    {
+      "point": "端侧AI降低用户准入门槛",
+      "detail": "量化压缩技术让大模型跑在消费级设备成为现实，产品经理应评估「本地优先」部署策略，尤其在隐私敏感、低延迟或离线场景中，本地化可成为差异化卖点。"
+    },
+    {
+      "point": "AI能力变现正向订阅经济迁移",
+      "detail": "将AI功能作为订阅权益而非免费标配，是平台将AI投入转化为稳定收入的主流路径；产品设计时需提前规划哪些AI能力适合分级锁定。"
+    },
+    {
+      "point": "原型速度提升倒逼决策前移",
+      "detail": "AI工具大幅压缩从想法到原型的周期，意味着产品经理需更早、更清晰地定义验证目标，否则快速产出的原型会因方向模糊而浪费迭代成本。"
+    }
+  ]
+}
