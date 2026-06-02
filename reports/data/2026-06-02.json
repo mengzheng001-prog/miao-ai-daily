@@ -1,0 +1,442 @@
+{
+  "date": "2026-06-02",
+  "date_cn": "2026年06月02日（周二）",
+  "top3": [
+    {
+      "id": "2877f2cf20c8ab8e",
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "published_raw": "Mon, 01 Jun 2026 16:41:49 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        16,
+        41,
+        49,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md\">https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48359232\">https://news.ycombinator.com/item?id=48359232</a></p>\n<p>Points: 324</p>\n<p># Comments: 115</p>",
+      "published_at": "2026-06-02T00:41:49+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 75,
+        "technical_impact_score": 75,
+        "community_heat_score": 95
+      },
+      "final_score": 84,
+      "summary_zh": "斯坦福大学CS336课程（大型语言模型方向）在GitHub公开发布AI智能体使用规范文件CLAUDE.md，详细约束学生在作业中使用Claude等AI编程助手的边界与方式，获HN社区324分高热关注。",
+      "why_zh": "顶级高校正式规范AI Agent使用，为学术界AI治理树立参考标杆。",
+      "tags": [
+        "Agent",
+        "AI Coding"
+      ]
+    },
+    {
+      "id": "f5a536b13c1a72f0",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "published_raw": "Mon, 01 Jun 2026 21:50:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        21,
+        50,
+        2,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/\">https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48363132\">https://news.ycombinator.com/item?id=48363132</a></p>\n<p>Points: 131</p>\n<p># Comments: 46</p>",
+      "published_at": "2026-06-02T05:50:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 90,
+        "technical_impact_score": 80,
+        "community_heat_score": 75
+      },
+      "final_score": 84,
+      "summary_zh": "OpenAI宣布其前沿大模型及AI编程工具Codex正式上线AWS，开发者可通过AWS云服务直接调用，此次合作将OpenAI模型接入全球最大云平台生态，大幅降低企业级用户的接入门槛。",
+      "why_zh": "OpenAI×AWS打通主流云渠道，企业侧AI采用将显著提速。",
+      "tags": [
+        "AI Product",
+        "AI Coding",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "cb5db8dcaf3dee4d",
+      "title": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+      "published_raw": "Mon, 01 Jun 2026 20:55:15 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        20,
+        55,
+        15,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx\">https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48362515\">https://news.ycombinator.com/item?id=48362515</a></p>\n<p>Points: 108</p>\n<p># Comments: 105</p>",
+      "published_at": "2026-06-02T04:55:15+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 80,
+        "community_heat_score": 90
+      },
+      "final_score": 83,
+      "summary_zh": "谷歌母公司Alphabet宣布拟募集800亿美元股权资本，专项用于AI基础设施和算力扩张，规模远超行业常规融资，将对全球AI计算格局产生深远影响，HN社区热议达105条评论。",
+      "why_zh": "800亿美元算力豪赌，将深度重塑全球AI基础设施竞争格局。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "ea58427a703f714f",
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "published_raw": "Mon, 01 Jun 2026 16:00:40 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        16,
+        0,
+        40,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/\" rel=\"nofollow\">https://www.reuters.com/business/ai-giant-anthropic-confiden...</a><p><a href=\"https://www.nytimes.com/2026/06/01/technology/anthropic-ipo.html\" rel=\"nofollow\">https://www.nytimes.com/2026/06/01/technology/anthropic-ipo....</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48358646\">https://news.ycombinator.com/item?id=48358646</a></p>\n<p>Points: 450</p>\n<p># Comments: 371</p>",
+      "published_at": "2026-06-02T00:00:40+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 60,
+        "community_heat_score": 90
+      },
+      "final_score": 81,
+      "summary_zh": "Anthropic正式向美国SEC秘密提交S-1招股说明书草案，启动IPO流程。作为Claude系列模型开发商，Anthropic估值达数百亿美元，此次上市由路透社、纽约时报同步报道，HN获450点赞、371评论，将成AI行业标志性里程碑。",
+      "why_zh": "顶级AI独角兽启动上市，将深刻重塑AI行业融资与竞争格局。",
+      "tags": [
+        "AI Business",
+        "LLM"
+      ]
+    },
+    {
+      "id": "13eef1f566334673",
+      "title": "Nvidia RTX Spark",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.nvidia.com/en-us/products/rtx-spark/",
+      "published_raw": "Mon, 01 Jun 2026 05:24:40 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        5,
+        24,
+        40,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date\" rel=\"nofollow\">https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x...</a><p><a href=\"https://finance.yahoo.com/markets/article/nvidia-debuts-rtx-spark-processor-for-windows-laptops-taking-aim-at-intel-amd-053000567.html\" rel=\"nofollow\">https://finance.yahoo.com/markets/article/nvidia-debuts-rtx-...</a><p><a href=\"https://www.macrumors.com/2026/06/01/nvidia-challenges-apple-rtx-spark-pc-chip/\" rel=\"nofollow\">https://www.macrumors.com/2026/06/01/nvidia-challenges-apple...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48352939\">https://news.ycombinator.com/item?id=48352939</a></p>\n<p>Points: 328</p>\n<p># Comments: 331</p>",
+      "published_at": "2026-06-01T13:24:40+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 80,
+        "technical_impact_score": 75,
+        "community_heat_score": 90
+      },
+      "final_score": 80,
+      "summary_zh": "英伟达发布RTX Spark系列迷你AI PC，搭载N1/N1X芯片，主打本地AI推理场景，直接对标苹果M系列芯片。获The Verge、MacRumors等媒体大篇幅报道，HN获328点赞、331评论，端侧AI算力竞争全面升温。",
+      "why_zh": "英伟达正面挑战苹果本地AI市场，将加速端侧AI推理普及。",
+      "tags": [
+        "AI Infra",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "01dc5f7e7500759a",
+      "title": "Anthropic files for blockbuster initial public offering",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e",
+      "published_raw": "Tue, 02 Jun 2026 00:39:33 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        0,
+        39,
+        33,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e\">https://www.ft.com/content/4f82f41c-24e7-4323-899a-17a04badd29e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48364403\">https://news.ycombinator.com/item?id=48364403</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-02T08:39:33+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 50,
+        "community_heat_score": 30
+      },
+      "final_score": 77,
+      "summary_zh": "据英国《金融时报》报道，Anthropic 已正式提交 IPO 申请，拟在美国上市，估值预计超千亿美元。此次上市被视为 AI 行业最重大的资本事件之一，将为公司提供大规模扩张资金，同时也意味着 Claude 背后的主要 AI 安全公司进入公开市场。",
+      "why_zh": "Anthropic IPO 将重塑 AI 行业融资格局，对竞争态势影响深远。",
+      "tags": [
+        "AI Business",
+        "LLM",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "88d629fd71eeee87",
+      "title": "AI costs how much? GitHub Copilot users react to new usage-based pricing system",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/",
+      "published_raw": "Tue, 02 Jun 2026 01:17:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        1,
+        17,
+        14,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/\">https://arstechnica.com/ai/2026/06/ai-costs-how-much-github-copilot-users-react-to-new-usage-based-pricing-system/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48364716\">https://news.ycombinator.com/item?id=48364716</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-02T09:17:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 90,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 76,
+      "summary_zh": "GitHub Copilot 推出基于使用量的新计费模式，大量用户对成本大幅上涨表达强烈不满，引发对 AI 编程助手商业化路径的广泛讨论，标志着头部 AI 编码工具商业模式的重要转变。",
+      "why_zh": "Copilot 转向按量计费直接冲击数百万开发者的使用成本与习惯。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "dadd123def02abdb",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/stargate-michigan-data-center",
+      "published_raw": "Mon, 01 Jun 2026 12:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        12,
+        0,
+        0,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "published_at": "2026-06-01T20:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 80,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 65
+      },
+      "final_score": 75,
+      "summary_zh": "OpenAI在美国密歇根州正式开工建设Stargate项目旗下1GW超大规模数据中心，这是迄今全球规模最大的AI专用算力设施之一，旨在拓展AI服务可及性、创造本地就业并支持社区发展。",
+      "why_zh": "1GW级数据中心开建，标志AI算力军备竞赛进入新量级。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "03b999219d271926",
+      "title": "CS336: Language Modeling from Scratch",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://cs336.stanford.edu/",
+      "published_raw": "Mon, 01 Jun 2026 14:10:32 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        1,
+        14,
+        10,
+        32,
+        0,
+        152,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://cs336.stanford.edu/\">https://cs336.stanford.edu/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48357075\">https://news.ycombinator.com/item?id=48357075</a></p>\n<p>Points: 360</p>\n<p># Comments: 43</p>",
+      "published_at": "2026-06-01T22:10:32+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 40,
+        "technical_impact_score": 75,
+        "community_heat_score": 70
+      },
+      "final_score": 74,
+      "summary_zh": "斯坦福大学CS336课程「从零构建语言模型」完整公开，覆盖数据采集、tokenization、模型训练、RLHF、推理优化等LLM全链路，配套代码与作业开源，HN获360点赞，被视为最系统的LLM实践课程之一。",
+      "why_zh": "斯坦福顶级LLM全链路课程公开，工程实践参考价值极高。",
+      "tags": [
+        "LLM",
+        "Research"
+      ]
+    },
+    {
+      "id": "fa53a01a63526014",
+      "title": "Building an Open-Source Verilog Simulator with AI: 580K Lines in 43 Days",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://normalcomputing.com/blog/building-an-open-source-verilog-simulator-with-ai-580k-lines-in-43-days",
+      "published_raw": "Tue, 02 Jun 2026 01:09:32 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        1,
+        9,
+        32,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://normalcomputing.com/blog/building-an-open-source-verilog-simulator-with-ai-580k-lines-in-43-days\">https://normalcomputing.com/blog/building-an-open-source-verilog-simulator-with-ai-580k-lines-in-43-days</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48364654\">https://news.ycombinator.com/item?id=48364654</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-02T09:09:32+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 75,
+        "technical_impact_score": 85,
+        "community_heat_score": 20
+      },
+      "final_score": 72,
+      "summary_zh": "Normal Computing 团队分享实战案例：借助 AI 辅助编程，在 43 天内生成 58 万行 Verilog 代码，成功构建一款开源 Verilog 仿真器，展示 AI 在专业硬件描述语言大规模开发中的可行性。",
+      "why_zh": "证明 AI 可驱动大规模专业领域代码生产，对 EDA 和硬件行业有重要参考价值。",
+      "tags": [
+        "AI Coding",
+        "Open Source"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Business",
+      "count": 5
+    },
+    {
+      "tag": "AI Coding",
+      "count": 4
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "AI Infra",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    },
+    {
+      "tag": "AI Safety",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1211,
+    "selected": 10,
+    "keywords": 9
+  },
+  "pm_insights": [
+    {
+      "point": "渠道整合与分发能力同等重要",
+      "detail": "AI模型入驻主流云平台的趋势表明，产品分发能力与渠道整合的优先级正逐步追平模型能力本身，PM应将平台合作纳入核心路线图。"
+    },
+    {
+      "point": "按量计费须同步提供用量透明度",
+      "detail": "编程助手改按用量付费后引发强烈用户反弹，说明推行新计费模式时必须同步提供成本预估与用量管控工具，透明度是用户信任的基础。"
+    },
+    {
+      "point": "AI已能大幅压缩工程开发周期",
+      "detail": "实践案例显示AI辅助可在数十天内完成数十万行专业代码，产品团队应重新标定AI项目的开发周期基准与人力配置方式。"
+    },
+    {
+      "point": "算力布局影响下一轮竞争护城河",
+      "detail": "头部企业争相募集千亿美元扩张AI基础设施，端侧与云侧算力竞争同步升温，PM需提前评估产品对计算资源的依赖路径与供应风险。"
+    }
+  ]
+}
