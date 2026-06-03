@@ -1,0 +1,443 @@
+{
+  "date": "2026-06-03",
+  "date_cn": "2026年06月03日（周三）",
+  "top3": [
+    {
+      "id": "616b3e293b580bf5",
+      "title": "MAI-Code-1-Flash",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "published_raw": "Tue, 02 Jun 2026 18:47:07 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        18,
+        47,
+        7,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://microsoft.ai/models/mai-code-1-flash/\" rel=\"nofollow\">https://microsoft.ai/models/mai-code-1-flash/</a><p><a href=\"https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF\" rel=\"nofollow\">https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF</a><p>Launching seven new MAI models: <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\" rel=\"nofollow\">https://microsoft.ai/news/building-a-hillclimbing-machine-la...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48374466\">https://news.ycombinator.com/item?id=48374466</a></p>\n<p>Points: 389</p>\n<p># Comments: 177</p>",
+      "published_at": "2026-06-03T02:47:07+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 90,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 90,
+        "technical_impact_score": 85,
+        "community_heat_score": 85
+      },
+      "final_score": 88,
+      "summary_zh": "微软正式发布 MAI-Code-1-Flash 编程专用 AI 模型，并同步推出另外六款 MAI 系列新模型，全面布局代码生成赛道，在 HN 获 389 分，被视为微软在 AI 编程领域对 OpenAI Codex 及 GitHub Copilot 之外的独立发力。",
+      "why_zh": "微软多模型出击 AI 编程，竞争格局加剧",
+      "tags": [
+        "AI Coding",
+        "LLM"
+      ]
+    },
+    {
+      "id": "67b62c8d9d322bbe",
+      "title": "Expanding Project Glasswing",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "published_raw": "Tue, 02 Jun 2026 13:15:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        13,
+        15,
+        14,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/\" rel=\"nofollow\">https://techcrunch.com/2026/06/02/anthropic-scales-claude-my...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48369863\">https://news.ycombinator.com/item?id=48369863</a></p>\n<p>Points: 160</p>\n<p># Comments: 209</p>",
+      "published_at": "2026-06-02T21:15:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 80,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 90,
+        "technical_impact_score": 75,
+        "community_heat_score": 85
+      },
+      "final_score": 87,
+      "summary_zh": "Anthropic宣布扩展Project Glasswing计划，将Claude AI推广至更广泛用户群体（尤其是教育场景），获TechCrunch报道，HN社区反响热烈（160分、209评论），显示行业对Anthropic扩张战略的高度关注。",
+      "why_zh": "Anthropic扩大Claude覆盖面，或重塑AI产品市场竞争格局。",
+      "tags": [
+        "AI Product",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "b254ce8fbf994344",
+      "title": "AI outperforms law professors in Stanford Law study",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "published_raw": "Tue, 02 Jun 2026 23:43:12 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        23,
+        43,
+        12,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://law.stanford.edu/wp-content/uploads/2026/06/salinas_et_al.pdf\" rel=\"nofollow\">https://law.stanford.edu/wp-content/uploads/2026/06/salinas_...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377761\">https://news.ycombinator.com/item?id=48377761</a></p>\n<p>Points: 88</p>\n<p># Comments: 81</p>",
+      "published_at": "2026-06-03T07:43:12+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 75,
+        "community_heat_score": 80
+      },
+      "final_score": 83,
+      "summary_zh": "斯坦福法学院研究发现，AI 在合同分析、案例推理等多项法律任务上的表现超越法学教授，研究获 88 点赞和 81 条 HN 评论，引发法律职业界对 AI 替代潜力的广泛讨论。",
+      "why_zh": "顶级学术机构背书 AI 超越领域专家，加速法律 AI 产品商业化落地。",
+      "tags": [
+        "Benchmark",
+        "AI Product",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "597005b4447f780c",
+      "title": "Codex for every role, tool, and workflow",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "published_raw": "Tue, 02 Jun 2026 09:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        9,
+        0,
+        0,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "published_at": "2026-06-02T17:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 70,
+        "community_heat_score": 60
+      },
+      "final_score": 79,
+      "summary_zh": "OpenAI 扩展 Codex 生态，发布面向分析师、营销、设计师、投资者等多职能角色的新插件、站点及代码注释工具，将 AI 编程能力从开发者向全业务角色延伸，覆盖更广泛的企业工作流。",
+      "why_zh": "Codex 从开发者扩至全职能，生态壁垒加深",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "1bc07ae447ac35c4",
+      "title": "Instagram accounts hacked using Meta AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/",
+      "published_raw": "Wed, 03 Jun 2026 00:25:18 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        0,
+        25,
+        18,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/\">https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378078\">https://news.ycombinator.com/item?id=48378078</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-03T08:25:18+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 85,
+        "technical_impact_score": 70,
+        "community_heat_score": 35
+      },
+      "final_score": 77,
+      "summary_zh": "黑客通过社会工程欺骗Meta AI客服聊天机器人，诱导其泄露账号验证信息，从而成功劫持Instagram账号。这是AI客服被用作攻击跳板的典型案例，暴露了AI助手在身份验证场景中的安全漏洞。",
+      "why_zh": "AI客服成攻击向量，揭示LLM部署中身份验证边界的系统性安全风险。",
+      "tags": [
+        "AI Safety",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "6421a7340260ea9b",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/travelers",
+      "published_raw": "Tue, 02 Jun 2026 12:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        2,
+        12,
+        0,
+        0,
+        1,
+        153,
+        0
+      ],
+      "raw_text": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "published_at": "2026-06-02T20:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 75,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 85,
+        "technical_impact_score": 60,
+        "community_heat_score": 50
+      },
+      "final_score": 75,
+      "summary_zh": "旅行者保险公司（Travelers）与 OpenAI 合作，在全美正式上线 AI 理赔助手，为客户提供全天候理赔引导和支持，并在高峰期弹性扩容，成为传统保险行业大规模落地生成式 AI 的标志性案例。",
+      "why_zh": "头部险企全国部署 AI 理赔，企业级落地标杆",
+      "tags": [
+        "AI Product",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "e25fa7ee491c3e57",
+      "title": "AI Dark Output: The Visible Cost of Invisible Output",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
+      "published_raw": "Wed, 03 Jun 2026 01:18:21 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        1,
+        18,
+        21,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of\">https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378551\">https://news.ycombinator.com/item?id=48378551</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-03T09:18:21+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 80,
+        "community_heat_score": 10
+      },
+      "final_score": 74,
+      "summary_zh": "SemiAnalysis发布深度分析，探讨AI推理中的「暗输出」现象——即模型生成过程中产生的大规模不可见计算与能源消耗，揭示当前AI基础设施成本结构中被普遍忽视的隐性支出。",
+      "why_zh": "揭示AI隐性算力与能耗成本，对数据中心投资规划有重要参考。",
+      "tags": [
+        "AI Infra",
+        "Research"
+      ]
+    },
+    {
+      "id": "a79be1232d3e6410",
+      "title": "Google Is Quietly Buying Code from Play Store Developers to Train AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.404media.co/google-is-quietly-buying-code-from-play-store-developers-to-train-ai/",
+      "published_raw": "Wed, 03 Jun 2026 00:19:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        0,
+        19,
+        11,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.404media.co/google-is-quietly-buying-code-from-play-store-developers-to-train-ai/\">https://www.404media.co/google-is-quietly-buying-code-from-play-store-developers-to-train-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378030\">https://news.ycombinator.com/item?id=48378030</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-03T08:19:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 60,
+        "community_heat_score": 45
+      },
+      "final_score": 74,
+      "summary_zh": "据404media调查，Google正悄悄向Play Store开发者购买代码用于AI模型训练，采用低调方式绕过公众关注。此举显示大厂在训练数据稀缺背景下，正积极拓展付费数据收购渠道，可能重塑开发者与平台的关系。",
+      "why_zh": "揭示大模型训练数据争夺白热化，Google主动付费收购代码的新策略值得关注。",
+      "tags": [
+        "LLM",
+        "AI Coding",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "a6e61460fc5a8e9a",
+      "title": "Harvard Law: Anthropic is about to sell a safety mission Wall Street can veto",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://fortune.com/2026/06/01/openais-guardian-ben-jerrys-ice-cream-anthropic/",
+      "published_raw": "Wed, 03 Jun 2026 01:33:47 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        1,
+        33,
+        47,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://fortune.com/2026/06/01/openais-guardian-ben-jerrys-ice-cream-anthropic/\">https://fortune.com/2026/06/01/openais-guardian-ben-jerrys-ice-cream-anthropic/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378689\">https://news.ycombinator.com/item?id=48378689</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-03T09:33:47+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 75,
+        "technical_impact_score": 60,
+        "community_heat_score": 10
+      },
+      "final_score": 71,
+      "summary_zh": "哈佛法学院分析指出，Anthropic即将进行的企业重组可能赋予华尔街投资者对其AI安全使命的否决权，Anthropic安全优先理念与商业化目标之间的深层张力引发法律和伦理层面的深度讨论。",
+      "why_zh": "Anthropic安全使命与资本化的博弈，影响AI安全治理走向。",
+      "tags": [
+        "AI Safety",
+        "AI Business",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "c66dd6f104125071",
+      "title": "Google is paying Play Store developers for code to train its AI",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.neowin.net/reports/google-wants-to-pay-play-store-developers-for-code-to-train-its-ai/",
+      "published_raw": "Wed, 03 Jun 2026 01:39:28 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        1,
+        39,
+        28,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.neowin.net/reports/google-wants-to-pay-play-store-developers-for-code-to-train-its-ai/\">https://www.neowin.net/reports/google-wants-to-pay-play-store-developers-for-code-to-train-its-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378737\">https://news.ycombinator.com/item?id=48378737</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-03T09:39:28+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 95,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 70,
+        "community_heat_score": 10
+      },
+      "final_score": 71,
+      "summary_zh": "Google计划向Play Store开发者付费购买代码数据用于训练AI模型，是科技巨头通过商业合作获取高质量训练数据的新尝试，引发关于AI训练数据采购伦理与版权归属的广泛讨论。",
+      "why_zh": "科技巨头付费采购训练数据，或开创行业数据商业化新模式。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 5
+    },
+    {
+      "tag": "AI Business",
+      "count": 4
+    },
+    {
+      "tag": "AI Coding",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "AI Safety",
+      "count": 3
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1214,
+    "selected": 10,
+    "keywords": 9
+  },
+  "pm_insights": [
+    {
+      "point": "AI工具向全职能角色全面渗透",
+      "detail": "编程类AI正从开发者扩展至分析师、营销、设计等全业务角色，产品设计应提前规划跨职能工作流入口，而非仅服务技术用户。"
+    },
+    {
+      "point": "AI在专业领域超越人类专家成常态",
+      "detail": "AI已在法律等高门槛专业任务上超越领域专家，产品团队应重新评估各垂直场景的自动化空间，并思考如何将专家角色从执行者转变为审核者。"
+    },
+    {
+      "point": "AI客服是高风险社会工程攻击入口",
+      "detail": "攻击者可诱导AI客服泄露敏感信息，凡涉及账号操作、身份验证的AI对话流程，必须设置人工审核节点或严格权限隔离，不可默认AI判断可信。"
+    },
+    {
+      "point": "训练数据采购正成为平台级战略",
+      "detail": "头部厂商已开始付费向开发者购买代码等高质量数据，产品与平台团队应提前思考数据资产的所有权条款设计，以及与用户/开发者的数据共享合作机制。"
+    }
+  ]
+}
