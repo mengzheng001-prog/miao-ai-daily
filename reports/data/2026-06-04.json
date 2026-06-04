@@ -1,0 +1,417 @@
+{
+  "date": "2026-06-04",
+  "date_cn": "2026年06月04日（周四）",
+  "top3": [
+    {
+      "id": "e3d6d33a127a7362",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "published_raw": "Wed, 03 Jun 2026 16:04:42 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        16,
+        4,
+        42,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/\">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48385906\">https://news.ycombinator.com/item?id=48385906</a></p>\n<p>Points: 684</p>\n<p># Comments: 288</p>",
+      "published_at": "2026-06-04T00:04:42+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 85,
+        "technical_impact_score": 90,
+        "community_heat_score": 90
+      },
+      "final_score": 91,
+      "summary_zh": "Google 发布 Gemma 4 12B，采用无编码器统一多模态架构，可直接处理多模态输入而无需独立视觉编码器，是 Gemma 系列重要升级。在 Hacker News 获 684 分、288 条评论，社区关注度极高，为开源多模态模型领域带来新参考。",
+      "why_zh": "Google 开源多模态大模型，无编码器架构具技术创新性，可能重塑多模态模型设计范式。",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "bfb45dcad644b624",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "published_raw": "Wed, 03 Jun 2026 13:15:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        13,
+        15,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "published_at": "2026-06-03T21:15:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 80,
+        "community_heat_score": 55
+      },
+      "final_score": 85,
+      "summary_zh": "OpenAI 发布 GPT-Rosalind 新功能，专为生命科学研究增强生物推理、药物化学专业知识、基因组分析和实验工作流程能力，是 OpenAI 深入垂直行业专业化布局的重要产品更新。",
+      "why_zh": "OpenAI 专业化垂直模型布局，生命科学 AI 市场潜力巨大，标志 LLM 进入专业科研领域提速。",
+      "tags": [
+        "LLM",
+        "AI Product",
+        "Research"
+      ]
+    },
+    {
+      "id": "8929ed18dbbc30cf",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/wasmer",
+      "published_raw": "Wed, 03 Jun 2026 12:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        12,
+        0,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "published_at": "2026-06-03T20:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 85,
+        "technical_impact_score": 80,
+        "community_heat_score": 50
+      },
+      "final_score": 83,
+      "summary_zh": "Wasmer 借助 OpenAI Codex（基于 GPT-5.5）构建边缘计算 Node.js 运行时，实现开发速度 10-20 倍提升，原本需数月完成的工程项目压缩至数周交付，是 AI 编码工具在实际复杂工程中效果的典型案例。",
+      "why_zh": "真实工程案例验证 AI 编码工具 10-20x 提速效果，对评估 AI 编程工具商业价值有直接参考。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "60bbfe94e5e8ee87",
+      "title": "Teaching AI agents to ask better questions by playing “Battleship”",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+      "published_raw": "Wed, 03 Jun 2026 17:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        21,
+        0,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
+      "published_at": "2026-06-04T05:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 60,
+        "technical_impact_score": 80,
+        "community_heat_score": 70
+      },
+      "final_score": 80,
+      "summary_zh": "MIT研究人员以经典棋盘游戏「战舰」为测试平台，研究AI智能体主动提问策略，发现经专门训练的小模型在信息收集效率上可超越最大模型，成本仅为其1%，为Agent推理效率优化提供新方向。",
+      "why_zh": "1%成本超越顶级大模型，直接挑战\"大即是强\"范式，对高效Agent设计意义重大。",
+      "tags": [
+        "Agent",
+        "Research",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "fae173f5fba9c3cb",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "published_raw": "Wed, 03 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        10,
+        0,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "published_at": "2026-06-03T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 55
+      },
+      "final_score": 78,
+      "summary_zh": "OpenAI 发布前沿 AI 民主治理蓝图，提议建立美国联邦监管框架，涵盖安全保障、系统韧性和国家安全三大方向，为前沿 AI 模型监管提供系统性政策方案，具有重要行业政策信号意义。",
+      "why_zh": "OpenAI 主动推动联邦监管框架，将直接影响全球前沿 AI 治理走向与行业合规方向。",
+      "tags": [
+        "AI Regulation",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "17168023ef163664",
+      "title": "MIT researchers teach AI models to interpret charts",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
+      "published_raw": "Wed, 03 Jun 2026 00:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        4,
+        0,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "The new ChartNet training dataset could improve the accuracy of vision-language models that help analyze business trends or interpret scientific figures.",
+      "published_at": "2026-06-03T12:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 75,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 70,
+        "technical_impact_score": 75,
+        "community_heat_score": 65
+      },
+      "final_score": 78,
+      "summary_zh": "MIT研究人员发布ChartNet训练数据集，专门用于提升视觉语言模型解读图表的能力，可改善商业趋势分析和科学图形解析的准确性，填补现有VLM在结构化图表理解上的短板。",
+      "why_zh": "图表理解是VLM落地商业分析的关键瓶颈，高质量专用数据集有望加速实际部署。",
+      "tags": [
+        "Multimodal",
+        "Research",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "20335de5965c9149",
+      "title": "Mathematicians issue warning as AI rapidly gains ground",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
+      "published_raw": "Wed, 03 Jun 2026 10:05:48 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        10,
+        5,
+        48,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground\">https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48382052\">https://news.ycombinator.com/item?id=48382052</a></p>\n<p>Points: 174</p>\n<p># Comments: 222</p>",
+      "published_at": "2026-06-03T18:05:48+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 60,
+        "technical_impact_score": 75,
+        "community_heat_score": 75
+      },
+      "final_score": 77,
+      "summary_zh": "《Science》杂志报道数学界对 AI 快速渗透数学研究领域发出警告，数学家担忧 AI 可能改变数学证明范式并带来可靠性风险，引发关于 AI 能否真正理解数学深层逻辑的争议，HN 222 条评论激烈讨论。",
+      "why_zh": "数学界权威警告揭示 AI 进入核心科学研究的深层风险，对评估 AI 推理能力边界有重要意义。",
+      "tags": [
+        "Research",
+        "AI Safety",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "70fbbe037b325925",
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "published_raw": "Wed, 03 Jun 2026 12:25:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        12,
+        25,
+        14,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs\" rel=\"nofollow\">https://www.bloomberg.com/news/articles/2026-06-02/uber-caps...</a> (<a href=\"https://archive.ph/ZrwAy\" rel=\"nofollow\">https://archive.ph/ZrwAy</a>)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48383056\">https://news.ycombinator.com/item?id=48383056</a></p>\n<p>Points: 367</p>\n<p># Comments: 477</p>",
+      "published_at": "2026-06-03T20:25:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 80,
+        "technical_impact_score": 50,
+        "community_heat_score": 92
+      },
+      "final_score": 76,
+      "summary_zh": "Simon Willison 分析 Uber 为员工设置每月 1500 美元 AI 工具使用上限事件，指出这对整个行业的 AI 工具定价具有重要参考价值。Bloomberg 原报道引发 HN 477 条评论热议，反映企业对 AI 工具成本管控日益重视。",
+      "why_zh": "头部企业 AI 预算上限是行业对 AI ROI 审视的风向标，对产品定价策略有直接参考价值。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "0a440e310365f466",
+      "title": "OpenAI public policy agenda",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "published_raw": "Wed, 03 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        3,
+        10,
+        0,
+        0,
+        2,
+        154,
+        0
+      ],
+      "raw_text": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "published_at": "2026-06-03T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 80,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 60,
+        "technical_impact_score": 40,
+        "community_heat_score": 70
+      },
+      "final_score": 71,
+      "summary_zh": "OpenAI发布公共政策议程，涵盖AI安全、青少年保护、劳动力转型及全球标准制定，系统阐明其与各国政策制定者合作的核心立场，旨在推动AI以负责任方式惠及全社会。",
+      "why_zh": "OpenAI首次系统化政策主张，将直接影响全球AI监管走向与行业合规边界。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation",
+        "AI Business"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "Research",
+      "count": 4
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "Benchmark",
+      "count": 3
+    },
+    {
+      "tag": "AI Safety",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 2
+    },
+    {
+      "tag": "Multimodal",
+      "count": 2
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 2
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1198,
+    "selected": 9,
+    "keywords": 11
+  },
+  "pm_insights": [
+    {
+      "point": "专训小模型可超越通用大模型",
+      "detail": "MIT研究表明，针对特定任务专门训练的小模型，信息收集效率可超过最大通用模型，成本仅为其1%。产品团队选型时应优先评估任务专一性，而非盲目追求参数量。"
+    },
+    {
+      "point": "企业AI预算上限正成为定价关键变量",
+      "detail": "Uber为员工设置每月1500美元AI工具上限，引发行业广泛讨论。面向企业的AI产品须将成本可预测性、用量管控与ROI可视化纳入核心设计，而非仅靠功能卖点。"
+    },
+    {
+      "point": "垂直领域深度专业化是AI产品破局方向",
+      "detail": "领先AI厂商正将通用模型能力向生命科学、基因组分析等高壁垒垂直行业延伸。产品团队应识别自身行业中数据最密集、专业门槛最高的环节，作为AI落地的优先切口。"
+    },
+    {
+      "point": "AI辅助开发已重塑工程交付时间预期",
+      "detail": "借助AI编码工具，原本需数月完成的复杂工程项目可压缩至数周，开发速度提升10-20倍。产品规划时需同步修正里程碑预期，避免低估AI加速带来的节奏变化。"
+    }
+  ]
+}
