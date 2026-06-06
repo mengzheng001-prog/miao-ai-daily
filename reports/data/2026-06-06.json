@@ -1,0 +1,452 @@
+{
+  "date": "2026-06-06",
+  "date_cn": "2026年06月06日（周六）",
+  "top3": [
+    {
+      "id": "6ac35ac7687f4154",
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "published_raw": "Fri, 05 Jun 2026 16:18:48 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        16,
+        18,
+        48,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/\">https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48414653\">https://news.ycombinator.com/item?id=48414653</a></p>\n<p>Points: 269</p>\n<p># Comments: 86</p>",
+      "published_at": "2026-06-06T00:18:48+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 80,
+        "ai_relevance_score": 92,
+        "product_relevance_score": 88,
+        "technical_impact_score": 85,
+        "community_heat_score": 80
+      },
+      "final_score": 86,
+      "summary_zh": "Google 发布 Gemma 4 QAT（量化感知训练）模型，专为移动端和笔记本设备优化压缩效率，在保持模型性能的同时大幅降低推理所需内存与算力，HN 社区反响热烈（269 赞，86 条讨论）。",
+      "why_zh": "边缘端 LLM 部署重要突破，推动开源模型在消费设备上实用落地。",
+      "tags": [
+        "LLM",
+        "AI Infra",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "5eeceaf9f1b187dc",
+      "title": "Did Claude increase bugs in rsync?",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://alexispurslane.github.io/rsync-analysis/",
+      "published_raw": "Fri, 05 Jun 2026 12:43:33 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        12,
+        43,
+        33,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://alexispurslane.github.io/rsync-analysis/\">https://alexispurslane.github.io/rsync-analysis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48411635\">https://news.ycombinator.com/item?id=48411635</a></p>\n<p>Points: 306</p>\n<p># Comments: 309</p>",
+      "published_at": "2026-06-05T20:43:33+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 72,
+        "freshness_score": 78,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 85,
+        "community_heat_score": 90
+      },
+      "final_score": 83,
+      "summary_zh": "研究者通过统计分析评估 Claude AI 辅助编程是否在 rsync 开源项目中引入了更多 bug，对比 AI 介入前后代码质量变化，引发 HN 社区广泛热议（306 赞，309 条讨论），是迄今少有的针对具体项目的 AI 编程影响实证研究。",
+      "why_zh": "量化评估 AI 编码工具对真实项目质量的影响，对开发者决策具有直接参考价值。",
+      "tags": [
+        "AI Coding",
+        "LLM",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "cfafe1a46018bb2e",
+      "title": "Anthropic warns Claude AI is building itself faster than expected",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code",
+      "published_raw": "Fri, 05 Jun 2026 22:45:34 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        22,
+        45,
+        34,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code\">https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-now-writes-more-than-80-percent-of-its-merged-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48419307\">https://news.ycombinator.com/item?id=48419307</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-06T06:45:34+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 72,
+        "ai_relevance_score": 92,
+        "product_relevance_score": 88,
+        "technical_impact_score": 85,
+        "community_heat_score": 28
+      },
+      "final_score": 78,
+      "summary_zh": "Tom's Hardware 报道，Anthropic 披露 Claude 现已负责编写公司超过 80% 的已合并代码，AI 自主编程速度超出内部预期，Anthropic 警告这一趋势正在加快 AI 自我迭代的节奏，引发外界对 AI 加速发展的广泛关注。",
+      "why_zh": "AI 写自身代码超 80% 是重要里程碑，标志 AI 编程进入新阶段。",
+      "tags": [
+        "LLM",
+        "AI Coding",
+        "AI Product"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "7707fdb288e4dff5",
+      "title": "The latest AI news we announced in May 2026",
+      "source": "Google AI Blog",
+      "category": "C",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "published_raw": "Fri, 05 Jun 2026 14:45:00 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        14,
+        45,
+        0,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "May AI recap",
+      "published_at": "2026-06-05T22:45:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 65,
+        "ai_relevance_score": 88,
+        "product_relevance_score": 82,
+        "technical_impact_score": 62,
+        "community_heat_score": 55
+      },
+      "final_score": 76,
+      "summary_zh": "Google AI 博客发布 5 月份 AI 进展月度回顾，汇总了 Google 在本月发布的重要 AI 产品、模型与研究更新，涵盖 DeepMind、Gemini 等多条产品线的关键进展。",
+      "why_zh": "一站式掌握 Google AI 月度战略布局，判断行业风向的重要参考。",
+      "tags": [
+        "AI Product",
+        "LLM"
+      ]
+    },
+    {
+      "id": "4551ac3bd7af4edf",
+      "title": "Unlocking Non-Uniform KV Cache for Efficient Multi-Turn LLM Serving",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://arxiv.org/abs/2606.06302",
+      "published_raw": "Sat, 06 Jun 2026 01:20:21 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        6,
+        1,
+        20,
+        21,
+        5,
+        157,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.06302\">https://arxiv.org/abs/2606.06302</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48420434\">https://news.ycombinator.com/item?id=48420434</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-06T09:20:21+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 72,
+        "freshness_score": 88,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 70,
+        "technical_impact_score": 82,
+        "community_heat_score": 10
+      },
+      "final_score": 73,
+      "summary_zh": "arXiv 新论文提出非均匀 KV Cache 方案，针对多轮 LLM 推理服务场景，通过对不同 Transformer 层和注意力头动态分配差异化缓存预算，在维持模型质量的前提下显著提升多轮对话的推理效率与内存利用率。",
+      "why_zh": "KV Cache 是多轮对话推理的核心瓶颈，该方案对降低大规模推理成本有直接价值。",
+      "tags": [
+        "LLM",
+        "AI Infra",
+        "Research"
+      ]
+    },
+    {
+      "id": "35d372cc0cdd5ff3",
+      "title": "Rethinking the Value of Generated Tests for LLM Software Engineering Agents",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://arxiv.org/abs/2602.07900",
+      "published_raw": "Sat, 06 Jun 2026 01:39:40 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        6,
+        1,
+        39,
+        40,
+        5,
+        157,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://arxiv.org/abs/2602.07900\">https://arxiv.org/abs/2602.07900</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48420529\">https://news.ycombinator.com/item?id=48420529</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-06T09:39:40+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 88,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 75,
+        "community_heat_score": 10
+      },
+      "final_score": 70,
+      "summary_zh": "arXiv 论文重新审视 LLM 软件工程 Agent 中自动生成测试的真实价值，发现现有基准可能高估了生成测试对 Agent 性能的贡献，并指出测试生成在 SWE-bench 等标准评测中存在信息泄露风险，建议重新设计相应评估方法论。",
+      "why_zh": "直接影响 AI Coding Agent 评估体系可信度，对工程实践和 Benchmark 设计有指导意义。",
+      "tags": [
+        "Agent",
+        "AI Coding",
+        "Research"
+      ]
+    },
+    {
+      "id": "cbd9e707dd4ce69d",
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/zdk/lowfat",
+      "published_raw": "Fri, 05 Jun 2026 09:10:42 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        9,
+        10,
+        42,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "<p>Hi HN, not sure if anyone would be interested, but just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output. It's a single binary, works as an agent hook or a shell wrapper. It has a plugin system to customize filters per command.<p>The idea is pretty simple: agents don't need the full kubectl get -o yaml or any 10k-line dump to make decisions. \nSo that lowfat sits in between, strips the noise, and passes through what matters. Here's my real report after 2 months of personal use:<p><pre><code>  lowfat history --all\n\n  lowfat plugin candidates\n  ─────────────────────────────────────────────────────────\n\n    #  command                    runs   avg raw      cost   savings  source    status  \n    1  kubectl get                101x     14.4K      1.5M     93.9%  plugin    good    \n    2  grep                       103x     13.5K      1.4M     96.2%  plugin    good    \n    3  git diff                    81x       995     80.6K     57.9%  built-in  good    \n    4  kubectl                     90x       485     43.6K     33.6%  plugin    good    \n    5  docker                     127x      5.5K    693.6K     96.1%  built-in  good    \n    6  ls                         489x       117     57.3K     56.2%  built-in  good    \n    7  find                        30x     16.5K    495.0K     95.5%  plugin    good    \n    8  git show                    63x       490     30.9K     38.0%  built-in  good    \n    9  git                        177x       368     65.2K     76.1%  built-in  good    \n   10  git log                     86x       556     47.8K     78.5%  built-in  good    \n   11  kubectl logs                 5x      3.6K     17.8K     43.0%  plugin    good    \n   12  git status                  86x       152     13.1K     58.0%  built-in  good    \n   13  docker ps                   20x       467      9.3K     52.8%  plugin    good    \n   14  kubectl describe             6x       656      3.9K      1.2%  plugin    weak    \n   15  docker images                9x       940      8.5K     61.8%  built-in  good    \n   16  k get                        2x      2.1K      4.2K     35.9%  plugin    good    \n   17  terraform                   10x       395      3.9K     32.1%  plugin    good    \n   18  git commit                  32x        77      2.5K      0.0%  built-in  weak    \n   19  docker build                 8x       487      3.9K     37.6%  built-in  good    \n   20  docker compose              22x       979     21.5K     89.4%  built-in  good    \n\n  total: 4.4M raw → 4.1M saved (91.8%)\n</code></pre>\nMy toolset above is kind limited, but it works pretty well for my usecase without any interruption\nKinda help me not reaching the token limit for my company Bedrock limit usage and keep optimizing the saving on the go for later usage.<p>But, why not alternatives (<a href=\"https://github.com/zdk/lowfat#alternatives\" rel=\"nofollow\">https://github.com/zdk/lowfat#alternatives</a>) ? \nThe answers are:\n  - My goal is to make the core lightweight but extensible via plugins i.e. not trying to bundle every command in the installed binary so that people own their output filters.\n  - Customizable per usecase via plugin or filter pipelines as I am using my own toolset.\n  - Customizable for non-public CLI tools, for example, some enterprise might have their interal CLI tools that public won't have access.\n  - People should own their data. So the design is local-first, No telemetry forever.\n  - I kinda love UNIX-style composible pipes, so lowfat-filter has implemented this style.\n  - Be able to adjust aggressiveness of the filter, so we can control that we won't strip something the agent needed.<p>GitHub: <a href=\"https://github.com/zdk/lowfat\" rel=\"nofollow\">https://github.com/zdk/lowfat</a><p>Anyway, if anyone is interested, feedbacks and questions are welcome!<p>Thanks!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48409955\">https://news.ycombinator.com/item?id=48409955</a></p>\n<p>Points: 113</p>\n<p># Comments: 58</p>",
+      "published_at": "2026-06-05T17:10:42+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 75,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 65,
+        "technical_impact_score": 65,
+        "community_heat_score": 60
+      },
+      "final_score": 68,
+      "summary_zh": "开发者开源 Lowfat，一款可插拔 CLI 输出过滤工具，专为 AI Agent 工作流设计。通过插件系统裁剪 kubectl、日志等冗长命令输出，在 Agent 调用链中实现了 91.8% 的 LLM Token 节省，以单体二进制分发，可作为 Agent Hook 或 Shell 包装器使用。",
+      "why_zh": "Agent 工作流 Token 成本是实际痛点，此工具提供开箱即用的低成本优化方案。",
+      "tags": [
+        "LLM",
+        "Agent",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "4167edb6be65e585",
+      "title": "ToTra – open-source LLM gateway with GDPR/EU AI Act compliance",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/SugaC-275/ToTra",
+      "published_raw": "Sat, 06 Jun 2026 00:16:10 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        6,
+        0,
+        16,
+        10,
+        5,
+        157,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/SugaC-275/ToTra\">https://github.com/SugaC-275/ToTra</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48420028\">https://news.ycombinator.com/item?id=48420028</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-06T08:16:10+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 30,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 55,
+        "community_heat_score": 5
+      },
+      "final_score": 57,
+      "summary_zh": "ToTra是一款开源LLM网关，专为GDPR和EU AI Act合规场景设计，提供请求路由、审计日志和访问控制等功能，帮助欧洲企业在监管框架内安全部署大语言模型服务。目前项目处于早期阶段，社区热度较低。",
+      "why_zh": "EU AI Act落地压力下，合规LLM基础设施工具需求真实存在，值得关注。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "cf8c5f089d84e975",
+      "title": "SillyTavern: LLM Front End for Power Users",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://sillytavern.app/",
+      "published_raw": "Fri, 05 Jun 2026 23:34:49 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        23,
+        34,
+        49,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://sillytavern.app/\">https://sillytavern.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48419761\">https://news.ycombinator.com/item?id=48419761</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-06T07:34:49+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 35,
+        "freshness_score": 80,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 70,
+        "technical_impact_score": 40,
+        "community_heat_score": 10
+      },
+      "final_score": 56,
+      "summary_zh": "SillyTavern是一款面向高级用户的开源LLM前端界面，支持多种AI后端接入，提供角色扮演、多角色聊天、插件扩展等丰富功能，在创意写作和AI角色扮演社区中具有较高影响力和活跃用户群体。",
+      "why_zh": "社区知名LLM前端工具，展示AI产品在创意应用方向的活跃生态与用户需求。",
+      "tags": [
+        "LLM",
+        "AI Product",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "dca334e201f9d4db",
+      "title": "The crucial human component in computing and AI",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+      "published_raw": "Fri, 05 Jun 2026 16:10:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        5,
+        20,
+        10,
+        0,
+        4,
+        156,
+        0
+      ],
+      "raw_text": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
+      "published_at": "2026-06-06T04:10:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 82,
+        "ai_relevance_score": 68,
+        "product_relevance_score": 28,
+        "technical_impact_score": 32,
+        "community_heat_score": 30
+      },
+      "final_score": 55,
+      "summary_zh": "MIT 伦理计算研究研讨会召开，汇聚技术伦理与社会影响领域专家，重点探讨 AI 与计算系统中人类因素的关键作用，推动学术界与产业界在 AI 伦理框架上达成共识。",
+      "why_zh": "MIT 学术讨论影响政策走向，AI 伦理治理日益成为行业核心议题。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 8
+    },
+    {
+      "tag": "AI Infra",
+      "count": 3
+    },
+    {
+      "tag": "Open Source",
+      "count": 3
+    },
+    {
+      "tag": "AI Coding",
+      "count": 3
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "Research",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 2
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    },
+    {
+      "tag": "AI Safety",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1225,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "AI自主编程重塑研发流程",
+      "detail": "AI已承担主流代码产出，产品团队需将质量门禁、代码审查和回归检测前置，重新设计人机协作的交付流程，而非仅把AI当提效工具。"
+    },
+    {
+      "point": "推理成本是产品竞争力指标",
+      "detail": "Token消耗和内存效率直接影响产品单位成本与用户体验，PM应将推理效率纳入产品KPI，在功能设计阶段就考虑上下文裁剪和缓存策略。"
+    },
+    {
+      "point": "合规能力需前置到架构设计",
+      "detail": "欧盟AI法案等监管要求已落地，面向企业或出海市场的AI产品应在早期架构阶段纳入审计日志、访问控制等合规模块，避免后期改造成本。"
+    },
+    {
+      "point": "端侧AI打开新产品场景",
+      "detail": "移动端模型压缩技术成熟，离线推理、隐私敏感和低延迟场景的产品机会窗口正在打开，PM可重新评估此前因算力门槛搁置的端侧产品方向。"
+    }
+  ]
+}
