@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喵仔仔 AI 周报 - 2026年06月01日 – 06月07日</title>
+<style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --ink:#1a2433; --sub:#5b6b82;
+    --line:#e3e9f2; --blue:#2563eb; --blue-deep:#1e40af; --cyan:#06b6d4;
+    --glow:rgba(6,182,212,.28); --chip:#eef3fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+
+  header{text-align:center;padding:28px 0 22px;
+    background:linear-gradient(135deg,#0b1f3a 0%,#13315c 60%,#0e2a4d 100%);
+    border-radius:18px;color:#fff;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 120px at 50% -20%,var(--glow),transparent 70%)}
+  header h1{font-size:30px;font-weight:800;letter-spacing:.5px;position:relative}
+  header .sub{margin-top:8px;color:#bcd2f0;font-size:15px;position:relative}
+  header .gen{margin-top:6px;color:#7fa8d6;font-size:13px;position:relative}
+
+  h2{font-size:19px;margin:34px 0 14px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:4px;height:18px;border-radius:3px;
+    background:linear-gradient(var(--blue),var(--cyan))}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 12px;text-align:center}
+  .stat .num{font-size:28px;font-weight:800;
+    background:linear-gradient(90deg,var(--blue),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .lbl{font-size:12px;color:var(--sub);margin-top:4px}
+
+  /* 本周总览 */
+  .overview{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px 20px;font-size:15px;color:#33415a;margin-top:18px}
+
+  /* 重点（与日报 PM 启发同款） */
+  .insight-list{list-style:none;counter-reset:ins;display:flex;flex-direction:column;gap:10px}
+  .insight-list li{counter-increment:ins;background:var(--card);border:1px solid var(--line);
+    border-left:4px solid var(--cyan);border-radius:12px;padding:13px 16px 13px 46px;position:relative}
+  .insight-list li::before{content:counter(ins);position:absolute;left:12px;top:13px;
+    width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));
+    color:#fff;font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 9px var(--glow)}
+  .insight-list .pt{display:block;font-weight:800;font-size:15.5px;margin-bottom:4px;
+    background:linear-gradient(90deg,var(--blue-deep),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .insight-list .dt{font-size:13.5px;color:#46546b;line-height:1.55}
+
+  /* 卡片 */
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px;margin-bottom:14px;transition:.2s ease;position:relative}
+  .card:hover{transform:translateY(-2px);border-color:var(--cyan);box-shadow:0 8px 28px var(--glow)}
+  .card .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .card h3{font-size:17px;font-weight:700;line-height:1.45}
+  .meta{font-size:12.5px;color:var(--sub);margin:7px 0 9px}
+  .meta .cat{display:inline-block;padding:1px 7px;border-radius:6px;
+    background:var(--chip);color:var(--blue-deep);font-weight:600;margin-right:6px}
+  .summary{font-size:14.5px;color:#33415a}
+  .score{flex-shrink:0;text-align:center;min-width:48px}
+  .score .v{font-size:20px;font-weight:800;color:var(--blue)}
+  .bar{height:4px;border-radius:3px;background:var(--line);margin-top:3px;overflow:hidden}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+
+  .kw{display:flex;flex-wrap:wrap;gap:9px}
+  .kw .k{padding:5px 13px;border-radius:22px;background:var(--card);
+    border:1px solid var(--line);font-size:13px;font-weight:600}
+  .kw .k b{color:var(--cyan);margin-left:5px}
+
+  .srclist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+  .srclist a{display:flex;justify-content:space-between;gap:10px;
+    padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .srclist a:last-child{border-bottom:none}
+  .srclist a:hover{color:var(--blue)}
+  .srclist .s{color:var(--sub);flex-shrink:0}
+
+  .home{display:inline-block;margin-top:8px;color:var(--blue);font-size:13.5px}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:36px}
+  @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🐱 喵仔仔 AI 周报</h1>
+    <div class="sub">本周 AI 重点回顾 · 2026年06月01日 – 06月07日</div>
+    <div class="gen">北京时间 2026-06-07 10:00（每周日北京时间自动生成）</div>
+  </header>
+
+  <!-- 数据概览 -->
+  <div class="stats">
+    <div class="stat"><div class="num">7</div><div class="lbl">覆盖天数</div></div>
+    <div class="stat"><div class="num"><built-in method items of dict object at 0x7ffa477c9f00></div><div class="lbl">本周入选</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周重点</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周关键词</div></div>
+  </div>
+
+  <!-- 本周总览 -->
+  
+  <h2>本周总览</h2>
+  <div class="overview">本周AI行业呈现多线并进态势：开源多模态模型向端侧压缩延伸、编程专用AI工具全面爆发、基础设施投入创历史量级，同时AI递归自我改进引发安全边界深度讨论，垂直行业落地（法律、生命科学）也迈入实质突破阶段，行业整体加速进入规模化应用期。</div>
+  
+
+  <!-- 本周重点 -->
+  
+  <h2>本周重点</h2>
+  <ol class="insight-list">
+    
+    <li><span class="pt">开源多模态模型加速向端侧下沉</span><span class="dt">无编码器统一多模态架构出现，配合量化感知训练技术，高性能多模态推理正从云端向移动和笔记本设备延伸，开源生态的能力天花板持续抬升。</span></li>
+    
+    <li><span class="pt">AI编程工具迎来集中爆发窗口</span><span class="dt">多家头部厂商在同一周内密集发布代码专用模型并接入主流云平台，AI辅助编程已从单点工具辅助升级为多厂商全栈竞争，开发者工作流将被深度重塑。</span></li>
+    
+    <li><span class="pt">AI递归自我改进引发安全边界广泛讨论</span><span class="dt">关于AI系统自主迭代提升自身能力的研究进展公开后，HN社区产生大量关于超级智能时间线与失控风险的深度讨论，AI安全议题重回行业核心视野。</span></li>
+    
+    <li><span class="pt">基础设施军备竞赛进入超量级阶段</span><span class="dt">顶级科技集团宣布数百亿美元规模的AI算力专项扩张，投入量级远超以往，算力基础设施正成为AI时代最关键的战略资产。</span></li>
+    
+    <li><span class="pt">垂直领域AI落地从辅助走向超越</span><span class="dt">AI在合同分析、案例推理、基因组分析等高专业门槛场景的表现已开始超越领域专家，行业替代讨论正从假设走向数据验证阶段。</span></li>
+    
+  </ol>
+  
+
+  <!-- 本周最值得关注 -->
+  <h2>本周最值得关注</h2>
+  
+  <a class="card" href="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Gemma 4 12B: A unified, encoder-free multimodal model</h3></div>
+      <div class="score"><div class="v">91</div>
+        <div class="bar"><i style="width:91%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-04 00:04</div>
+    <div class="summary">Google 发布 Gemma 4 12B，采用无编码器统一多模态架构，可直接处理多模态输入而无需独立视觉编码器，是 Gemma 系列重要升级。在 Hacker News 获 684 分、288 条评论，社区关注度极高，为开源多模态模型领域带来新参考。</div>
+  </a>
+  
+  <a class="card" href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>When AI Builds Itself: Our progress toward recursive self-improvement</h3></div>
+      <div class="score"><div class="v">91</div>
+        <div class="bar"><i style="width:91%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-05 00:20</div>
+    <div class="summary">Anthropic 发布「递归自我改进」进展报告，探讨 AI 系统自主迭代提升自身能力的路径与现状。文章在 HN 获 330 分、438 条评论，引发关于 AI 安全边界、超级智能时间线及失控风险的广泛深度讨论。</div>
+  </a>
+  
+  <a class="card" href="https://microsoft.ai/news/introducingmai-code-1-flash/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>MAI-Code-1-Flash</h3></div>
+      <div class="score"><div class="v">88</div>
+        <div class="bar"><i style="width:88%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-03 02:47</div>
+    <div class="summary">微软正式发布 MAI-Code-1-Flash 编程专用 AI 模型，并同步推出另外六款 MAI 系列新模型，全面布局代码生成赛道，在 HN 获 389 分，被视为微软在 AI 编程领域对 OpenAI Codex 及 GitHub Copilot 之外的独立发力。</div>
+  </a>
+  
+  <a class="card" href="https://www.anthropic.com/news/expanding-project-glasswing" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Expanding Project Glasswing</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-02 21:15</div>
+    <div class="summary">Anthropic宣布扩展Project Glasswing计划，将Claude AI推广至更广泛用户群体（尤其是教育场景），获TechCrunch报道，HN社区反响热烈（160分、209评论），显示行业对Anthropic扩张战略的高度关注。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/chatgpt-memory-dreaming" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Dreaming: Better memory for a more helpful ChatGPT</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-04 17:00</div>
+    <div class="summary">OpenAI 推出 ChatGPT 全新记忆机制「Dreaming」，系统能够跨会话智能保留用户偏好与上下文，让对话更具连贯性和个性化，大幅提升长期使用的助手体验，是 ChatGPT 记忆能力的重大升级。</div>
+  </a>
+  
+  <a class="card" href="https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency</h3></div>
+      <div class="score"><div class="v">86</div>
+        <div class="bar"><i style="width:86%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-06 00:18</div>
+    <div class="summary">Google 发布 Gemma 4 QAT（量化感知训练）模型，专为移动端和笔记本设备优化压缩效率，在保持模型性能的同时大幅降低推理所需内存与算力，HN 社区反响热烈（269 赞，86 条讨论）。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Introducing new capabilities to GPT-Rosalind</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-03 21:15</div>
+    <div class="summary">OpenAI 发布 GPT-Rosalind 新功能，专为生命科学研究增强生物推理、药物化学专业知识、基因组分析和实验工作流程能力，是 OpenAI 深入垂直行业专业化布局的重要产品更新。</div>
+  </a>
+  
+  <a class="card" href="https://github.com/anthropics/defending-code-reference-harness" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Anthropic's open-source framework for AI-powered vulnerability discovery</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-05 04:11</div>
+    <div class="summary">Anthropic 开源「defending-code-reference-harness」框架，利用 AI 智能体自动发现代码安全漏洞，在 Hacker News 获 264 分热议。该工具将 AI 能力用于主动防御，为安全工程师提供自动化漏洞挖掘的新范式。</div>
+  </a>
+  
+  <a class="card" href="https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>AI Agent Guidelines for CS336 at Stanford</h3></div>
+      <div class="score"><div class="v">84</div>
+        <div class="bar"><i style="width:84%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-02 00:41</div>
+    <div class="summary">斯坦福大学CS336课程（大型语言模型方向）在GitHub公开发布AI智能体使用规范文件CLAUDE.md，详细约束学生在作业中使用Claude等AI编程助手的边界与方式，获HN社区324分高热关注。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>OpenAI frontier models and Codex are now available on AWS</h3></div>
+      <div class="score"><div class="v">84</div>
+        <div class="bar"><i style="width:84%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-02 05:50</div>
+    <div class="summary">OpenAI宣布其前沿大模型及AI编程工具Codex正式上线AWS，开发者可通过AWS云服务直接调用，此次合作将OpenAI模型接入全球最大云平台生态，大幅降低企业级用户的接入门槛。</div>
+  </a>
+  
+  <a class="card" href="https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Alphabet announces $80B equity capital raise to expand AI infra and compute</h3></div>
+      <div class="score"><div class="v">83</div>
+        <div class="bar"><i style="width:83%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-02 04:55</div>
+    <div class="summary">谷歌母公司Alphabet宣布拟募集800亿美元股权资本，专项用于AI基础设施和算力扩张，规模远超行业常规融资，将对全球AI计算格局产生深远影响，HN社区热议达105条评论。</div>
+  </a>
+  
+  <a class="card" href="https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>AI outperforms law professors in Stanford Law study</h3></div>
+      <div class="score"><div class="v">83</div>
+        <div class="bar"><i style="width:83%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (AI 关键词) · 06-03 07:43</div>
+    <div class="summary">斯坦福法学院研究发现，AI 在合同分析、案例推理等多项法律任务上的表现超越法学教授，研究获 88 点赞和 81 条 HN 评论，引发法律职业界对 AI 替代潜力的广泛讨论。</div>
+  </a>
+  
+
+  <!-- 本周关键词 -->
+  <h2>本周关键词</h2>
+  <div class="kw">
+    <span class="k">AI Product<b>22</b></span><span class="k">LLM<b>20</b></span><span class="k">AI Coding<b>17</b></span><span class="k">AI Safety<b>15</b></span><span class="k">AI Business<b>15</b></span><span class="k">Research<b>11</b></span><span class="k">Open Source<b>11</b></span><span class="k">AI Infra<b>10</b></span><span class="k">AI Regulation<b>9</b></span><span class="k">Agent<b>9</b></span><span class="k">Benchmark<b>5</b></span><span class="k">Multimodal<b>3</b></span>
+  </div>
+
+  <!-- 每日回看 -->
+  <h2>本周每日日报</h2>
+  <div class="srclist">
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-07.html"><span>06-07（周日）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-06.html"><span>06-06（周六）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-05.html"><span>06-05（周五）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-04.html"><span>06-04（周四）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-03.html"><span>06-03（周三）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-02.html"><span>06-02（周二）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-01.html"><span>06-01（周一）</span><span class="s">查看 ↗</span></a>
+    
+  </div>
+  <a class="home" href="https://mengzheng001-prog.github.io/miao-ai-daily/">← 回到日报首页</a>
+
+  <footer>喵仔仔 AI 周报 · 一周一次，掌握 AI 行业主线</footer>
+</div>
+</body>
+</html>

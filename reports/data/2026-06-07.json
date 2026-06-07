@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-07",
+  "date_cn": "2026年06月07日（周日）",
+  "top3": [
+    {
+      "id": "6049500392c24aae",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "published_raw": "Sat, 06 Jun 2026 18:35:27 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        6,
+        18,
+        35,
+        27,
+        5,
+        157,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/\">https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48427643\">https://news.ycombinator.com/item?id=48427643</a></p>\n<p>Points: 430</p>\n<p># Comments: 151</p>",
+      "published_at": "2026-06-07T02:35:27+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 70,
+        "community_heat_score": 85
+      },
+      "final_score": 77,
+      "summary_zh": "Meta官方确认，黑客通过滥用其Instagram平台内置AI聊天机器人的漏洞，成功入侵数千个用户账号。攻击者诱导AI吐出账户重置相关信息或辅助社会工程攻击，绕过常规安全防护机制，是AI聊天机器人被大规模利用于账户盗取的首个公开确认案例。",
+      "why_zh": "大厂AI产品首现规模性安全漏洞，警示行业亟需加固AI交互边界。",
+      "tags": [
+        "AI Safety",
+        "AI Product"
+      ]
+    }
+  ],
+  "items": [],
+  "keywords": [
+    {
+      "tag": "AI Safety",
+      "count": 1
+    },
+    {
+      "tag": "AI Product",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1202,
+    "selected": 1,
+    "keywords": 2
+  },
+  "pm_insights": [
+    {
+      "point": "AI功能上线须同步完成安全审计",
+      "detail": "将威胁建模和红队测试纳入AI功能发布的标准卡点，安全评审不能滞后于功能上线。"
+    },
+    {
+      "point": "聊天机器人的信息权限边界要显式设计",
+      "detail": "明确定义AI可回答哪类敏感查询、可执行哪类操作，权限边界应在产品设计阶段而非安全事故后才界定。"
+    },
+    {
+      "point": "新AI入口即新攻击面，需前置风险建模",
+      "detail": "每引入一个用户可交互的AI节点，产品团队应主动枚举其滥用路径，而不是等到漏洞暴露再补救。"
+    },
+    {
+      "point": "AI滥用案例应成为测试矩阵的必选项",
+      "detail": "QA阶段加入「对抗性提示」和「社会工程诱导」测试用例，把安全鲁棒性与功能正确性同等对待。"
+    }
+  ]
+}
