@@ -1,0 +1,203 @@
+{
+  "date": "2026-06-08",
+  "date_cn": "2026年06月08日（周一）",
+  "top3": [
+    {
+      "id": "a7f99437fa6d778f",
+      "title": "I design with Claude more than Figma now",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/",
+      "published_raw": "Sun, 07 Jun 2026 05:04:24 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        7,
+        5,
+        4,
+        24,
+        6,
+        158,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/\">https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48431981\">https://news.ycombinator.com/item?id=48431981</a></p>\n<p>Points: 265</p>\n<p># Comments: 235</p>",
+      "published_at": "2026-06-07T13:04:24+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 88,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 85,
+        "technical_impact_score": 75,
+        "community_heat_score": 82
+      },
+      "final_score": 83,
+      "summary_zh": "Jane Street 工程师发文称现在用 Claude Code 做 UI 设计的时间已超过 Figma：Claude 可直接生成并迭代界面代码，比拖拽式设计工具更快从概念落地为可运行 UI。文章在 HN 获 265 赞、235 条评论，引发对 AI 能否取代传统设计工具的热烈讨论。",
+      "why_zh": "权威机构工程师实证 Claude 跨界替代 Figma，验证 AI Coding 工具渗透设计流程的真实路径。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "3d42f6c79df262c0",
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "published_raw": "Sun, 07 Jun 2026 12:49:29 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        7,
+        12,
+        49,
+        29,
+        6,
+        158,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/\">https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48434312\">https://news.ycombinator.com/item?id=48434312</a></p>\n<p>Points: 808</p>\n<p># Comments: 792</p>",
+      "published_at": "2026-06-07T20:49:29+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 90,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 72,
+        "technical_impact_score": 65,
+        "community_heat_score": 98
+      },
+      "final_score": 77,
+      "summary_zh": "一位软件工程师在博客中坦言 LLM 正侵蚀其职业：初级岗位几近消失、团队大幅缩编、自身价值感下降且不知如何应对。文章在 HN 引爆讨论（808 赞、792 评论），成为近期关于 AI 冲击软件工程职业最高热度的帖子之一，折射出行业性焦虑。",
+      "why_zh": "真实视角记录 AI 替代效应，808 赞/792 评是行业集体焦虑的风向标。",
+      "tags": [
+        "AI Coding",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "2b0d9d89718dfe2b",
+      "title": "Anthropic, please ship an official Claude Desktop for Linux",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/anthropics/claude-code/issues/65697",
+      "published_raw": "Sun, 07 Jun 2026 13:06:52 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        7,
+        13,
+        6,
+        52,
+        6,
+        158,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/anthropics/claude-code/issues/65697\">https://github.com/anthropics/claude-code/issues/65697</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48434436\">https://news.ycombinator.com/item?id=48434436</a></p>\n<p>Points: 456</p>\n<p># Comments: 266</p>",
+      "published_at": "2026-06-07T21:06:52+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 80,
+        "technical_impact_score": 55,
+        "community_heat_score": 85
+      },
+      "final_score": 76,
+      "summary_zh": "Anthropic 的 Claude Desktop 目前仅支持 Mac 和 Windows，HN 上一个 GitHub issue 呼吁推出官方 Linux 版，获 456 赞、266 条评论。大量 Linux 开发者（尤其是 Claude Code 重度用户）反映只能依赖网页版或非官方方案，体验受限，社区期望 Anthropic 纳入产品路线图。",
+      "why_zh": "高赞社区诉求，可能直接推动 Anthropic 加速 Linux 客户端的优先级。",
+      "tags": [
+        "AI Product",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "9692b90c54ab6b7c",
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/devenjarvis/lathe",
+      "published_raw": "Sun, 07 Jun 2026 11:16:46 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        7,
+        11,
+        16,
+        46,
+        6,
+        158,
+        0
+      ],
+      "raw_text": "<p>Hey HN!<p>Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand (<i>gasp</i>) in a local UI built for exactly that.<p>It's a Go CLI plus LLM agent skills (Claude Code / Cursor / Codex). You prompt something like \"/lathe build a 3D slicer in Erlang\", run `lathe serve` to spin up a local webapp, and read it in your browser. Every tutorial comes with the things that have made self-learning a pleasant experience for me in the past:<p>- table of contents that follows along as you scroll\n- side-notes that nudge you to think\n- exercises for the reader\n- sources backing up the content that you can use to take you deeper<p>To help make up for the lack of human brainpower behind the tutorial, you can also ask questions about the content, have another LLM verify the tutorial actually compiles and runs, or extend it with another part (no more \"Part 4 of 6\" that hasn't seen an update since 2021).<p>I didn't build lathe to replace human-written tutorials. I built lathe because I _love_ human-written tutorials, but wanted to learn technical domains where no good human-written tutorial exists yet (building a 3D slicer from scratch, making embedded Zig approachable, etc). There's a longer story in the README about how I got started with programming through PSP homebrew tutorials, and why losing that to LLMs bugged me enough to build this.<p>I'm not here to sell you anything (there's nothing close to a VC-backed startup here :D). It's an LLM, and its output is usually good but not perfect by any means. So far, my experience is that because you're the one typing and actually engaged, you catch the weird stuff (and I'm finding that pushing back on it is its own kind of learning). And yes, it's vibecoded, because it's low scope, low risk, and scratching a personal itch. I run it on Claude Code + macOS personally, other setups should work but I haven't been able to verify them yet.<p>If you can find resources to learn something that was written by a human, read that first. But Lathe is here to fill in the gaps when that isn't the case, and I hope it serves as an example where LLMs can help us think better, rather than less.<p>Repo: <a href=\"https://github.com/devenjarvis/lathe\" rel=\"nofollow\">https://github.com/devenjarvis/lathe</a><p>Would love your feedback if you decide to check it out!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48433756\">https://news.ycombinator.com/item?id=48433756</a></p>\n<p>Points: 246</p>\n<p># Comments: 47</p>",
+      "published_at": "2026-06-07T19:16:46+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 68,
+        "technical_impact_score": 58,
+        "community_heat_score": 65
+      },
+      "final_score": 70,
+      "summary_zh": "开发者发布开源工具 Lathe，让 LLM 生成有原始资料支撑的互动式编程教程，要求用户亲手输入代码完成练习，刻意避免 AI 越俎代庖。基于 Go CLI + LLM Agent（兼容 Claude Code/Cursor/Codex），支持类似「用 Erlang 写 3D 切片器」的跨领域学习任务。",
+      "why_zh": "提供「AI 辅助学习」而非「AI 替代学习」的新范式，对 AI 教育赛道有借鉴意义。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Product"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "AI Coding",
+      "count": 2
+    },
+    {
+      "tag": "LLM",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1202,
+    "selected": 4,
+    "keywords": 5
+  },
+  "pm_insights": [
+    {
+      "point": "AI 正压缩设计到交付的全链路",
+      "detail": "生成式 AI 已能直接输出可运行界面代码，传统「设计稿→还原」流程正被旁路；PM 需重新评估设计工具在产品工作流中的必要节点。"
+    },
+    {
+      "point": "初级岗消失倒逼团队能力模型重建",
+      "detail": "AI 承接大量初级任务后，团队规模收缩、人均复杂度上升；PM 在规划产研协作时需同步考虑成员的角色边界与成长路径重设计。"
+    },
+    {
+      "point": "平台覆盖盲区是开发者采纳的隐形门槛",
+      "detail": "开发者工具若缺失主流平台支持，重度用户会长期停留在降级体验或自行绕路，持续产生流失压力；产品路线图应将平台覆盖度纳入优先级框架。"
+    },
+    {
+      "point": "AI 辅助学习须防「理解被跳过」风险",
+      "detail": "当 AI 可一键生成答案，用户容易绕过深度理解；在教育/培训类产品中，刻意设置「必须亲手完成」的强制节点，是保障学习转化率的关键设计决策。"
+    }
+  ]
+}
