@@ -113,3 +113,9 @@ reports/weekly-*.html    每周总结归档
 ## 验收清单
 
 见技能 `miao-ai-daily-builder/references/architecture.md` 末尾的完整验收清单。
+
+## 最终效果
+
+<img width="1220" height="4540" alt="image" src="https://github.com/user-attachments/assets/04d5a1ae-f698-4b7d-9a33-171c2523b5dd" />
+<img width="1175" height="2290" alt="image" src="https://github.com/user-attachments/assets/7f142283-da9c-48a6-8849-a89ad288327f" />
+
