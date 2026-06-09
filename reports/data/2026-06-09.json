@@ -1,0 +1,441 @@
+{
+  "date": "2026-06-09",
+  "date_cn": "2026年06月09日（周二）",
+  "top3": [
+    {
+      "id": "baa2f2c73bfd725e",
+      "title": "Siri AI",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "published_raw": "Mon, 08 Jun 2026 18:17:53 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        18,
+        17,
+        53,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.apple.com/apple-intelligence/\">https://www.apple.com/apple-intelligence/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48449084\">https://news.ycombinator.com/item?id=48449084</a></p>\n<p>Points: 412</p>\n<p># Comments: 360</p>",
+      "published_at": "2026-06-09T02:17:53+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 95,
+        "technical_impact_score": 80,
+        "community_heat_score": 90
+      },
+      "final_score": 91,
+      "summary_zh": "苹果 WWDC 2026 正式发布全新 Siri AI（Apple Intelligence），包括更强的自然语言理解、跨应用任务处理、与 ChatGPT 和 Gemini 的深度集成，以及端侧推理能力。此次更新是苹果史上最大规模 Siri 重构，将 AI 助手能力推送至十亿级用户群体。",
+      "why_zh": "苹果重塑 Siri 是 AI 助手走向大众普及的行业里程碑。",
+      "tags": [
+        "AI Product",
+        "LLM",
+        "Agent"
+      ]
+    },
+    {
+      "id": "fec14e452e9395e4",
+      "title": "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+      "published_raw": "Mon, 08 Jun 2026 15:27:33 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        15,
+        27,
+        33,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://mimo.xiaomi.com/blog/mimo-tilert-1000tps\">https://mimo.xiaomi.com/blog/mimo-tilert-1000tps</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48446639\">https://news.ycombinator.com/item?id=48446639</a></p>\n<p>Points: 498</p>\n<p># Comments: 345</p>",
+      "published_at": "2026-06-08T23:27:33+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 85,
+        "ai_relevance_score": 98,
+        "product_relevance_score": 90,
+        "technical_impact_score": 95,
+        "community_heat_score": 98
+      },
+      "final_score": 90,
+      "summary_zh": "小米发布MiMo-v2.5-Pro-UltraSpeed，拥有1万亿参数，推理速度达每秒1000个token，在HN获498点、345条评论，创近期热度之冠。该成果标志着超大参数模型推理效率的重大突破，有望大幅降低万亿级模型的实际部署门槛。",
+      "why_zh": "万亿参数模型实现千token/秒，推理效率跨越式提升，产业影响深远。",
+      "tags": [
+        "LLM",
+        "AI Infra",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "54e485b4a6190e0b",
+      "title": "Apple Core AI Framework",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://developer.apple.com/documentation/coreai/",
+      "published_raw": "Mon, 08 Jun 2026 18:47:38 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        18,
+        47,
+        38,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://developer.apple.com/documentation/coreai/\">https://developer.apple.com/documentation/coreai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48449665\">https://news.ycombinator.com/item?id=48449665</a></p>\n<p>Points: 196</p>\n<p># Comments: 39</p>",
+      "published_at": "2026-06-09T02:47:38+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 85,
+        "community_heat_score": 70
+      },
+      "final_score": 87,
+      "summary_zh": "苹果在 WWDC 2026 发布官方 Core AI 开发者框架，提供在 Apple 设备上集成 AI 能力的标准接口，涵盖本地推理、自然语言处理与多模态能力。这是苹果首次将 AI 能力正式纳入底层开发框架，与 Gemini/ChatGPT 集成协同构成完整 AI 生态。",
+      "why_zh": "Apple 官方 AI 框架将加速第三方应用在 iOS 生态的 AI 爆发。",
+      "tags": [
+        "AI Infra",
+        "AI Product",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "074bb7736622a860",
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "published_raw": "Mon, 08 Jun 2026 19:14:47 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        19,
+        14,
+        47,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/\">https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48450142\">https://news.ycombinator.com/item?id=48450142</a></p>\n<p>Points: 332</p>\n<p># Comments: 315</p>",
+      "published_at": "2026-06-09T03:14:47+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 95,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 92,
+        "technical_impact_score": 75,
+        "community_heat_score": 85
+      },
+      "final_score": 86,
+      "summary_zh": "苹果在 WWDC 2026 披露全新 AI 架构，底层由 Google Gemini 模型驱动，打破苹果历来自研惯例。Gemini 将深度集成进 iOS/macOS 系统功能，与此前 OpenAI/ChatGPT 合作并行，形成多模型开放策略，是苹果 AI 战略的重大转变。",
+      "why_zh": "苹果接入 Gemini 标志科技巨头全面拥抱外部 LLM，行业格局大变。",
+      "tags": [
+        "AI Product",
+        "LLM",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "f86dded647079fa8",
+      "title": "OpenAI Preps Overhaul of ChatGPT",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://arstechnica.com/ai/2026/06/chat-is-dead-openai-preps-overhaul-of-chatgpt/",
+      "published_raw": "Tue, 09 Jun 2026 01:36:16 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        1,
+        36,
+        16,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://arstechnica.com/ai/2026/06/chat-is-dead-openai-preps-overhaul-of-chatgpt/\">https://arstechnica.com/ai/2026/06/chat-is-dead-openai-preps-overhaul-of-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48455055\">https://news.ycombinator.com/item?id=48455055</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-09T09:36:16+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 95,
+        "technical_impact_score": 80,
+        "community_heat_score": 25
+      },
+      "final_score": 82,
+      "summary_zh": "Ars Technica 报道 OpenAI 正筹备对 ChatGPT 进行重大改版，标题「Chat is dead」暗示产品将从传统对话框模式转向全新交互范式，可能涵盖 Agent 化、主动式任务执行或深度多模态整合等方向。",
+      "why_zh": "ChatGPT 是全球最大 AI 入口，改版方向将重塑行业交互标准。",
+      "tags": [
+        "AI Product",
+        "LLM",
+        "Agent"
+      ]
+    },
+    {
+      "id": "bcf071fdcc6a22b9",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "published_raw": "Mon, 08 Jun 2026 21:22:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        21,
+        22,
+        43,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://openai.com/index/openai-submits-confidential-s-1/\">https://openai.com/index/openai-submits-confidential-s-1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48452317\">https://news.ycombinator.com/item?id=48452317</a></p>\n<p>Points: 297</p>\n<p># Comments: 206</p>",
+      "published_at": "2026-06-09T05:22:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 50,
+        "community_heat_score": 80
+      },
+      "final_score": 81,
+      "summary_zh": "OpenAI 正式向美国证券交易委员会（SEC）提交保密版 S-1 上市申请文件，正式启动 IPO 流程。此举标志着这家全球最具影响力的 AI 公司将从封闭研究机构转型为公众持股公司，预计引发市场对其商业化路径、估值与治理结构的广泛关注。",
+      "why_zh": "OpenAI IPO 将重塑 AI 行业投资格局，影响竞争态势与监管走向。",
+      "tags": [
+        "AI Business"
+      ]
+    },
+    {
+      "id": "5a02f9e7df6fef6f",
+      "title": "AI is slowing down",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "published_raw": "Mon, 08 Jun 2026 15:46:37 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        15,
+        46,
+        37,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wheresyoured.at/ai-is-slowing-down/\">https://www.wheresyoured.at/ai-is-slowing-down/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48446893\">https://news.ycombinator.com/item?id=48446893</a></p>\n<p>Points: 397</p>\n<p># Comments: 415</p>",
+      "published_at": "2026-06-08T23:46:37+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 60,
+        "technical_impact_score": 65,
+        "community_heat_score": 95
+      },
+      "final_score": 76,
+      "summary_zh": "科技博主Ed Zitron在wheresyoured.at发文称AI发展正在放缓，文章在HN获397点、415条评论，从模型能力瓶颈、商业化压力与实际技术进展的矛盾等多维度，质疑AI持续高速进步的主流叙事，引发社区激烈讨论。",
+      "why_zh": "行业重要辩题，直接影响资本配置与研发方向判断。",
+      "tags": [
+        "LLM",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "be27f71bbb658a3e",
+      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48449187",
+      "published_raw": "Mon, 08 Jun 2026 18:22:39 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        18,
+        22,
+        39,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48449187\">https://news.ycombinator.com/item?id=48449187</a></p>\n<p>Points: 148</p>\n<p># Comments: 274</p>",
+      "published_at": "2026-06-09T02:22:39+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 95,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 60,
+        "community_heat_score": 85
+      },
+      "final_score": 75,
+      "summary_zh": "HN 热门讨论：开发者分享自 AI 兴起以来为自己打造的各类工具，涵盖自动化脚本、本地 LLM 辅助工具、个人知识库、代码生成助手等多种场景。帖子获 148 赞与 274 条评论，展现了普通开发者对 AI 工具化的真实创意探索与应用深度。",
+      "why_zh": "真实开发者视角，反映 AI 工具普及深度与创意应用趋势。",
+      "tags": [
+        "AI Product",
+        "AI Coding",
+        "Agent"
+      ]
+    },
+    {
+      "id": "9396d75a04ac17d6",
+      "title": "xAI is looking more like a datacentre REIT than a frontier lab",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+      "published_raw": "Mon, 08 Jun 2026 15:13:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        15,
+        13,
+        43,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://martinalderson.com/posts/xais-new-rental-business/\">https://martinalderson.com/posts/xais-new-rental-business/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48446428\">https://news.ycombinator.com/item?id=48446428</a></p>\n<p>Points: 400</p>\n<p># Comments: 314</p>",
+      "published_at": "2026-06-08T23:13:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 85,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 72,
+        "technical_impact_score": 58,
+        "community_heat_score": 90
+      },
+      "final_score": 74,
+      "summary_zh": "分析文章指出xAI商业模式正从前沿AI研究向数据中心基础设施租赁转型，越来越像不动产投资信托（REIT），暗示马斯克的AI战略重心可能从模型研发转向算力变现，HN获400点、314条评论，引发行业广泛关注。",
+      "why_zh": "揭示顶级AI实验室商业模式转变信号，对行业竞争格局判断有参考价值。",
+      "tags": [
+        "AI Business",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "ce4765c551a0fad5",
+      "title": "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://intunedhq.com",
+      "published_raw": "Mon, 08 Jun 2026 13:35:27 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        8,
+        13,
+        35,
+        27,
+        0,
+        159,
+        0
+      ],
+      "raw_text": "<p>Hey HN, we're Faisal and Ahmad from Intuned (<a href=\"https://intunedhq.com\">https://intunedhq.com</a>). We’re building a platform for building, deploying, and maintaining browser automations.<p>Customers primarily use the Intuned AI agent to automate websites that don't expose APIs. Common use-cases include scraping data, pulling reports, and submitting forms. As the website changes, our agent also helps automatically heal the automation.<p>On Intuned, browser automations are created by an AI agent and run as <i>code</i>. Our infra captures the context of every run, allowing our agent to debug and maintain the underlying code - to keep the automations working over time. This way, we’re able to offer the predictability, speed, and cost of code, without the painful parts of writing and maintaining it.<p>Here’s a demo of building a scraper on Intuned: <a href=\"https://youtu.be/ruZP73bK4FU\" rel=\"nofollow\">https://youtu.be/ruZP73bK4FU</a><p>Here’s a demo of using AI to maintain a project: <a href=\"https://youtu.be/e4R4hLdHBro\" rel=\"nofollow\">https://youtu.be/e4R4hLdHBro</a><p>Backstory: we were accepted into YC for a completely different idea. During the batch, because of Faisal's background at UiPath, several batchmates asked us whether RPA tools could fill API gaps in their products by automating websites without APIs. When it was time to pivot, we went back to those founders to dig deeper. (RPA in this context is referring to using UI automation to do complete non-testing tasks)<p>We discovered that the actual hard problem in browser automation is maintenance. Websites change, selectors break, and failures can be painful to reproduce and fix. So in early 2024, we decided to take a crack at this problem with a handful of customers. It needed a fair number of iterations before we landed on our current code-first approach.<p>How it works: Intuned is infra + agent, deeply integrated.<p>On the infrastructure side, Intuned is a managed runtime for browser automation code. Projects are usually Playwright-based TypeScript or Python. Users can write them directly in our online IDE, or hand the work off to the agent. Either way, once deployed, the platform runs each project in its own isolated machine and handles auth/session reuse, scheduling, batch execution, concurrency, observability, and the other plumbing around running browser code.<p>On the agent side, it took us a few iterations to get to the current approach. Our initial attempts were rigid pipelines: collect requirements, inspect the site, generate code, then try to patch whatever broke. It looked reasonable on paper, but real websites are too messy for fixed paths. Late last year, we were planning to ship that version when stronger models landed and harnesses like Claude Code and Codex showed what a more open-ended coding agent could do. We built a prototype on the Claude Agent SDK, it felt much better than what we had, and we scrapped the release and decided to rebuild the agent.<p>The rebuild came down to three pieces around the SDK: an execution environment for running long agent sessions reliably, a CLI that exposes the platform to the agent so it operates Intuned the way engineers do, and a custom plugin (skills + MCP) built around what we've learned building browser automations.<p>The infra-agent integration is where the product gets more interesting. The runtime doesn't just run the automation; it captures the context needed to debug it when it fails: params, results, traces, logs. That enables features like Fix with AI, where you can open a failed run and have the agent investigate and prepare a fix.<p>The same integration powers a feature called self-healing. For configured projects, the platform detects failures, starts an agent session with the relevant context, and either proposes a fix for review or deploys it automatically. Demo: <a href=\"https://youtu.be/IVHIXw0lYMs\" rel=\"nofollow\">https://youtu.be/IVHIXw0lYMs</a><p>We recently also packaged the infra and agent as an API called Web Task API, here is a demo: <a href=\"https://youtu.be/1olRn3l95vw\" rel=\"nofollow\">https://youtu.be/1olRn3l95vw</a><p>We strongly believe that browser automations can and should be faster, cheaper and more predictable. Check us out at <a href=\"https://app.intuned.io/\" rel=\"nofollow\">https://app.intuned.io/</a>, we have a free tier with trial credits for your first few automations. Excited to hear your thoughts, questions, and feedback!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48445171\">https://news.ycombinator.com/item?id=48445171</a></p>\n<p>Points: 102</p>\n<p># Comments: 44</p>",
+      "published_at": "2026-06-08T21:35:27+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 82,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 72,
+        "technical_impact_score": 58,
+        "community_heat_score": 50
+      },
+      "final_score": 67,
+      "summary_zh": "YC S22孵化的Intuned推出浏览器自动化平台，由AI agent构建自动化任务并以代码形式运行，主攻无API网站场景（数据抓取、报告拉取、表单提交），并支持网站结构变更后的自动修复，核心卖点是稳定性与可维护性。",
+      "why_zh": "AI agent驱动浏览器自动化新范式，有YC背书，实用场景清晰。",
+      "tags": [
+        "Agent",
+        "AI Product"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 6
+    },
+    {
+      "tag": "LLM",
+      "count": 6
+    },
+    {
+      "tag": "Agent",
+      "count": 4
+    },
+    {
+      "tag": "AI Infra",
+      "count": 3
+    },
+    {
+      "tag": "AI Business",
+      "count": 3
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    },
+    {
+      "tag": "Multimodal",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1229,
+    "selected": 10,
+    "keywords": 8
+  },
+  "pm_insights": [
+    {
+      "point": "对话框范式正加速被 Agent 化取代",
+      "detail": "行业领头产品正从被动问答转向主动任务执行，产品经理需重新设计交互流程、权限边界与用户信任建立机制，而非仅优化传统对话 UX。"
+    },
+    {
+      "point": "头部平台转向多模型开放策略",
+      "detail": "单一自研模型路线正让位于多模型并行集成，产品侧应提前设计模型路由与切换能力，避免深度绑定单一供应商带来的迁移风险。"
+    },
+    {
+      "point": "推理提速将重塑大模型产品经济学",
+      "detail": "万亿级参数模型推理成本持续下降，意味着此前因延迟或费用受限的实时场景（如流式分析、高频调用）将陆续变得可行，值得重新评估路线图。"
+    },
+    {
+      "point": "官方 AI 标准框架正成为新的竞争入口",
+      "detail": "操作系统级 AI 框架一旦确立，将深刻影响第三方应用的能力上限与分发逻辑；产品团队应密切跟踪平台规范，尽早在官方生态内找准卡位。"
+    }
+  ]
+}
