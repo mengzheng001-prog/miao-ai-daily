@@ -1,0 +1,448 @@
+{
+  "date": "2026-06-10",
+  "date_cn": "2026年06月10日（周三）",
+  "top3": [
+    {
+      "id": "147a989f3e59cd8d",
+      "title": "Claude Fable 5",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "published_raw": "Tue, 09 Jun 2026 16:58:01 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        16,
+        58,
+        1,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "<p>System Card [pdf]: <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\" rel=\"nofollow\">https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c3...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48463808\">https://news.ycombinator.com/item?id=48463808</a></p>\n<p>Points: 1787</p>\n<p># Comments: 1402</p>",
+      "published_at": "2026-06-10T00:58:01+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 100,
+        "freshness_score": 95,
+        "ai_relevance_score": 100,
+        "product_relevance_score": 100,
+        "technical_impact_score": 95,
+        "community_heat_score": 100
+      },
+      "final_score": 99,
+      "summary_zh": "Anthropic 正式发布旗舰模型 Claude Fable 5（含 Mythos 5 变体），HN 单帖 1787 赞 1402 评论，创近期 AI 话题最高社区热度，同步发布系统卡详述安全评估与能力边界。",
+      "why_zh": "年度旗舰大模型发布，对整个 AI 生态及竞争格局影响深远。",
+      "tags": [
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "9be096effcbb1e03",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "source": "Google DeepMind",
+      "category": "C",
+      "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/",
+      "published_raw": "Tue, 09 Jun 2026 14:10:19 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        14,
+        10,
+        19,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "",
+      "published_at": "2026-06-09T22:10:19+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 92,
+        "product_relevance_score": 85,
+        "technical_impact_score": 88,
+        "community_heat_score": 82
+      },
+      "final_score": 88,
+      "summary_zh": "Google DeepMind 发布 Gemma 4 12B，采用统一无编码器架构的多模态开源模型，在轻量级多模态能力上实现新突破，延续 Gemma 系列开源策略，面向本地部署和研究社区。",
+      "why_zh": "轻量开源多模态新基准，对本地部署与研究社区影响深远。",
+      "tags": [
+        "Open Source",
+        "Multimodal",
+        "LLM"
+      ]
+    },
+    {
+      "id": "8065dada88d89276",
+      "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+      "source": "Google DeepMind",
+      "category": "C",
+      "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/",
+      "published_raw": "Tue, 09 Jun 2026 15:16:25 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        15,
+        16,
+        25,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+      "published_at": "2026-06-09T23:16:25+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 88,
+        "technical_impact_score": 85,
+        "community_heat_score": 80
+      },
+      "final_score": 87,
+      "summary_zh": "Google 推出 Gemini 3.5 Live Translate，实现近实时、自然流畅的多语言语音翻译，已集成至 Google AI Studio、Google Translate 和 Google Meet，支持跨语言实时对话场景。",
+      "why_zh": "实时语音翻译首次达到自然流畅水准，语言沟通壁垒将大幅降低。",
+      "tags": [
+        "Multimodal",
+        "AI Product",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "58c884fd3b7a6189",
+      "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+      "published_raw": "Tue, 09 Jun 2026 16:13:10 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        16,
+        13,
+        10,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/\">https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48463024\">https://news.ycombinator.com/item?id=48463024</a></p>\n<p>Points: 357</p>\n<p># Comments: 586</p>",
+      "published_at": "2026-06-10T00:13:10+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 92,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 82,
+        "technical_impact_score": 68,
+        "community_heat_score": 88
+      },
+      "final_score": 84,
+      "summary_zh": "欧盟委员会指苹果未能使其 AI 功能符合监管要求，苹果申请豁免被拒后决定不在欧盟推出最新 Siri AI 功能，影响数亿欧洲用户，标志欧盟 AI 法规首次实质性阻止大厂旗舰 AI 产品上线。",
+      "why_zh": "欧盟 AI 法规首次阻止苹果旗舰 AI 落地，监管落地信号重大。",
+      "tags": [
+        "AI Regulation",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "8f57386a7cf7a39a",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "published_raw": "Tue, 09 Jun 2026 21:19:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        21,
+        19,
+        11,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html\">https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48467896\">https://news.ycombinator.com/item?id=48467896</a></p>\n<p>Points: 482</p>\n<p># Comments: 228</p>",
+      "published_at": "2026-06-10T05:19:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 88,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 88,
+        "technical_impact_score": 75,
+        "community_heat_score": 85
+      },
+      "final_score": 83,
+      "summary_zh": "一篇博文指出 Claude Fable 5 的使用条款允许模型在判断用户为竞争对手时静默降低服务质量甚至拒绝帮助，而用户无从察觉，HN 获 482 赞 228 评，引发开发者对大模型商业政策透明度的广泛质疑。",
+      "why_zh": "揭示大模型「静默降级」风险，直接影响开发者对 Claude 的信任与使用决策。",
+      "tags": [
+        "AI Safety",
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "a1b66dff9723c2cc",
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://arxiv.org/abs/2605.15184",
+      "published_raw": "Tue, 09 Jun 2026 13:27:03 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        13,
+        27,
+        3,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://arxiv.org/abs/2605.15184\">https://arxiv.org/abs/2605.15184</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48460863\">https://news.ycombinator.com/item?id=48460863</a></p>\n<p>Points: 124</p>\n<p># Comments: 53</p>",
+      "published_at": "2026-06-09T21:27:03+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 75,
+        "technical_impact_score": 85,
+        "community_heat_score": 75
+      },
+      "final_score": 82,
+      "summary_zh": "arXiv 论文探讨 Agent Harnesses（智能体工具链）如何重塑 Agentic Search，质疑传统 grep 式简单检索是否已足够满足智能体任务需求，对比分析不同检索策略在代理场景下的实际效果与适用边界，获 HN 首页 124 赞、53 条评论热议。",
+      "why_zh": "直接影响 Agent 系统检索模块架构设计，为 AI 工程师提供实验依据。",
+      "tags": [
+        "Agent",
+        "Research",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "e8e11bcb3ae64036",
+      "title": "What Codex unlocks for Notion",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/notion",
+      "published_raw": "Tue, 09 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        10,
+        0,
+        0,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "published_at": "2026-06-09T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 85,
+        "technical_impact_score": 70,
+        "community_heat_score": 70
+      },
+      "final_score": 81,
+      "summary_zh": "Notion 借助 Codex 实现一次性生成完整功能规格，并为 Web 端开发 AI 语音输入功能，小团队工程能力得到倍增，探索了 AI 辅助工程在实际产品中的边界与潜力。",
+      "why_zh": "知名 SaaS 工具深度整合 AI 编程，小团队乘数效应显著，具参考意义。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "d484de5576e8df56",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/nextdoor",
+      "published_raw": "Tue, 09 Jun 2026 12:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        12,
+        0,
+        0,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "published_at": "2026-06-09T20:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 70,
+        "community_heat_score": 65
+      },
+      "final_score": 79,
+      "summary_zh": "Nextdoor 工程师分享如何将 OpenAI Codex 与 GPT-5.5 结合，用于排查难以复现的 Bug、实现跨平台开发，并将工程重心聚焦产品成果，整体开发效率显著提升。",
+      "why_zh": "头部社区产品真实落地案例，体现 Codex 在工程团队的生产价值。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "98d9b5dc2ac026e8",
+      "title": "The consequences of relying on AI for accurate news",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609",
+      "published_raw": "Tue, 09 Jun 2026 16:30:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        9,
+        20,
+        30,
+        0,
+        1,
+        160,
+        0
+      ],
+      "raw_text": "Media Lab study shows that, much like how GPS has weakened our navigation skills, AI can make us worse at detecting fake news.",
+      "published_at": "2026-06-10T04:30:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 75
+      },
+      "final_score": 77,
+      "summary_zh": "MIT Media Lab 研究发现，依赖 AI 获取新闻信息会削弱人们识别虚假新闻的能力，类似 GPS 导致空间导航退化，长期依赖 AI 信息摄取存在显著认知风险，引发对 AI 素养的关注。",
+      "why_zh": "揭示 AI 信息依赖的认知代价，对产品设计与用户教育有警示价值。",
+      "tags": [
+        "AI Safety",
+        "Research"
+      ]
+    },
+    {
+      "id": "8879fbae534dd38c",
+      "title": "Agentic Engineering Handbook – 115 official OpenAI/Anthropic articles",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/keyuchen21/agentic-engineering-handbook",
+      "published_raw": "Wed, 10 Jun 2026 01:57:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        1,
+        57,
+        43,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/keyuchen21/agentic-engineering-handbook\">https://github.com/keyuchen21/agentic-engineering-handbook</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48470361\">https://news.ycombinator.com/item?id=48470361</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-10T09:57:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 80,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 73,
+      "summary_zh": "GitHub 仓库整合 115 篇 OpenAI 与 Anthropic 官方文章，专注 Agentic Engineering（智能体工程），涵盖代理架构、工具调用、多智能体系统等核心主题，是从业者系统掌握 Agent 开发规范的一站式学习资源。",
+      "why_zh": "汇聚两大顶尖厂商官方指导，大幅降低 Agent 开发学习门槛。",
+      "tags": [
+        "Agent",
+        "LLM"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 6
+    },
+    {
+      "tag": "LLM",
+      "count": 5
+    },
+    {
+      "tag": "Multimodal",
+      "count": 2
+    },
+    {
+      "tag": "AI Safety",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "Research",
+      "count": 2
+    },
+    {
+      "tag": "AI Coding",
+      "count": 2
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    },
+    {
+      "tag": "AI Infra",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 9,
+    "raw": 1228,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "AI编程工具放大小团队工程产能",
+      "detail": "AI代码辅助工具让小规模团队得以完成原本需要更多人力的功能开发，工程师重心从「写代码」转向「定义产品目标」，是小团队快速迭代的新杠杆。"
+    },
+    {
+      "point": "合规约束已成AI产品上线硬门槛",
+      "detail": "主要市场的监管要求可直接阻止旗舰AI功能落地，产品规划阶段须将法规合规纳入发布路径，而非仅作为上线后的补丁。"
+    },
+    {
+      "point": "服务透明度是开发者信任的核心变量",
+      "detail": "若AI平台的服务降级或限制行为对用户不可见，开发者会对依赖该平台产生顾虑；透明的能力边界说明比宣传亮点更能建立长期信任。"
+    },
+    {
+      "point": "智能体检索策略选择影响产品实际效果",
+      "detail": "构建Agent类产品时，检索与工具链设计并非细节问题，不同策略在准确率和成本上差异显著，应尽早纳入产品架构决策而非开发后期调优。"
+    }
+  ]
+}
