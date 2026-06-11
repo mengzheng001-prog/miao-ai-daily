@@ -1,0 +1,444 @@
+{
+  "date": "2026-06-11",
+  "date_cn": "2026年06月11日（周四）",
+  "top3": [
+    {
+      "id": "d9665153cdf2820d",
+      "title": "DiffusionGemma: 4x faster text generation",
+      "source": "Google DeepMind",
+      "category": "C",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published_raw": "Wed, 10 Jun 2026 16:24:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        16,
+        24,
+        11,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "",
+      "published_at": "2026-06-11T00:24:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 92,
+        "ai_relevance_score": 96,
+        "product_relevance_score": 85,
+        "technical_impact_score": 92,
+        "community_heat_score": 80
+      },
+      "final_score": 90,
+      "summary_zh": "Google DeepMind发布DiffusionGemma，将图像生成领域的扩散模型架构引入文本生成，速度比传统自回归LLM快4倍。这是扩散技术在文本生成领域的重大突破，有望改变LLM推理范式与部署成本结构。",
+      "why_zh": "文本扩散模型速度提升4倍，若规模化落地将颠覆现有LLM推理架构。",
+      "tags": [
+        "LLM",
+        "Research"
+      ]
+    },
+    {
+      "id": "cb3bf04d8c79534b",
+      "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/anthropics/claude-code/issues/29045",
+      "published_raw": "Wed, 10 Jun 2026 17:11:56 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        17,
+        11,
+        56,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/anthropics/claude-code/issues/29045\">https://github.com/anthropics/claude-code/issues/29045</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48479452\">https://news.ycombinator.com/item?id=48479452</a></p>\n<p>Points: 344</p>\n<p># Comments: 241</p>",
+      "published_at": "2026-06-11T01:11:56+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 90,
+        "technical_impact_score": 80,
+        "community_heat_score": 90
+      },
+      "final_score": 87,
+      "summary_zh": "Claude Desktop 在 Windows 上每次启动均自动创建 1.8 GB Hyper-V 虚拟机，即使仅用于普通聊天。该 GitHub issue 获 344 赞、241 评论，用户强烈反映此行为浪费系统资源且未经明确告知，引发对 Anthropic 产品透明度的广泛质疑。",
+      "why_zh": "暴露旗舰 AI 产品在资源消耗与透明度上的重大缺陷，直接影响用户信任。",
+      "tags": [
+        "AI Product"
+      ]
+    },
+    {
+      "id": "c49d3b606968ddab",
+      "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/",
+      "published_raw": "Wed, 10 Jun 2026 16:42:00 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        16,
+        42,
+        0,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/\">https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48478969\">https://news.ycombinator.com/item?id=48478969</a></p>\n<p>Points: 208</p>\n<p># Comments: 198</p>",
+      "published_at": "2026-06-11T00:42:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 88,
+        "product_relevance_score": 75,
+        "technical_impact_score": 70,
+        "community_heat_score": 85
+      },
+      "final_score": 82,
+      "summary_zh": "TechCrunch 报道网络安全研究人员对 Anthropic 最新模型 Fable 的内容护栏强烈不满，认为过度限制阻碍了渗透测试、漏洞分析等合法安全研究场景，HN 获 208 赞、198 评论，讨论激烈。",
+      "why_zh": "顶尖 AI 模型安全护栏与专业安全研究需求的矛盾，折射行业普遍张力。",
+      "tags": [
+        "AI Safety",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c5a0df26b1892c21",
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://burr.apache.org/",
+      "published_raw": "Wed, 10 Jun 2026 15:01:06 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        15,
+        1,
+        6,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://burr.apache.org/\">https://burr.apache.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48477400\">https://news.ycombinator.com/item?id=48477400</a></p>\n<p>Points: 174</p>\n<p># Comments: 91</p>",
+      "published_at": "2026-06-10T23:01:06+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 80,
+        "technical_impact_score": 80,
+        "community_heat_score": 75
+      },
+      "final_score": 81,
+      "summary_zh": "Apache Burr 是已进入 Apache 软件基金会孵化器的 AI Agent 开发框架，提供状态机管理、可观测性与调试工具，帮助开发者构建可靠的 AI 应用与 Agent 系统。HN 获 174 赞、91 评论，社区反馈正面。",
+      "why_zh": "Apache 背书赋予企业级可信度，是 AI Agent 开发的高质量开源选择。",
+      "tags": [
+        "Agent",
+        "Open Source",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "a2c7ec4abbdbc936",
+      "title": "OpenAI Considers Drastic Price Cuts, Anticipating War for Users with Anthropic",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e",
+      "published_raw": "Thu, 11 Jun 2026 01:50:08 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        1,
+        50,
+        8,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e\">https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48485318\">https://news.ycombinator.com/item?id=48485318</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-11T09:50:08+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 60,
+        "community_heat_score": 50
+      },
+      "final_score": 80,
+      "summary_zh": "OpenAI 正考虑大幅降价，以应对与 Anthropic 日益激烈的用户争夺战。据《华尔街日报》报道，随着两家顶级 AI 公司竞争白热化，OpenAI 拟通过价格策略吸引更多个人与企业用户，价格战或已进入倒计时。",
+      "why_zh": "巨头价格战将加速 AI 普及，压低全行业定价预期，影响整个生态格局。",
+      "tags": [
+        "AI Business",
+        "AI Product",
+        "LLM"
+      ]
+    },
+    {
+      "id": "c71f854be1a8bcbe",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "published_raw": "Wed, 10 Jun 2026 12:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        12,
+        0,
+        0,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
+      "published_at": "2026-06-10T20:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 78,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 50,
+        "technical_impact_score": 68,
+        "community_heat_score": 75
+      },
+      "final_score": 73,
+      "summary_zh": "OpenAI发布报告揭示与中国政府相关的影响力行动正利用AI工具干预美国科技政策讨论，涉及数据中心叙事、关税议题及针对ChatGPT的虚假信息传播，是AI被用于地缘政治博弈的有据可查案例。",
+      "why_zh": "国家级AI滥用与信息战案例，对全球AI监管政策走向有直接影响。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "436a674e3bf2eef7",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "published_raw": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        0,
+        0,
+        0,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "published_at": "2026-06-11T08:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 68,
+        "technical_impact_score": 62,
+        "community_heat_score": 50
+      },
+      "final_score": 73,
+      "summary_zh": "OpenAI分享天体物理学家Chi-kwan Chan利用Codex辅助构建黑洞模拟程序的案例，Codex帮助科学家研究极端物理环境并验证广义相对论，展示AI编程工具在前沿科学研究中的实际落地价值。",
+      "why_zh": "AI编程工具进入高端科研场景，拓宽Codex在学术研究领域的用例边界。",
+      "tags": [
+        "AI Coding",
+        "Research"
+      ]
+    },
+    {
+      "id": "4600462b11c1a928",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "published_raw": "Wed, 10 Jun 2026 20:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        20,
+        0,
+        0,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "published_at": "2026-06-11T04:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 88,
+        "ai_relevance_score": 68,
+        "product_relevance_score": 80,
+        "technical_impact_score": 58,
+        "community_heat_score": 55
+      },
+      "final_score": 73,
+      "summary_zh": "OpenAI宣布与Oracle Cloud达成合作，企业客户可通过现有Oracle云承诺额度直接使用OpenAI模型与Codex，结合企业级安全与治理能力进行AI应用的开发和部署，降低迁移成本。",
+      "why_zh": "扩展OpenAI企业市场渠道，大型Oracle客户可无缝接入AI能力。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "cc932f49b0c4edc6",
+      "title": "Anthropic's model naming, extrapolated",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "published_raw": "Wed, 10 Jun 2026 18:45:20 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        18,
+        45,
+        20,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated\">https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480852\">https://news.ycombinator.com/item?id=48480852</a></p>\n<p>Points: 285</p>\n<p># Comments: 79</p>",
+      "published_at": "2026-06-11T02:45:20+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 86,
+        "ai_relevance_score": 68,
+        "product_relevance_score": 72,
+        "technical_impact_score": 38,
+        "community_heat_score": 82
+      },
+      "final_score": 68,
+      "summary_zh": "HN热门文章探讨Anthropic模型命名规律，作者系统分析从Claude 1至今的命名演变并推断未来版本走向，获285点赞和79条评论，反映社区对Anthropic产品路线图的强烈关注。",
+      "why_zh": "命名规律背后折射Anthropic模型迭代节奏，社区热度高。",
+      "tags": [
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "76b0d1e55219f9fb",
+      "title": "Startup’s nuclear-inspired cooling system could make data centers more sustainable",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610",
+      "published_raw": "Wed, 10 Jun 2026 00:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        10,
+        4,
+        0,
+        0,
+        2,
+        161,
+        0
+      ],
+      "raw_text": "Founded by two researchers from MIT, Ferveret reduces the amount of energy and water required to cool the chips that power AI.",
+      "published_at": "2026-06-10T12:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 72,
+        "ai_relevance_score": 60,
+        "product_relevance_score": 65,
+        "technical_impact_score": 72,
+        "community_heat_score": 48
+      },
+      "final_score": 67,
+      "summary_zh": "MIT创业公司Ferveret开发受核能技术启发的新型数据中心冷却系统，可大幅降低AI芯片散热所需能耗与水资源消耗，公司由两位MIT研究员创立，目标提升AI数据中心的可持续性。",
+      "why_zh": "AI算力扩张使能耗问题突出，高效冷却技术对基础设施可持续发展至关重要。",
+      "tags": [
+        "AI Infra"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 4
+    },
+    {
+      "tag": "AI Product",
+      "count": 4
+    },
+    {
+      "tag": "Research",
+      "count": 2
+    },
+    {
+      "tag": "AI Safety",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1223,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "隐性行为损害产品信任",
+      "detail": "后台静默占用大量系统资源却未提前告知用户，即使功能合理也会引发强烈反弹。产品设计应在首次触发高代价行为前主动披露，让用户知情并可选择。"
+    },
+    {
+      "point": "护栏策略需区分用户群体",
+      "detail": "对安全研究者过度限制合法专业场景，会把高价值用户推向竞品。产品需为不同信任等级或职业场景设计差异化访问策略，而非一刀切管控。"
+    },
+    {
+      "point": "价格战中差异化才是护城河",
+      "detail": "头部厂商已进入价格竞争阶段，单靠低价难以维持用户忠诚度。产品经理应将资源投向工作流深度整合、企业合规、垂直场景专精等竞品难以快速复制的维度。"
+    },
+    {
+      "point": "基础架构突破会重写成本预期",
+      "detail": "推理速度大幅提升意味着同等预算可支撑更高频调用或更复杂链路。产品规划需持续关注底层技术演进，及时调整定价模型与功能边界，避免以过时的成本假设做路线图决策。"
+    }
+  ]
+}
