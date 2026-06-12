@@ -1,0 +1,452 @@
+{
+  "date": "2026-06-12",
+  "date_cn": "2026年06月12日（周五）",
+  "top3": [
+    {
+      "id": "8060be85de816254",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "published_raw": "Thu, 11 Jun 2026 12:05:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        12,
+        5,
+        2,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://web.archive.org/web/20260611122253/https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail\" rel=\"nofollow\">https://web.archive.org/web/20260611122253/https://www.theve...</a>, <a href=\"https://archive.ph/y4V4k\" rel=\"nofollow\">https://archive.ph/y4V4k</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48489229\">https://news.ycombinator.com/item?id=48489229</a></p>\n<p>Points: 319</p>\n<p># Comments: 304</p>",
+      "published_at": "2026-06-11T20:05:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 88,
+        "ai_relevance_score": 98,
+        "product_relevance_score": 92,
+        "technical_impact_score": 85,
+        "community_heat_score": 95
+      },
+      "final_score": 91,
+      "summary_zh": "Anthropic就Claude Fable 5中存在\"隐形蒸馏护栏\"公开道歉，这些未披露的约束悄然限制了模型行为，引发社区对AI透明度的强烈质疑，事件在Hacker News获319赞和304条评论。",
+      "why_zh": "头部AI公司隐藏模型约束被曝光，深刻触发行业对AI透明度与信任的讨论。",
+      "tags": [
+        "AI Safety",
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "023a548ab2df714b",
+      "title": "Claude Fable 5: mid-tier results on coding tasks",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "published_raw": "Thu, 11 Jun 2026 16:03:21 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        16,
+        3,
+        21,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype\">https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48492210\">https://news.ycombinator.com/item?id=48492210</a></p>\n<p>Points: 234</p>\n<p># Comments: 105</p>",
+      "published_at": "2026-06-12T00:03:21+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 90,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 90,
+        "technical_impact_score": 80,
+        "community_heat_score": 85
+      },
+      "final_score": 86,
+      "summary_zh": "Endor Labs对Claude Fable 5进行独立编程任务测评，报告显示其表现仅属中等水平，与Anthropic市场宣传存在明显落差，文章在Hacker News获234赞、105条评论，引发广泛质疑。",
+      "why_zh": "独立测评揭示新Claude模型编程能力被高估，直接影响企业AI技术选型决策。",
+      "tags": [
+        "LLM",
+        "Benchmark",
+        "AI Coding"
+      ]
+    },
+    {
+      "id": "064982ea94fd1cce",
+      "title": "Visa to Secure Payments for Shoppers on ChatGPT in OpenAI Partnership",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.wsj.com/tech/ai/visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-7ece5b22",
+      "published_raw": "Fri, 12 Jun 2026 00:17:23 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        0,
+        17,
+        23,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-7ece5b22\">https://www.wsj.com/tech/ai/visa-to-secure-payments-for-shoppers-on-chatgpt-in-openai-partnership-7ece5b22</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498224\">https://news.ycombinator.com/item?id=48498224</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T08:17:23+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 90,
+        "technical_impact_score": 65,
+        "community_heat_score": 52
+      },
+      "final_score": 80,
+      "summary_zh": "据《华尔街日报》报道，Visa与OpenAI达成合作，为ChatGPT购物功能提供支付安全保障。用户可在ChatGPT内完成商品搜索并直接购买，Visa负责交易验证与支付处理，标志着AI聊天助手正式打通电商支付闭环，是AI Agent商业化的重要里程碑。",
+      "why_zh": "AI代理购物打通支付闭环，Visa背书大幅提升信任与转化潜力。",
+      "tags": [
+        "AI Product",
+        "AI Business",
+        "Agent"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "5b6a46d4fa519dfe",
+      "title": "Dealership revoked offer to buy back customer's BMW, blaming wayward AI chatbot",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226",
+      "published_raw": "Fri, 12 Jun 2026 01:37:05 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        1,
+        37,
+        5,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226\">https://www.cbc.ca/news/business/ai-chatbot-bmw-dealership-9.7230226</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498778\">https://news.ycombinator.com/item?id=48498778</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T09:37:05+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 80,
+        "technical_impact_score": 60,
+        "community_heat_score": 25
+      },
+      "final_score": 71,
+      "summary_zh": "加拿大一宝马经销商AI聊天机器人向客户承诺以3000加元回购二手车，经销商事后以\"AI出错\"为由撤销报价并拒绝履行。此案引发AI系统商业承诺的法律效力与企业责任归属讨论。",
+      "why_zh": "AI聊天机器人做出错误商业承诺且企业拒不履行，AI合规与法律责任问题日益凸显。",
+      "tags": [
+        "AI Safety",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "6c1f1d68a1cebfd4",
+      "title": "Chaining LLM and web bugs to Admin",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://blog.quarkslab.com/from-prompt-to-pwned-chaining-llm-and-web-bugs-to-admin.html",
+      "published_raw": "Fri, 12 Jun 2026 01:59:12 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        1,
+        59,
+        12,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.quarkslab.com/from-prompt-to-pwned-chaining-llm-and-web-bugs-to-admin.html\">https://blog.quarkslab.com/from-prompt-to-pwned-chaining-llm-and-web-bugs-to-admin.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498943\">https://news.ycombinator.com/item?id=48498943</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T09:59:12+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 60,
+        "technical_impact_score": 85,
+        "community_heat_score": 20
+      },
+      "final_score": 70,
+      "summary_zh": "Quarkslab安全研究博客详述如何将LLM提示注入漏洞与传统Web漏洞链式组合，最终获取系统管理员权限。文章展示了完整攻击链路，揭示AI集成应用中的新型攻击面与安全威胁。",
+      "why_zh": "LLM与Web漏洞链式利用是新兴攻击模式，对所有集成AI的Web应用构成实质风险。",
+      "tags": [
+        "AI Safety",
+        "LLM"
+      ]
+    },
+    {
+      "id": "ba0c4d0fbed83975",
+      "title": "Copyright – Right Answer for Open Source Code, Wrong Answer for Open Source AI?",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://opensource.org/ai/webinars/copyright-right-answer-for-open-source-code-wrong-answer-for-open-source-ai",
+      "published_raw": "Fri, 12 Jun 2026 01:41:27 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        1,
+        41,
+        27,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://opensource.org/ai/webinars/copyright-right-answer-for-open-source-code-wrong-answer-for-open-source-ai\">https://opensource.org/ai/webinars/copyright-right-answer-for-open-source-code-wrong-answer-for-open-source-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498806\">https://news.ycombinator.com/item?id=48498806</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T09:41:27+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 60,
+        "technical_impact_score": 55,
+        "community_heat_score": 15
+      },
+      "final_score": 62,
+      "summary_zh": "开源倡议组织(OSI)主办网络研讨会，探讨版权法对开源代码与开源AI的适用差异，核心议题为：适用于代码的版权框架是否同样适合AI模型，以及开源AI许可证应如何演进以平衡创新与权利保护。",
+      "why_zh": "AI版权与开源许可证框架直接影响模型训练、分发及商业化边界，是行业关键合规议题。",
+      "tags": [
+        "AI Regulation",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "2ae29985553df1ed",
+      "title": "Show HN: Ciris – an open-source AI agent in 29 languages on iOS and Android",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://ciris.ai/",
+      "published_raw": "Thu, 11 Jun 2026 23:38:26 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        23,
+        38,
+        26,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://ciris.ai/\">https://ciris.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48497913\">https://news.ycombinator.com/item?id=48497913</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T07:38:26+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 75,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 70,
+        "technical_impact_score": 55,
+        "community_heat_score": 15
+      },
+      "final_score": 60,
+      "summary_zh": "开源AI Agent应用Ciris正式上架iOS和Android，支持29种语言，面向全球用户提供移动端AI助手体验，项目完全开源。",
+      "why_zh": "多语言移动端开源Agent，拓展AI普及边界，覆盖非英语用户群体。",
+      "tags": [
+        "Agent",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "9d7474ace3ac2bb8",
+      "title": "Don't let the LLM speak, just probe it",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
+      "published_raw": "Fri, 12 Jun 2026 00:24:48 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        0,
+        24,
+        48,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.j11y.io/2026-06-10_hidden-state-probes/\">https://blog.j11y.io/2026-06-10_hidden-state-probes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498283\">https://news.ycombinator.com/item?id=48498283</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T08:24:48+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 82,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 40,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 59,
+      "summary_zh": "技术博客介绍通过对LLM隐藏状态（hidden state）训练线性探针（probe）来直接读取模型内部知识的方法，无需让模型生成文字即可完成分类、意图识别等任务，可显著降低token消耗与推理延迟，适合低延迟生产场景。",
+      "why_zh": "隐藏状态探针技术可大幅提升LLM推理效率并降低成本。",
+      "tags": [
+        "LLM",
+        "Research",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "d277d1cc39ad1b0a",
+      "title": "Ask HN: What computer are you using for AI coding tools?",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48498766",
+      "published_raw": "Fri, 12 Jun 2026 01:35:21 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        1,
+        35,
+        21,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>I'm a heavy user of Claude code, had an M3 pro with 18gb ram for a few years. Until a few months ago it was always a beast.<p>Now I'm spinning up more Claude code sessions (5-10), each with often 1-3 subagents going, as well as using chrome with playwright of claude-in-chrome for debugging/QA/styling.<p>That combination has really been slowing down my computer lately. I get it, it's a lot of processes and a lot of chrome. I don't like the cloud coding agents cause I often want it to use my own cookies in my browser, or other secrets/setup I've got locally<p>Curious if anyone else has these issues, and what you're using. Obviously it'd be nice to upgrade to an m5 with 24 or 48gb but that's 4k AUD (or 3200 with trade-in)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48498766\">https://news.ycombinator.com/item?id=48498766</a></p>\n<p>Points: 1</p>\n<p># Comments: 3</p>",
+      "published_at": "2026-06-12T09:35:21+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 90,
+        "ai_relevance_score": 65,
+        "product_relevance_score": 60,
+        "technical_impact_score": 40,
+        "community_heat_score": 35
+      },
+      "final_score": 58,
+      "summary_zh": "HN用户发起讨论：重度使用Claude Code等AI编码工具时应选择什么电脑。原帖作者M3 Pro 18GB因同时运行多个Claude Code会话及Playwright调试进程而出现性能瓶颈，引发社区对本地AI开发硬件需求的广泛讨论。",
+      "why_zh": "反映AI编码工具本地算力需求快速增长，硬件配置成为开发效率新瓶颈。",
+      "tags": [
+        "AI Coding",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "aa30e05ef3db6c84",
+      "title": "AgentForge–28 production-grade skills that make AI agents ship reliable code",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/borhen68/SkillEngine",
+      "published_raw": "Thu, 11 Jun 2026 23:35:50 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        11,
+        23,
+        35,
+        50,
+        3,
+        162,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/borhen68/SkillEngine\">https://github.com/borhen68/SkillEngine</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48497893\">https://news.ycombinator.com/item?id=48497893</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-12T07:35:50+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 40,
+        "freshness_score": 75,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 65,
+        "technical_impact_score": 60,
+        "community_heat_score": 10
+      },
+      "final_score": 57,
+      "summary_zh": "AgentForge（SkillEngine）在GitHub开源，提供28个生产级技能模块，帮助AI Agent在代码生成场景中提升可靠性与稳定性，面向企业级AI编程需求。",
+      "why_zh": "可复用生产级Agent编程技能库，有助于降低AI代码可靠性工程门槛。",
+      "tags": [
+        "Agent",
+        "AI Coding"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 4
+    },
+    {
+      "tag": "AI Safety",
+      "count": 3
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "AI Coding",
+      "count": 3
+    },
+    {
+      "tag": "Agent",
+      "count": 3
+    },
+    {
+      "tag": "Open Source",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1225,
+    "selected": 10,
+    "keywords": 11
+  },
+  "pm_insights": [
+    {
+      "point": "未披露约束会重创产品信任",
+      "detail": "模型行为限制若未公开披露，一旦被用户发现会引发强烈社区反弹；需将约束透明化纳入AI产品发布的标准流程。"
+    },
+    {
+      "point": "宣传落差持续损伤公信力",
+      "detail": "第三方独立测评结果与官方宣传的差距易引发质疑，产品团队应基于真实数据管理预期，主动公布外部评测结论。"
+    },
+    {
+      "point": "AI商业承诺须界定法律责任",
+      "detail": "AI系统在商业场景做出承诺时，企业难以简单以「AI出错」为由免责；关键商业动作前须设置人工确认节点。"
+    },
+    {
+      "point": "支付闭环是Agent商业化关键",
+      "detail": "AI助手打通搜索至支付全链路，标志Agent从信息工具升级为交易方；产品团队应优先探索嵌入现有支付基础设施的路径。"
+    }
+  ]
+}
