@@ -1,0 +1,248 @@
+{
+  "date": "2026-06-13",
+  "date_cn": "2026年06月13日（周六）",
+  "top3": [
+    {
+      "id": "b0d10e8dabf27096",
+      "title": "US Government directive to suspend access to Fable 5 and Mythos 5",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "published_raw": "Sat, 13 Jun 2026 00:51:30 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        13,
+        0,
+        51,
+        30,
+        5,
+        164,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.anthropic.com/news/fable-mythos-access\">https://www.anthropic.com/news/fable-mythos-access</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48511072\">https://news.ycombinator.com/item?id=48511072</a></p>\n<p>Points: 531</p>\n<p># Comments: 303</p>",
+      "published_at": "2026-06-13T08:51:30+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 95,
+        "ai_relevance_score": 100,
+        "product_relevance_score": 95,
+        "technical_impact_score": 90,
+        "community_heat_score": 95
+      },
+      "final_score": 95,
+      "summary_zh": "美国政府发出指令，要求暂停对Anthropic旗下Fable 5和Mythos 5两款前沿AI模型的访问权限。消息在Hacker News首页引爆热议，获531点赞、303条评论，业界震动。这是政府对顶级商用AI模型访问权迄今最直接的行政干预行动。",
+      "why_zh": "政府首次直接限制顶级AI模型访问，AI监管进入强硬干预新阶段",
+      "tags": [
+        "AI Regulation",
+        "LLM",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "525a5570de9b78d4",
+      "title": "How to setup a local coding agent on macOS",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "published_raw": "Fri, 12 Jun 2026 17:34:55 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        17,
+        34,
+        55,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos\">https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507020\">https://news.ycombinator.com/item?id=48507020</a></p>\n<p>Points: 257</p>\n<p># Comments: 71</p>",
+      "published_at": "2026-06-13T01:34:55+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 70,
+        "community_heat_score": 82
+      },
+      "final_score": 77,
+      "summary_zh": "详细教程介绍如何在macOS上本地搭建AI编码Agent，涵盖本地LLM安装配置与编码工具集成等完整步骤，在HN获257点赞71评论，反映开发者对本地私有化AI编程助手的强烈需求。",
+      "why_zh": "本地AI编码Agent成新趋势，隐私保护与离线能力是核心驱动力",
+      "tags": [
+        "AI Coding",
+        "Agent"
+      ]
+    },
+    {
+      "id": "e6c450c5f96c2332",
+      "title": "Slightly reducing the sloppiness of AI generated front end",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "published_raw": "Fri, 12 Jun 2026 14:48:38 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        14,
+        48,
+        38,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://envs.net/~volpe/blog/posts/reduce-slop.html\">https://envs.net/~volpe/blog/posts/reduce-slop.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48504912\">https://news.ycombinator.com/item?id=48504912</a></p>\n<p>Points: 165</p>\n<p># Comments: 110</p>",
+      "published_at": "2026-06-12T22:48:38+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 75
+      },
+      "final_score": 73,
+      "summary_zh": "HN头版热文，作者分享减少AI生成前端代码\"糊弄感\"的实用技巧，获165点赞与110条评论讨论。文章聚焦LLM生成UI代码的质量问题，提供可操作的改进方法，引发开发者广泛共鸣。",
+      "why_zh": "直击AI辅助编码的痛点，对日常使用AI写前端的团队有参考价值。",
+      "tags": [
+        "AI Coding",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "32c1707d0525d06e",
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "published_raw": "Fri, 12 Jun 2026 17:52:46 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        17,
+        52,
+        46,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/\">https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507278\">https://news.ycombinator.com/item?id=48507278</a></p>\n<p>Points: 308</p>\n<p># Comments: 266</p>",
+      "published_at": "2026-06-13T01:52:46+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 85,
+        "technical_impact_score": 40,
+        "community_heat_score": 88
+      },
+      "final_score": 72,
+      "summary_zh": "一篇引发广泛共鸣的文章，记录非技术用户面对复杂任务时「直接上传给ChatGPT不就行了」的天真反应，探讨AI工具普及后普通人对AI能力的过度期待与误解，在HN获308点赞266评论热烈讨论。",
+      "why_zh": "揭示AI大众化后的认知鸿沟，对产品设计与用户教育有参考价值",
+      "tags": [
+        "AI Product",
+        "LLM"
+      ]
+    },
+    {
+      "id": "e17db83823d25ce6",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "published_raw": "Fri, 12 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        12,
+        10,
+        0,
+        0,
+        4,
+        163,
+        0
+      ],
+      "raw_text": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "published_at": "2026-06-12T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 80,
+        "ai_relevance_score": 65,
+        "product_relevance_score": 70,
+        "technical_impact_score": 40,
+        "community_heat_score": 40
+      },
+      "final_score": 66,
+      "summary_zh": "OpenAI学院推出三门新课程，帮助职场人士掌握AI实用技能、搭建可复用工作流并在日常工作中落地Agent应用，定位为AI职场能力系统培训。",
+      "why_zh": "OpenAI加速AI技能普及，折射企业级AI采用进入规模化培训阶段。",
+      "tags": [
+        "AI Product",
+        "AI Business"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "AI Coding",
+      "count": 2
+    },
+    {
+      "tag": "AI Product",
+      "count": 2
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    },
+    {
+      "tag": "AI Safety",
+      "count": 1
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 7,
+    "raw": 1205,
+    "selected": 5,
+    "keywords": 7
+  },
+  "pm_insights": [
+    {
+      "point": "政策风险须纳入AI产品路线图",
+      "detail": "顶级商用AI模型可能遭受行政干预被限制访问，产品深度依赖外部AI服务时需评估合规风险并制定备份方案，避免单点依赖。"
+    },
+    {
+      "point": "用户对AI能力存在系统性认知偏差",
+      "detail": "普通用户倾向高估AI的泛化处理能力，产品需通过引导设计和预期管理帮助用户建立准确心智模型，减少使用后的落差感。"
+    },
+    {
+      "point": "AI生成内容质量是留存的核心门槛",
+      "detail": "AI输出的\"糊弄感\"会直接损伤用户信任与产品口碑，精细化质量校验和人工审核机制是AI产品不可省略的必要投入。"
+    },
+    {
+      "point": "本地化部署成为AI差异化竞争方向",
+      "detail": "开发者对私有化AI工具的强烈需求表明，数据安全与隐私保护已成为企业用户选型的重要权重，是产品定位的新蓝海。"
+    }
+  ]
+}
