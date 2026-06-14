@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喵仔仔 AI 周报 - 2026年06月08日 – 06月14日</title>
+<style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --ink:#1a2433; --sub:#5b6b82;
+    --line:#e3e9f2; --blue:#2563eb; --blue-deep:#1e40af; --cyan:#06b6d4;
+    --glow:rgba(6,182,212,.28); --chip:#eef3fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+
+  header{text-align:center;padding:28px 0 22px;
+    background:linear-gradient(135deg,#0b1f3a 0%,#13315c 60%,#0e2a4d 100%);
+    border-radius:18px;color:#fff;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 120px at 50% -20%,var(--glow),transparent 70%)}
+  header h1{font-size:30px;font-weight:800;letter-spacing:.5px;position:relative}
+  header .sub{margin-top:8px;color:#bcd2f0;font-size:15px;position:relative}
+  header .gen{margin-top:6px;color:#7fa8d6;font-size:13px;position:relative}
+
+  h2{font-size:19px;margin:34px 0 14px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:4px;height:18px;border-radius:3px;
+    background:linear-gradient(var(--blue),var(--cyan))}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 12px;text-align:center}
+  .stat .num{font-size:28px;font-weight:800;
+    background:linear-gradient(90deg,var(--blue),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .lbl{font-size:12px;color:var(--sub);margin-top:4px}
+
+  /* 本周总览 */
+  .overview{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px 20px;font-size:15px;color:#33415a;margin-top:18px}
+
+  /* 重点（与日报 PM 启发同款） */
+  .insight-list{list-style:none;counter-reset:ins;display:flex;flex-direction:column;gap:10px}
+  .insight-list li{counter-increment:ins;background:var(--card);border:1px solid var(--line);
+    border-left:4px solid var(--cyan);border-radius:12px;padding:13px 16px 13px 46px;position:relative}
+  .insight-list li::before{content:counter(ins);position:absolute;left:12px;top:13px;
+    width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));
+    color:#fff;font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 9px var(--glow)}
+  .insight-list .pt{display:block;font-weight:800;font-size:15.5px;margin-bottom:4px;
+    background:linear-gradient(90deg,var(--blue-deep),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .insight-list .dt{font-size:13.5px;color:#46546b;line-height:1.55}
+
+  /* 卡片 */
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px;margin-bottom:14px;transition:.2s ease;position:relative}
+  .card:hover{transform:translateY(-2px);border-color:var(--cyan);box-shadow:0 8px 28px var(--glow)}
+  .card .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .card h3{font-size:17px;font-weight:700;line-height:1.45}
+  .meta{font-size:12.5px;color:var(--sub);margin:7px 0 9px}
+  .meta .cat{display:inline-block;padding:1px 7px;border-radius:6px;
+    background:var(--chip);color:var(--blue-deep);font-weight:600;margin-right:6px}
+  .summary{font-size:14.5px;color:#33415a}
+  .score{flex-shrink:0;text-align:center;min-width:48px}
+  .score .v{font-size:20px;font-weight:800;color:var(--blue)}
+  .bar{height:4px;border-radius:3px;background:var(--line);margin-top:3px;overflow:hidden}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+
+  .kw{display:flex;flex-wrap:wrap;gap:9px}
+  .kw .k{padding:5px 13px;border-radius:22px;background:var(--card);
+    border:1px solid var(--line);font-size:13px;font-weight:600}
+  .kw .k b{color:var(--cyan);margin-left:5px}
+
+  .srclist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+  .srclist a{display:flex;justify-content:space-between;gap:10px;
+    padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .srclist a:last-child{border-bottom:none}
+  .srclist a:hover{color:var(--blue)}
+  .srclist .s{color:var(--sub);flex-shrink:0}
+
+  .home{display:inline-block;margin-top:8px;color:var(--blue);font-size:13.5px}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:36px}
+  @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🐱 喵仔仔 AI 周报</h1>
+    <div class="sub">本周 AI 重点回顾 · 2026年06月08日 – 06月14日</div>
+    <div class="gen">北京时间 2026-06-14 10:00（每周日北京时间自动生成）</div>
+  </header>
+
+  <!-- 数据概览 -->
+  <div class="stats">
+    <div class="stat"><div class="num">7</div><div class="lbl">覆盖天数</div></div>
+    <div class="stat"><div class="num"><built-in method items of dict object at 0x7fcab1beecc0></div><div class="lbl">本周入选</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周重点</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周关键词</div></div>
+  </div>
+
+  <!-- 本周总览 -->
+  
+  <h2>本周总览</h2>
+  <div class="overview">本周AI行业呈现三大交织主线：顶级实验室旗舰模型密集发布，能力边界持续突破；美国政府对前沿AI模型实施史上最直接的行政干预，AI监管进入新阶段；苹果WWDC带动科技巨头加速构建多模型开放生态，AI能力加速向十亿级消费者渗透。与此同时，隐藏约束与资源滥用引发的透明度争议贯穿全周。</div>
+  
+
+  <!-- 本周重点 -->
+  
+  <h2>本周重点</h2>
+  <ol class="insight-list">
+    
+    <li><span class="pt">前沿模型能力迎来密集跨越</span><span class="dt">多家顶级实验室同周发布新旗舰模型，多模态、推理深度等关键指标全面提升，行业能力基准整体上移，模型迭代节奏明显加速。</span></li>
+    
+    <li><span class="pt">政府首次直接干预顶级商用AI访问</span><span class="dt">美国政府发出行政指令，暂停对特定前沿AI模型的访问权限，这是官方对商用AI模型最直接的管控行动，揭示AI监管正受到大型云厂商与政府幕后博弈的深度左右。</span></li>
+    
+    <li><span class="pt">推理效率革命重塑大模型部署格局</span><span class="dt">万亿参数模型实现每秒千token推理速度，扩散架构被引入文本生成并实现4倍加速，超大规模模型的实际部署门槛有望大幅降低。</span></li>
+    
+    <li><span class="pt">科技巨头加速构建多AI开放生态</span><span class="dt">头部平台商通过同时集成多家顶级AI模型并提供统一开发框架，将AI能力快速下沉至十亿级用户群体，多模型并行的开放生态格局初步成形。</span></li>
+    
+    <li><span class="pt">AI透明度问题引发社区强烈反弹</span><span class="dt">隐形行为约束与未经告知的系统资源占用相继曝光，引发社区对AI厂商透明度的广泛质疑，透明披露正成为AI产品不可回避的责任底线。</span></li>
+    
+  </ol>
+  
+
+  <!-- 本周最值得关注 -->
+  <h2>本周最值得关注</h2>
+  
+  <a class="card" href="https://www.anthropic.com/news/claude-fable-5-mythos-5" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Claude Fable 5</h3></div>
+      <div class="score"><div class="v">99</div>
+        <div class="bar"><i style="width:99%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-10 00:58</div>
+    <div class="summary">Anthropic 正式发布旗舰模型 Claude Fable 5（含 Mythos 5 变体），HN 单帖 1787 赞 1402 评论，创近期 AI 话题最高社区热度，同步发布系统卡详述安全评估与能力边界。</div>
+  </a>
+  
+  <a class="card" href="https://www.anthropic.com/news/fable-mythos-access" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>US Government directive to suspend access to Fable 5 and Mythos 5</h3></div>
+      <div class="score"><div class="v">95</div>
+        <div class="bar"><i style="width:95%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-13 08:51</div>
+    <div class="summary">美国政府发出指令，要求暂停对Anthropic旗下Fable 5和Mythos 5两款前沿AI模型的访问权限。消息在Hacker News首页引爆热议，获531点赞、303条评论，业界震动。这是政府对顶级商用AI模型访问权迄今最直接的行政干预行动。</div>
+  </a>
+  
+  <a class="card" href="https://www.apple.com/apple-intelligence/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Siri AI</h3></div>
+      <div class="score"><div class="v">91</div>
+        <div class="bar"><i style="width:91%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-09 02:17</div>
+    <div class="summary">苹果 WWDC 2026 正式发布全新 Siri AI（Apple Intelligence），包括更强的自然语言理解、跨应用任务处理、与 ChatGPT 和 Gemini 的深度集成，以及端侧推理能力。此次更新是苹果史上最大规模 Siri 重构，将 AI 助手能力推送至十亿级用户群体。</div>
+  </a>
+  
+  <a class="card" href="https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Anthropic apologizes for invisible Claude Fable guardrails</h3></div>
+      <div class="score"><div class="v">91</div>
+        <div class="bar"><i style="width:91%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-11 20:05</div>
+    <div class="summary">Anthropic就Claude Fable 5中存在"隐形蒸馏护栏"公开道歉，这些未披露的约束悄然限制了模型行为，引发社区对AI透明度的强烈质疑，事件在Hacker News获319赞和304条评论。</div>
+  </a>
+  
+  <a class="card" href="https://mimo.xiaomi.com/blog/mimo-tilert-1000tps" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second</h3></div>
+      <div class="score"><div class="v">90</div>
+        <div class="bar"><i style="width:90%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-08 23:27</div>
+    <div class="summary">小米发布MiMo-v2.5-Pro-UltraSpeed，拥有1万亿参数，推理速度达每秒1000个token，在HN获498点、345条评论，创近期热度之冠。该成果标志着超大参数模型推理效率的重大突破，有望大幅降低万亿级模型的实际部署门槛。</div>
+  </a>
+  
+  <a class="card" href="https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>DiffusionGemma: 4x faster text generation</h3></div>
+      <div class="score"><div class="v">90</div>
+        <div class="bar"><i style="width:90%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>Google DeepMind · 06-11 00:24</div>
+    <div class="summary">Google DeepMind发布DiffusionGemma，将图像生成领域的扩散模型架构引入文本生成，速度比传统自回归LLM快4倍。这是扩散技术在文本生成领域的重大突破，有望改变LLM推理范式与部署成本结构。</div>
+  </a>
+  
+  <a class="card" href="https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models</h3></div>
+      <div class="score"><div class="v">90</div>
+        <div class="bar"><i style="width:90%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-14 00:57</div>
+    <div class="summary">《华尔街日报》独家报道，亚马逊 CEO 与美国政府官员的私下会谈直接触发了对 Anthropic 模型的管控行动。事件揭示 AI 监管走向正在被大型云厂商与政府的幕后博弈所左右，546 分 398 评论显示社区高度关注。</div>
+  </a>
+  
+  <a class="card" href="https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</h3></div>
+      <div class="score"><div class="v">88</div>
+        <div class="bar"><i style="width:88%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>Google DeepMind · 06-09 22:10</div>
+    <div class="summary">Google DeepMind 发布 Gemma 4 12B，采用统一无编码器架构的多模态开源模型，在轻量级多模态能力上实现新突破，延续 Gemma 系列开源策略，面向本地部署和研究社区。</div>
+  </a>
+  
+  <a class="card" href="https://developer.apple.com/documentation/coreai/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Apple Core AI Framework</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-09 02:47</div>
+    <div class="summary">苹果在 WWDC 2026 发布官方 Core AI 开发者框架，提供在 Apple 设备上集成 AI 能力的标准接口，涵盖本地推理、自然语言处理与多模态能力。这是苹果首次将 AI 能力正式纳入底层开发框架，与 Gemini/ChatGPT 集成协同构成完整 AI 生态。</div>
+  </a>
+  
+  <a class="card" href="https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Fluid, natural voice translation with Gemini 3.5 Live Translate</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>Google DeepMind · 06-09 23:16</div>
+    <div class="summary">Google 推出 Gemini 3.5 Live Translate，实现近实时、自然流畅的多语言语音翻译，已集成至 Google AI Studio、Google Translate 和 Google Meet，支持跨语言实时对话场景。</div>
+  </a>
+  
+  <a class="card" href="https://github.com/anthropics/claude-code/issues/29045" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-11 01:11</div>
+    <div class="summary">Claude Desktop 在 Windows 上每次启动均自动创建 1.8 GB Hyper-V 虚拟机，即使仅用于普通聊天。该 GitHub issue 获 344 赞、241 评论，用户强烈反映此行为浪费系统资源且未经明确告知，引发对 Anthropic 产品透明度的广泛质疑。</div>
+  </a>
+  
+  <a class="card" href="https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Apple reveals new AI architecture built around Google Gemini models</h3></div>
+      <div class="score"><div class="v">86</div>
+        <div class="bar"><i style="width:86%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-09 03:14</div>
+    <div class="summary">苹果在 WWDC 2026 披露全新 AI 架构，底层由 Google Gemini 模型驱动，打破苹果历来自研惯例。Gemini 将深度集成进 iOS/macOS 系统功能，与此前 OpenAI/ChatGPT 合作并行，形成多模型开放策略，是苹果 AI 战略的重大转变。</div>
+  </a>
+  
+
+  <!-- 本周关键词 -->
+  <h2>本周关键词</h2>
+  <div class="kw">
+    <span class="k">AI Product<b>27</b></span><span class="k">LLM<b>25</b></span><span class="k">AI Safety<b>13</b></span><span class="k">AI Coding<b>12</b></span><span class="k">AI Business<b>12</b></span><span class="k">Agent<b>11</b></span><span class="k">AI Regulation<b>11</b></span><span class="k">AI Infra<b>9</b></span><span class="k">Open Source<b>6</b></span><span class="k">Research<b>5</b></span><span class="k">Multimodal<b>3</b></span><span class="k">Benchmark<b>2</b></span>
+  </div>
+
+  <!-- 每日回看 -->
+  <h2>本周每日日报</h2>
+  <div class="srclist">
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-14.html"><span>06-14（周日）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-13.html"><span>06-13（周六）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-12.html"><span>06-12（周五）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-11.html"><span>06-11（周四）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-10.html"><span>06-10（周三）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-09.html"><span>06-09（周二）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-08.html"><span>06-08（周一）</span><span class="s">查看 ↗</span></a>
+    
+  </div>
+  <a class="home" href="https://mengzheng001-prog.github.io/miao-ai-daily/">← 回到日报首页</a>
+
+  <footer>喵仔仔 AI 周报 · 一周一次，掌握 AI 行业主线</footer>
+</div>
+</body>
+</html>

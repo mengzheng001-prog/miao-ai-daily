@@ -1,0 +1,439 @@
+{
+  "date": "2026-06-14",
+  "date_cn": "2026年06月14日（周日）",
+  "top3": [
+    {
+      "id": "12d6598f6f00acd0",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "published_raw": "Sat, 13 Jun 2026 16:57:49 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        13,
+        16,
+        57,
+        49,
+        5,
+        164,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&amp;reflink=desktopwebshare_permalink\" rel=\"nofollow\">https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-offic...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48519092\">https://news.ycombinator.com/item?id=48519092</a></p>\n<p>Points: 546</p>\n<p># Comments: 398</p>",
+      "published_at": "2026-06-14T00:57:49+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 92,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 88,
+        "technical_impact_score": 72,
+        "community_heat_score": 95
+      },
+      "final_score": 90,
+      "summary_zh": "《华尔街日报》独家报道，亚马逊 CEO 与美国政府官员的私下会谈直接触发了对 Anthropic 模型的管控行动。事件揭示 AI 监管走向正在被大型云厂商与政府的幕后博弈所左右，546 分 398 评论显示社区高度关注。",
+      "why_zh": "美国 AI 监管由行业巨头私下推动，Anthropic 政策处境面临重大变数，格局影响深远。",
+      "tags": [
+        "AI Regulation",
+        "AI Business",
+        "LLM"
+      ]
+    },
+    {
+      "id": "d3bb048b2ea181cd",
+      "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "published_raw": "Sat, 13 Jun 2026 12:10:47 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        13,
+        12,
+        10,
+        47,
+        5,
+        164,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/tensorzero/tensorzero\">https://github.com/tensorzero/tensorzero</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48516504\">https://news.ycombinator.com/item?id=48516504</a></p>\n<p>Points: 242</p>\n<p># Comments: 158</p>",
+      "published_at": "2026-06-13T20:10:47+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 68,
+        "freshness_score": 88,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 78,
+        "technical_impact_score": 68,
+        "community_heat_score": 75
+      },
+      "final_score": 77,
+      "summary_zh": "AI 优化框架 TensorZero 完成 730 万美元种子融资后，GitHub 仓库突然被归档（只读），引发社区强烈质疑。242 分 158 评论的高热度讨论聚焦于：融资后关闭开源仓库意味着商业化转向还是项目终止，开源可信度遭受重创。",
+      "why_zh": "开源 AI 工具融资后即归档，暴露 OSS 商业化可信度危机，为开发者选型敲响警钟。",
+      "tags": [
+        "AI Business",
+        "Open Source",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "9583ac9c1df5e078",
+      "title": "The whirlwind 24 hours that led to export controls on Anthropic",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519",
+      "published_raw": "Sun, 14 Jun 2026 01:37:22 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        1,
+        37,
+        22,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519\">https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523341\">https://news.ycombinator.com/item?id=48523341</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-14T09:37:22+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 75,
+        "community_heat_score": 20
+      },
+      "final_score": 75,
+      "summary_zh": "Politico 深度报道美国白宫在短短 24 小时内快速决策、对 Anthropic 实施出口管制的幕后过程，揭示了政治博弈细节。这是美国政府首次对顶级 AI 实验室施加出口限制，标志着 AI 地缘政治管控进入新阶段。",
+      "why_zh": "政府对头部 AI 实验室直接实施出口管制，是影响行业格局的里程碑式监管事件。",
+      "tags": [
+        "AI Regulation",
+        "AI Safety"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "fd89329692fa58e0",
+      "title": "We're combatting AI scams with security, legislation and more",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/",
+      "published_raw": "Sun, 14 Jun 2026 00:44:25 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        0,
+        44,
+        25,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/\">https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523053\">https://news.ycombinator.com/item?id=48523053</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-14T08:44:25+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 62,
+        "community_heat_score": 20
+      },
+      "final_score": 72,
+      "summary_zh": "Google宣布多项打击AI诈骗举措：升级平台安全检测技术、推动立法建立AI欺诈法律责任、加强与执法机构协作，应对AI深度伪造电话诈骗和网络钓鱼等犯罪快速增长的问题。",
+      "why_zh": "科技巨头将AI滥用治理从技术延伸到立法层面，具有跨行业示范效应。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "a580934608958848",
+      "title": "'Tell Him He's a Piece of Shit': Meta's New AI Unit Is a Total Mess",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
+      "published_raw": "Sun, 14 Jun 2026 01:23:45 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        1,
+        23,
+        45,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/\">https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523271\">https://news.ycombinator.com/item?id=48523271</a></p>\n<p>Points: 13</p>\n<p># Comments: 4</p>",
+      "published_at": "2026-06-14T09:23:45+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 55,
+        "community_heat_score": 40
+      },
+      "final_score": 71,
+      "summary_zh": "Wired 报道 Meta 新成立的 AI 部门内部管理混乱：扎克伯格在员工会议上态度强硬，部门定位模糊、权责不清，团队士气低落。报道引发外界对 Meta AI 战略能否有效执行的广泛质疑。",
+      "why_zh": "Meta 是全球最重要的 AI 竞争者之一，内部失序直接影响其与 OpenAI、Google 的竞争格局。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "e220e1df53591f4b",
+      "title": "Policy on the AI Exponential",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential/epf",
+      "published_raw": "Sun, 14 Jun 2026 00:58:15 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        0,
+        58,
+        15,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.anthropic.com/policy-on-the-ai-exponential/epf\">https://www.anthropic.com/policy-on-the-ai-exponential/epf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523122\">https://news.ycombinator.com/item?id=48523122</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-14T08:58:15+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 58,
+        "technical_impact_score": 55,
+        "community_heat_score": 15
+      },
+      "final_score": 70,
+      "summary_zh": "Anthropic推出「AI指数级增长政策」专题页面，探讨AI能力快速跃升背景下的政策应对路径，涵盖安全保障、经济冲击与社会治理，呼吁政策制定者与技术公司协同行动。",
+      "why_zh": "Anthropic以官方姿态主导AI治理议程设置，对全球政策讨论具有引导意义。",
+      "tags": [
+        "AI Regulation",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "babb7299fa2dd789",
+      "title": "Anthropic's Economic Policy Framework [pdf]",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf",
+      "published_raw": "Sun, 14 Jun 2026 00:58:50 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        0,
+        58,
+        50,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf\">https://www-cdn.anthropic.com/files/4zrzovbb/website/9ea607a5dd67c168093829b701f3a0a6d21156d5.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523125\">https://news.ycombinator.com/item?id=48523125</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-14T08:58:50+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 78,
+        "product_relevance_score": 58,
+        "technical_impact_score": 52,
+        "community_heat_score": 15
+      },
+      "final_score": 69,
+      "summary_zh": "Anthropic发布官方经济政策框架PDF，系统阐述公司对AI带来的劳动力市场变化、竞争格局及监管框架的政策立场，主张在推动技术进步的同时兼顾经济公平与社会影响。",
+      "why_zh": "Anthropic主动塑造AI经济政策叙事，头部实验室政策观将影响监管走向。",
+      "tags": [
+        "AI Regulation",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "98825a8ebf649b8c",
+      "title": "AI coding at home without going broke",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "published_raw": "Sat, 13 Jun 2026 16:45:03 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        13,
+        16,
+        45,
+        3,
+        5,
+        164,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/\">https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48518969\">https://news.ycombinator.com/item?id=48518969</a></p>\n<p>Points: 235</p>\n<p># Comments: 212</p>",
+      "published_at": "2026-06-14T00:45:03+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 92,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 72,
+        "technical_impact_score": 55,
+        "community_heat_score": 74
+      },
+      "final_score": 69,
+      "summary_zh": "个人技术博客分享如何在家庭环境下低成本进行 AI 编码，涵盖模型选择策略、API 费用控制技巧及本地部署思路。该文在 HN 获 235 分和 212 条评论，反映开发者对 AI 编码成本的普遍焦虑与实用解法的强烈需求。",
+      "why_zh": "直击个人开发者 AI 编码成本痛点，提供可落地省钱策略，社区共鸣极强。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "1cb48a760b1c4ff7",
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "published_raw": "Sat, 13 Jun 2026 19:54:55 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        13,
+        19,
+        54,
+        55,
+        5,
+        164,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661\">https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48520807\">https://news.ycombinator.com/item?id=48520807</a></p>\n<p>Points: 231</p>\n<p># Comments: 105</p>",
+      "published_at": "2026-06-14T03:54:55+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 72,
+        "freshness_score": 90,
+        "ai_relevance_score": 78,
+        "product_relevance_score": 45,
+        "technical_impact_score": 35,
+        "community_heat_score": 72
+      },
+      "final_score": 65,
+      "summary_zh": "英国德比郡一名警察因涉嫌在多起案件中使用 AI「伪造证据」被立案调查，事件由 Sky News 披露后迅速登上 HN 首页，引发 105 条讨论。这是目前已知首例警察利用 AI 工具捏造证书材料的公开调查案，司法界和公众高度关注。",
+      "why_zh": "AI 滥用首度进入刑事司法领域，对执法机构 AI 使用规范提出紧迫监管需求。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "3ec41e4e0c9b3a03",
+      "title": "Google fires sueball at alleged Chinese phishers over AI-powered fraud ops",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841",
+      "published_raw": "Sun, 14 Jun 2026 00:41:19 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        0,
+        41,
+        19,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841\">https://www.theregister.com/security/2026/06/12/google-fires-sueball-at-alleged-chinese-phishers-over-ai-powered-fraud-ops/5254841</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48523034\">https://news.ycombinator.com/item?id=48523034</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-14T08:41:19+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 72,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 58,
+        "technical_impact_score": 55,
+        "community_heat_score": 20
+      },
+      "final_score": 63,
+      "summary_zh": "Google对疑似中国网络钓鱼团伙提起诉讼，指控其运营AI驱动的大规模欺诈操作，包括伪造Google商业页面骗取用户，此案系平台通过司法手段追究AI辅助网络犯罪的典型案例。",
+      "why_zh": "以诉讼方式打击AI欺诈，为平台法律治理AI滥用行为提供新范式。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Regulation",
+      "count": 7
+    },
+    {
+      "tag": "AI Safety",
+      "count": 5
+    },
+    {
+      "tag": "AI Business",
+      "count": 4
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Infra",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1226,
+    "selected": 10,
+    "keywords": 8
+  },
+  "pm_insights": [
+    {
+      "point": "开源承诺需要可信的长期信号",
+      "detail": "融资后突然关闭开源仓库会令社区信任瞬间崩塌。开源策略不应只是获客手段，产品若以开源为核心卖点，需以许可证条款、治理结构等硬约束向用户传递持续承诺。"
+    },
+    {
+      "point": "AI合规风险须纳入产品路线图",
+      "detail": "政府可在24小时内决策并对AI公司施加出口管制，地缘政治合规正成为AI产品的核心不确定性。PM在规划产品时，应将监管风险列为一级约束条件，而非上线后再处理。"
+    },
+    {
+      "point": "安全与反滥用是AI产品的基础设施",
+      "detail": "AI驱动的诈骗、伪造证据等滥用场景正在爆发式增长，监管和法律追责压力随之上升。平台需将安全检测、内容溯源等能力作为产品底座，而非可延后的附加功能。"
+    },
+    {
+      "point": "AI工具成本是用户留存的隐性门槛",
+      "detail": "开发者对AI编码工具的费用高度敏感，低成本替代方案的讨论持续热门。PM在设计定价与资源消耗模型时，应将「可负担性」视为与功能同等重要的产品维度。"
+    }
+  ]
+}
