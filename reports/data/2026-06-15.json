@@ -1,0 +1,441 @@
+{
+  "date": "2026-06-15",
+  "date_cn": "2026年06月15日（周一）",
+  "top3": [
+    {
+      "id": "888bd1de6f406f7a",
+      "title": "Introducing the OpenAI Partner Network",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "published_raw": "Sun, 14 Jun 2026 17:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        17,
+        0,
+        0,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "published_at": "2026-06-15T01:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 85,
+        "technical_impact_score": 65,
+        "community_heat_score": 70
+      },
+      "final_score": 81,
+      "summary_zh": "OpenAI宣布成立合作伙伴网络，投资1.5亿美元支持全球合作伙伴加速企业AI采用与数字化转型，旨在通过生态合作推动大规模企业级AI部署。",
+      "why_zh": "OpenAI加码B端生态布局，1.5亿美元砸向全球企业AI落地，影响行业竞争格局。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "f9a9fd467da09b4a",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "published_raw": "Sun, 14 Jun 2026 15:37:31 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        15,
+        37,
+        31,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/nex-agi/Nex-N2/issues/4\">https://github.com/nex-agi/Nex-N2/issues/4</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48528371\">https://news.ycombinator.com/item?id=48528371</a></p>\n<p>Points: 281</p>\n<p># Comments: 150</p>",
+      "published_at": "2026-06-14T23:37:31+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 85,
+        "ai_relevance_score": 88,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 82
+      },
+      "final_score": 76,
+      "summary_zh": "里约热内卢市政府宣传的「自研」大语言模型Nex-N2，经技术社区调查发现实为多个现有开源模型合并而成，并非原创研发，引发对政府AI项目真实性与公共资金透明度的强烈质疑。",
+      "why_zh": "政府AI造假案例曝光，揭示公共机构AI采购透明度与技术核查的重要性。",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "ac424162e00799b4",
+      "title": "Carney Says Anthropic Ban Shows Risk of Relying on Big AI Models",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models",
+      "published_raw": "Sun, 14 Jun 2026 22:39:33 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        22,
+        39,
+        33,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models\">https://www.bloomberg.com/news/articles/2026-06-14/carney-says-anthropic-ban-shows-risk-of-relying-on-big-ai-models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48533685\">https://news.ycombinator.com/item?id=48533685</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-15T06:39:33+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 72,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 75,
+      "summary_zh": "彭博报道加拿大总理卡尼就 Anthropic 被禁事件发声，警告过度依赖少数大型 AI 模型存在战略风险，呼吁各国建立更多元的 AI 供应链。此事件凸显 AI 地缘政治博弈与大模型依赖风险正引发政府层面的高度警惕。",
+      "why_zh": "国家领导人公开表态 AI 依赖风险，预示 AI 监管与供应链多元化政策提速。",
+      "tags": [
+        "AI Regulation",
+        "AI Safety",
+        "AI Business"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "8601d763ff5cdfe3",
+      "title": "After Meta tapped Alexandr Wang to build new AI model, Zuckerberg has to sell it",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html",
+      "published_raw": "Sun, 14 Jun 2026 22:19:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        22,
+        19,
+        14,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html\">https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48533460\">https://news.ycombinator.com/item?id=48533460</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-15T06:19:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 75,
+      "summary_zh": "CNBC报道Meta聘请Scale AI创始人Alexandr Wang主导新一代AI大模型研发，扎克伯格亲自承担商业推广角色。此举显示Meta正借助Scale AI在数据标注与AI训练领域的核心优势，加速在大模型竞赛中追赶OpenAI与Google。",
+      "why_zh": "Meta引入Scale AI掌门人，数据与模型研发深度协同，AI军备竞赛格局或重塑。",
+      "tags": [
+        "AI Business",
+        "LLM"
+      ]
+    },
+    {
+      "id": "53c7710079c5f37a",
+      "title": "OpenAI Partner Network",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://openai.com/index/introducing-openai-partner-network/",
+      "published_raw": "Mon, 15 Jun 2026 00:08:54 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        0,
+        8,
+        54,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://openai.com/index/introducing-openai-partner-network/\">https://openai.com/index/introducing-openai-partner-network/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48534644\">https://news.ycombinator.com/item?id=48534644</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-15T08:08:54+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 88,
+        "technical_impact_score": 60,
+        "community_heat_score": 20
+      },
+      "final_score": 74,
+      "summary_zh": "OpenAI 正式推出合作伙伴网络（Partner Network），旨在构建围绕其 API 和产品的生态系统，吸引系统集成商、咨询公司及技术合作伙伴加入，进一步扩展其企业级市场覆盖。该计划可能提供认证、联合销售和技术支持等权益。",
+      "why_zh": "OpenAI 加速生态布局，直接影响企业客户采购决策与竞争格局。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "a9187b00b2f09d1e",
+      "title": "Not everyone is using AI for everything",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "published_raw": "Sun, 14 Jun 2026 14:44:29 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        14,
+        44,
+        29,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://gabrielweinberg.com/p/people-are-consuming-ai-like-they\">https://gabrielweinberg.com/p/people-are-consuming-ai-like-they</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48527700\">https://news.ycombinator.com/item?id=48527700</a></p>\n<p>Points: 424</p>\n<p># Comments: 461</p>",
+      "published_at": "2026-06-14T22:44:29+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 65,
+        "technical_impact_score": 40,
+        "community_heat_score": 88
+      },
+      "final_score": 70,
+      "summary_zh": "DuckDuckGo创始人Gabriel Weinberg撰文分析AI真实使用现状：重度用户高度依赖AI，但大多数人仍选择性或保守地使用，并非全员拥抱AI，实际采用率与行业宣传存在明显落差，HN引发461条热烈讨论。",
+      "why_zh": "AI采用率真实分布数据，对产品策略和市场预期有重要参考价值。",
+      "tags": [
+        "AI Product",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "c73b029d678b63ce",
+      "title": "Did Anthropic ask for this?",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "published_raw": "Sun, 14 Jun 2026 22:23:05 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        22,
+        23,
+        5,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.verysane.ai/p/did-anthropic-ask-for-this\">https://www.verysane.ai/p/did-anthropic-ask-for-this</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48533504\">https://news.ycombinator.com/item?id=48533504</a></p>\n<p>Points: 159</p>\n<p># Comments: 137</p>",
+      "published_at": "2026-06-15T06:23:05+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 65,
+        "technical_impact_score": 55,
+        "community_heat_score": 88
+      },
+      "final_score": 70,
+      "summary_zh": "文章质疑某行为或决策是否经Anthropic授权或主动推动，在Hacker News获得159点赞和137条评论，引发社区热烈讨论。内容可能涉及Anthropic的产品策略、合作安排或安全政策相关争议，社区关注度极高。",
+      "why_zh": "Anthropic相关争议在HN引发高热讨论，折射出业界对其决策透明度的关切。",
+      "tags": [
+        "AI Safety",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "53021aae44437aa2",
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "published_raw": "Sun, 14 Jun 2026 15:13:57 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        15,
+        13,
+        57,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>TLDR: I had 2,207 GoPro videos, and I need to rewatch them to find interesting moments from my cycling journey. I built a project to index them locally on my M1 Max using open-source ML models, search for those moments, and send the best clips straight to my DaVinci Resolve timeline.  I indexed 628 videos (668.68 GB, 15h 13m 18s of footage duration), more details in the metrics table in the last section of this article.<p>Full article: https://iliashaddad.com/blog/i-indexed-669-gb-of-my-gopro-videos-using-my-m1-max-computer</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48528029\">https://news.ycombinator.com/item?id=48528029</a></p>\n<p>Points: 283</p>\n<p># Comments: 67</p>",
+      "published_at": "2026-06-14T23:13:57+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 80,
+        "ai_relevance_score": 68,
+        "product_relevance_score": 60,
+        "technical_impact_score": 60,
+        "community_heat_score": 65
+      },
+      "final_score": 64,
+      "summary_zh": "开发者在M1 Max本地运行开源ML模型，对669GB共2207段GoPro骑行视频建立语义索引，实现内容搜索并自动推送精彩片段至DaVinci Resolve剪辑时间线，全程无需云端服务。",
+      "why_zh": "本地多模态AI处理大规模视频的实战验证，展示端侧推理的实用潜力。",
+      "tags": [
+        "Multimodal",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "a74ee1d20e0d49e1",
+      "title": "How Nvidia Dominates AI:11 Engineering Moves [video]",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.youtube.com/watch?v=vzM8mv1t_zM",
+      "published_raw": "Sun, 14 Jun 2026 23:10:59 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        14,
+        23,
+        10,
+        59,
+        6,
+        165,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=vzM8mv1t_zM\">https://www.youtube.com/watch?v=vzM8mv1t_zM</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48534009\">https://news.ycombinator.com/item?id=48534009</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-15T07:10:59+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 60,
+        "technical_impact_score": 65,
+        "community_heat_score": 15
+      },
+      "final_score": 62,
+      "summary_zh": "YouTube 视频解析英伟达在 AI 领域主导地位背后的 11 个关键工程决策，涵盖 CUDA 生态锁定、NVLink 互联、软硬协同设计等战略，揭示其为何在竞争者众多的情况下仍保持技术护城河。",
+      "why_zh": "系统梳理英伟达 AI 算力霸主地位的底层逻辑，有助于理解行业格局。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "b0540731202b9740",
+      "title": "BEAVER: Enterprise benchmark for LLM Text-to-SQL from private data warehouses",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://beaverbench.github.io/",
+      "published_raw": "Mon, 15 Jun 2026 01:20:49 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        1,
+        20,
+        49,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://beaverbench.github.io/\">https://beaverbench.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48535312\">https://news.ycombinator.com/item?id=48535312</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-15T09:20:49+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 40,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 15
+      },
+      "final_score": 62,
+      "summary_zh": "BEAVER 是专为企业私有数据仓库设计的 LLM Text-to-SQL 评测基准，填补了现有公开数据集无法反映真实企业数据复杂性的空白，可评估模型在私有、异构数据环境下的 SQL 生成能力，对企业 LLM 落地选型具有参考意义。",
+      "why_zh": "企业 Text-to-SQL 是 LLM 落地核心场景，专业基准有助于选型与能力评估。",
+      "tags": [
+        "LLM",
+        "Benchmark"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Business",
+      "count": 7
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "AI Safety",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 1
+    },
+    {
+      "tag": "Multimodal",
+      "count": 1
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1226,
+    "selected": 10,
+    "keywords": 9
+  },
+  "pm_insights": [
+    {
+      "point": "生态伙伴是企业AI规模化关键",
+      "detail": "头部AI厂商竞相建立合作伙伴网络，覆盖系统集成商与咨询公司，证明企业市场渗透必须借助渠道生态，而非单靠产品直销。"
+    },
+    {
+      "point": "AI实际采用率远低于行业宣传",
+      "detail": "研究显示多数用户仍保守、选择性地使用AI，产品经理应基于真实行为数据分层设计功能，避免过度高估用户依赖程度。"
+    },
+    {
+      "point": "单点依赖大模型存在战略风险",
+      "detail": "地缘政治摩擦已引发AI服务可用性危机，产品架构应提前规划多供应商切换能力，降低单点故障对核心功能的冲击。"
+    },
+    {
+      "point": "数据质量是AI产品核心护城河",
+      "detail": "顶级团队争相整合高质量数据标注与训练能力，说明数据飞轮比算法迭代更难复制，是构建AI产品长期壁垒的关键要素。"
+    }
+  ]
+}
