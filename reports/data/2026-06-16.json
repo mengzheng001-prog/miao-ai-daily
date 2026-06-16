@@ -1,0 +1,449 @@
+{
+  "date": "2026-06-16",
+  "date_cn": "2026年06月16日（周二）",
+  "top3": [
+    {
+      "id": "610268223423a90a",
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48542100",
+      "published_raw": "Mon, 15 Jun 2026 14:46:53 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        14,
+        46,
+        53,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>Has anyone here fully swapped Claude/GPT for a local model as their main coding tool, not just for side experiments? If so, please share your setup and performance (e.g tok/s)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48542100\">https://news.ycombinator.com/item?id=48542100</a></p>\n<p>Points: 685</p>\n<p># Comments: 334</p>",
+      "published_at": "2026-06-15T22:46:53+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 78,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 65,
+        "community_heat_score": 95
+      },
+      "final_score": 78,
+      "summary_zh": "HN热门讨论：开发者询问是否有人将Claude/GPT完全替换为本地模型作为日常编程主力，帖子获685赞334评论，大量开发者分享本地模型编码体验、硬件配置与推理速度数据，是近期最高热度AI编程讨论之一。",
+      "why_zh": "本地模型替代云端LLM的趋势风向标，社区热度极高，折射AI编程工具市场格局变化。",
+      "tags": [
+        "AI Coding",
+        "LLM",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "b7d3f3e14802b32f",
+      "title": "The White House Is Ratcheting Up Its War Against Anthropic",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/",
+      "published_raw": "Tue, 16 Jun 2026 00:45:39 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        0,
+        45,
+        39,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/\">https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549114\">https://news.ycombinator.com/item?id=48549114</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T08:45:39+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 75,
+        "technical_impact_score": 70,
+        "community_heat_score": 40
+      },
+      "final_score": 77,
+      "summary_zh": "《大西洋月刊》报道特朗普政府正升级对Anthropic的施压力度，可能通过出口管制等政策手段针对该公司，背景是白宫对AI竞争战略与企业监管走向的再调整，引发业界对美国AI政策走向及全球竞争格局的广泛关注。",
+      "why_zh": "白宫对Anthropic政策压力升级，直接影响美国AI监管走向与全球竞争格局。",
+      "tags": [
+        "AI Regulation",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "3c7de15f3ef3969e",
+      "title": "Anthropic lost the White House's trust – and then its flagship product",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/",
+      "published_raw": "Tue, 16 Jun 2026 01:55:45 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        1,
+        55,
+        45,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/\">https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549590\">https://news.ycombinator.com/item?id=48549590</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T09:55:45+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 85,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 55,
+        "community_heat_score": 20
+      },
+      "final_score": 72,
+      "summary_zh": "《华盛顿邮报》深度报道Anthropic如何在政策立场与商业利益间失衡，导致失去白宫信任并丢失旗舰政府合同，揭示AI公司在安全承诺、监管博弈与政治关系管理上的深层矛盾与代价。",
+      "why_zh": "顶级媒体揭露Anthropic政府关系破裂内幕，对AI行业监管格局与政策走向影响深远。",
+      "tags": [
+        "AI Business",
+        "AI Regulation",
+        "AI Safety"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "1841464f096fc7e2",
+      "title": "The Anthropic Fable Farce by Ben Goertzel",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://bengoertzel.substack.com/p/the-anthropic-fable-farce",
+      "published_raw": "Tue, 16 Jun 2026 01:10:32 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        1,
+        10,
+        32,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://bengoertzel.substack.com/p/the-anthropic-fable-farce\">https://bengoertzel.substack.com/p/the-anthropic-fable-farce</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549288\">https://news.ycombinator.com/item?id=48549288</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T09:10:32+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 60,
+        "community_heat_score": 20
+      },
+      "final_score": 67,
+      "summary_zh": "AGI研究先驱Ben Goertzel撰文批评Anthropic的Fable模型，认为其宣传存在夸大或误导，对Anthropic的技术路线及AI安全叙事提出尖锐质疑，标题措辞强烈，代表AGI社区对主流AI公司的一种批判视角。",
+      "why_zh": "知名研究者公开批评Fable，涉及AI能力边界与安全叙事争议。",
+      "tags": [
+        "LLM",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "e0867f6028cd0f26",
+      "title": "Show HN: Deep-XPIA – Prompt injection benchmark for multi-agent AI systems",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://freyzo.github.io/deep-xpia/",
+      "published_raw": "Tue, 16 Jun 2026 01:40:07 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        1,
+        40,
+        7,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://freyzo.github.io/deep-xpia/\">https://freyzo.github.io/deep-xpia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549498\">https://news.ycombinator.com/item?id=48549498</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T09:40:07+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 40,
+        "freshness_score": 82,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 65,
+        "technical_impact_score": 75,
+        "community_heat_score": 15
+      },
+      "final_score": 63,
+      "summary_zh": "Deep-XPIA是专为多智能体AI系统设计的提示注入攻击基准，系统评估多Agent环境下跨插件间接提示注入（XPIA）的防御能力，为AI安全研究提供可量化的标准测评框架。",
+      "why_zh": "多Agent系统安全是AI落地核心风险，首个专项基准有助推动防御能力标准化。",
+      "tags": [
+        "AI Safety",
+        "Agent",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "50c5a4ec2303aa5d",
+      "title": "Show HN: Tamper-evident audit trail for AI coding agent activity",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/Constellation-Labs/gate-oc-audit",
+      "published_raw": "Mon, 15 Jun 2026 23:01:09 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        23,
+        1,
+        9,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>We released what I've been working in the last few months: an Openclaw plugin that ecords every session, tool invocation, and prompt exchange into a local SQLite database with SHA-256 hash chain integrity, so you can verify that no events were altered or deleted after the fact.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48548225\">https://news.ycombinator.com/item?id=48548225</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T07:01:09+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 80,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 62,
+        "technical_impact_score": 62,
+        "community_heat_score": 20
+      },
+      "final_score": 62,
+      "summary_zh": "开源Openclaw插件发布，为AI编程智能体提供防篡改审计追踪：将每次会话、工具调用和提示词交换记录至本地SQLite数据库，并使用SHA-256哈希链保障完整性，可事后验证任何事件是否被篡改或删除。",
+      "why_zh": "填补AI编程智能体可审计性空白，直接解决企业合规与安全监管的核心诉求。",
+      "tags": [
+        "AI Coding",
+        "Open Source",
+        "Agent"
+      ]
+    },
+    {
+      "id": "b8bd239a66057c00",
+      "title": "Show HN: Open-source CLI to see your AI coding token usage and compare it",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/amiinwani/whoburnedmore.com",
+      "published_raw": "Tue, 16 Jun 2026 01:03:04 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        1,
+        3,
+        4,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>I use Claude Code, Codex, Cursor every day and had no idea how much I was actually burning across all of them combined. Each tool shows its own usage (most don't) in its own place, if at all, and I just wanted one number. So I wrote this.<p>npx whoburnedmore<p>reads the usage/log files these tools already write locally, sums them up, and prints a dashboard: total tokens, a cost estimate, active days, and your heaviest single day.<p>There is also a public leaderboard on the webiste which compares your ai usage with all others<p>Feedback & a upvote is appreciated<p>github is /amiinwani/whoburnedmore.com\nproduct hunt : <a href=\"https://www.producthunt.com/products/whoburnedmore\" rel=\"nofollow\">https://www.producthunt.com/products/whoburnedmore</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549250\">https://news.ycombinator.com/item?id=48549250</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T09:03:04+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 85,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 75,
+        "technical_impact_score": 50,
+        "community_heat_score": 30
+      },
+      "final_score": 62,
+      "summary_zh": "开源CLI工具whoburnedmore，通过读取Claude Code、Codex、Cursor等AI编程工具本地生成的日志文件，汇总显示token消耗总量、成本估算、活跃天数及单日峰值，并提供公共排行榜横向比较功能。",
+      "why_zh": "统一追踪多AI编码工具token消耗，解决成本不透明痛点。",
+      "tags": [
+        "AI Coding",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "e7e95749574b4fca",
+      "title": "Show HN: Subagent-fleet – AI coding subagents across local Ollama machines",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://pypi.org/project/subagent-fleet/",
+      "published_raw": "Mon, 15 Jun 2026 22:37:15 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        22,
+        37,
+        15,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://pypi.org/project/subagent-fleet/\">https://pypi.org/project/subagent-fleet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48547977\">https://news.ycombinator.com/item?id=48547977</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-16T06:37:15+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 48,
+        "freshness_score": 80,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 65,
+        "technical_impact_score": 55,
+        "community_heat_score": 12
+      },
+      "final_score": 59,
+      "summary_zh": "开源Python包subagent-fleet发布，支持跨本地Ollama机器横向部署AI编程子智能体集群。用户可在自有硬件上分布式运行多个编程智能体，无需云服务，兼顾成本控制与数据隐私保护。",
+      "why_zh": "本地化多智能体编程集群方案，为私有化部署场景提供可扩展替代路径。",
+      "tags": [
+        "AI Coding",
+        "Open Source",
+        "Agent"
+      ]
+    },
+    {
+      "id": "65e6291376a0a775",
+      "title": "How Long Until AI Doesn't Need Humans?",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://asteriskmag.com/issues/14/how-long-until-ai-doesn-t-need-humans",
+      "published_raw": "Mon, 15 Jun 2026 23:06:03 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        23,
+        6,
+        3,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://asteriskmag.com/issues/14/how-long-until-ai-doesn-t-need-humans\">https://asteriskmag.com/issues/14/how-long-until-ai-doesn-t-need-humans</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48548283\">https://news.ycombinator.com/item?id=48548283</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-16T07:06:03+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 80,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 38,
+        "technical_impact_score": 45,
+        "community_heat_score": 22
+      },
+      "final_score": 56,
+      "summary_zh": "Asterisk杂志发表深度分析文章，探讨AI何时能完全取代人类劳动。从当前模型能力出发，讨论实现完全自主的技术瓶颈、时间预期及潜在社会影响，属于面向行业思考者的严肃预测性分析。",
+      "why_zh": "提供AI自主化时间线的严肃讨论，帮助从业者校准预期与风险认知。",
+      "tags": [
+        "Research",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "f06c5186a486b055",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "source": "Google AI Blog",
+      "category": "C",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "published_raw": "Mon, 15 Jun 2026 15:00:00 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        15,
+        15,
+        0,
+        0,
+        0,
+        166,
+        0
+      ],
+      "raw_text": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "published_at": "2026-06-15T23:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 75,
+        "ai_relevance_score": 45,
+        "product_relevance_score": 35,
+        "technical_impact_score": 40,
+        "community_heat_score": 40
+      },
+      "final_score": 54,
+      "summary_zh": "Google宣布2026-2027年向阿拉巴马州杰克逊县数据中心追加15亿美元投资，该设施自2019年启用，此次扩建将大幅强化Google云计算与AI训练推理的基础设施规模。",
+      "why_zh": "超大规模AI基础设施持续扩张，反映科技巨头AI算力军备竞赛加速。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Coding",
+      "count": 4
+    },
+    {
+      "tag": "Open Source",
+      "count": 4
+    },
+    {
+      "tag": "AI Safety",
+      "count": 4
+    },
+    {
+      "tag": "AI Business",
+      "count": 3
+    },
+    {
+      "tag": "Agent",
+      "count": 3
+    },
+    {
+      "tag": "LLM",
+      "count": 2
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 2
+    },
+    {
+      "tag": "Benchmark",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    },
+    {
+      "tag": "AI Infra",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1227,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "隐私与成本是本地化部署的核心驱动力",
+      "detail": "大量开发者积极探索本地模型替代云端方案，说明数据隐私管控与长期Token成本已成为企业采购AI工具的决策门槛，产品需在能力之外提供可量化的成本透明度。"
+    },
+    {
+      "point": "可审计性正从加分项变为准入门槛",
+      "detail": "防篡改日志、哈希链追踪等审计工具快速涌现，反映合规需求已渗透AI编程场景。面向企业客户的AI产品若缺乏操作留痕与可溯源机制，将难以通过安全评审。"
+    },
+    {
+      "point": "多Agent场景下安全攻防需前置设计",
+      "detail": "针对跨插件提示注入的基准测评框架出现，意味着多智能体产品的攻击面已系统化。产品设计阶段须将安全边界和权限隔离纳入架构，而非上线后补救。"
+    },
+    {
+      "point": "政策与监管关系是AI公司的隐性产品力",
+      "detail": "AI头部企业因政策立场失衡而丢失政府合同的案例表明，监管合规与政治关系管理已直接影响商业结果，To-G方向的AI产品需将政策风险纳入路线图评估。"
+    }
+  ]
+}
