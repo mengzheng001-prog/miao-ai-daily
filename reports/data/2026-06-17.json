@@ -1,0 +1,434 @@
+{
+  "date": "2026-06-17",
+  "date_cn": "2026年06月17日（周三）",
+  "top3": [
+    {
+      "id": "72ef22156e7e6c39",
+      "title": "Running local models is good now",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "published_raw": "Tue, 16 Jun 2026 14:36:57 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        14,
+        36,
+        57,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/\">https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48555993\">https://news.ycombinator.com/item?id=48555993</a></p>\n<p>Points: 1020</p>\n<p># Comments: 433</p>",
+      "published_at": "2026-06-16T22:36:57+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 85,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 88,
+        "technical_impact_score": 80,
+        "community_heat_score": 97
+      },
+      "final_score": 86,
+      "summary_zh": "知名技术博主 Vicki Boykis 撰文指出本地运行 AI 模型的体验已大幅改善，文章引发 HN 社区高度共鸣（1020 赞、433 评论），探讨了硬件门槛降低、推理框架成熟带来的本地模型可用性质变，是开发者社区对本地 AI 现状的一次集体确认。",
+      "why_zh": "社区热度极高，标志本地 AI 部署进入大众可用阶段，隐私与离线需求将被重新激活。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "aa77a916b0f0c9e5",
+      "title": "Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://qwen.ai/blog?id=qwen-robotsuite",
+      "published_raw": "Tue, 16 Jun 2026 13:15:15 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        13,
+        15,
+        15,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://qwen.ai/blog?id=qwen-robotsuite\">https://qwen.ai/blog?id=qwen-robotsuite</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48554814\">https://news.ycombinator.com/item?id=48554814</a></p>\n<p>Points: 124</p>\n<p># Comments: 22</p>",
+      "published_at": "2026-06-16T21:15:15+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 85,
+        "ai_relevance_score": 92,
+        "product_relevance_score": 80,
+        "technical_impact_score": 87,
+        "community_heat_score": 62
+      },
+      "final_score": 85,
+      "summary_zh": "阿里通义千问团队发布 Qwen-Robot Suite，这是一套面向物理世界智能的基础模型套件，整合感知、规划与控制能力，旨在为机器人应用提供统一的多模态基础模型支撑，标志 Qwen 系列从语言向具身智能延伸。",
+      "why_zh": "国内头部 LLM 厂商正式进军具身智能，机器人基础模型赛道格局加速变化。",
+      "tags": [
+        "Multimodal",
+        "Research",
+        "LLM"
+      ]
+    },
+    {
+      "id": "d4f917da990ef395",
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "published_raw": "Tue, 16 Jun 2026 17:54:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        17,
+        54,
+        2,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/\">https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48559188\">https://news.ycombinator.com/item?id=48559188</a></p>\n<p>Points: 137</p>\n<p># Comments: 137</p>",
+      "published_at": "2026-06-17T01:54:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 90,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 78,
+        "technical_impact_score": 72,
+        "community_heat_score": 68
+      },
+      "final_score": 81,
+      "summary_zh": "荷兰应用科研机构 TNO 发布 GPT-NL，这是荷兰首个本土主权大语言模型，目标是减少对境外 AI 服务的依赖，保障数据主权并优化荷兰语及欧洲小语种的语言适配能力。",
+      "why_zh": "主权 AI 浪潮欧洲实践典型，对各国本土 LLM 建设路径有参考意义。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Regulation"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "c2226b7b12bec2d0",
+      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
+      "published_raw": "Tue, 16 Jun 2026 23:15:44 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        23,
+        15,
+        44,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/\">https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563609\">https://news.ycombinator.com/item?id=48563609</a></p>\n<p>Points: 66</p>\n<p># Comments: 13</p>",
+      "published_at": "2026-06-17T07:15:44+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 80,
+        "technical_impact_score": 75,
+        "community_heat_score": 65
+      },
+      "final_score": 79,
+      "summary_zh": "Wolfram Language 与 Mathematica 15 正式发布，内置 AI 助手功能，将 LLM 与符号计算深度整合；新增符号音乐处理等大量核心功能。这是该平台数十年来最重要的版本之一，标志着专业科学计算工具全面拥抱 AI 能力。",
+      "why_zh": "顶级科学计算平台原生集成 AI，专业工具 AI 化进程的重要里程碑。",
+      "tags": [
+        "AI Product",
+        "LLM",
+        "Research"
+      ]
+    },
+    {
+      "id": "3c7de15f3ef3969e",
+      "title": "Anthropic lost the White House's trust – and then its flagship product",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/",
+      "published_raw": "Wed, 17 Jun 2026 01:57:21 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        17,
+        1,
+        57,
+        21,
+        2,
+        168,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/\">https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48564821\">https://news.ycombinator.com/item?id=48564821</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-17T09:57:21+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 82,
+        "technical_impact_score": 70,
+        "community_heat_score": 22
+      },
+      "final_score": 78,
+      "summary_zh": "《华盛顿邮报》深度报道称 Anthropic 失去了白宫的信任，并随后失去其旗舰产品合同。文章揭示 Anthropic 在政府关系上的失误，涉及 Claude 在政府采购中的挫折，反映 AI 公司与美国政府机构之间博弈的复杂态势。",
+      "why_zh": "华盛顿邮报背书的政商关系报道，直接影响 Anthropic 商业版图与行业格局判断。",
+      "tags": [
+        "AI Business",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "66e02475cd86478f",
+      "title": "OpenAI's financials have leaked, showing $21B in losses against $13B in revenue",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/",
+      "published_raw": "Tue, 16 Jun 2026 23:54:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        23,
+        54,
+        43,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/\">https://fortune.com/2026/06/16/openai-financials-leaked-losses-revenue-profit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563956\">https://news.ycombinator.com/item?id=48563956</a></p>\n<p>Points: 7</p>\n<p># Comments: 4</p>",
+      "published_at": "2026-06-17T07:54:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 70,
+        "community_heat_score": 35
+      },
+      "final_score": 76,
+      "summary_zh": "OpenAI 财务数据遭泄露，显示其营收约 130 亿美元但亏损高达 210 亿美元，亏损幅度远超营收。数据揭示公司在模型训练、算力和运营上的巨大成本压力，引发外界对 AI 行业头部公司商业模式可持续性的广泛讨论。",
+      "why_zh": "头部 AI 公司大规模亏损数据曝光，直接影响市场对整个行业盈利路径的判断。",
+      "tags": [
+        "AI Business"
+      ]
+    },
+    {
+      "id": "12ceb5f0dc7b30a8",
+      "title": "Unlocking UK house-building with AI-accelerated planning",
+      "source": "Google DeepMind",
+      "category": "C",
+      "url": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+      "published_raw": "Tue, 16 Jun 2026 21:29:50 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        21,
+        29,
+        50,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+      "published_at": "2026-06-17T05:29:50+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 88,
+        "ai_relevance_score": 78,
+        "product_relevance_score": 72,
+        "technical_impact_score": 62,
+        "community_heat_score": 55
+      },
+      "final_score": 75,
+      "summary_zh": "英国政府与 Google DeepMind 合作开发 AI 原型系统，旨在加速住房规划审批决策流程。该系统将辅助分析规划申请、提升政府决策效率，直接回应英国长期住房短缺这一社会痛点。",
+      "why_zh": "DeepMind 进军政府服务，AI 赋能公共政策的标志性落地案例。",
+      "tags": [
+        "AI Product",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "74a53b5355073426",
+      "title": "OpenAI spending hit $34B last year ahead of planned IPO, $21B losses",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.ft.com/content/e15b0d7e-ff6b-4f16-ba7a-4068feddb828",
+      "published_raw": "Tue, 16 Jun 2026 23:59:50 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        16,
+        23,
+        59,
+        50,
+        1,
+        167,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.ft.com/content/e15b0d7e-ff6b-4f16-ba7a-4068feddb828\">https://www.ft.com/content/e15b0d7e-ff6b-4f16-ba7a-4068feddb828</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48564014\">https://news.ycombinator.com/item?id=48564014</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-17T07:59:50+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 88,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 82,
+        "technical_impact_score": 35,
+        "community_heat_score": 28
+      },
+      "final_score": 73,
+      "summary_zh": "英国《金融时报》披露OpenAI去年总支出高达340亿美元，净亏损约210亿美元，数据在其筹备IPO前夕曝光。尽管亏损规模惊人，公司仍在持续加码算力、研究与人才投入，展示了AI头部公司以亏损换市场份额的激进战略。",
+      "why_zh": "IPO前财务数据首度曝光，揭示AI军备竞赛的真实资本消耗烈度。",
+      "tags": [
+        "AI Business"
+      ]
+    },
+    {
+      "id": "09af2af02844b80e",
+      "title": "France to ditch Palantir's AI data tools in favour of domestic provider",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision",
+      "published_raw": "Wed, 17 Jun 2026 00:16:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        17,
+        0,
+        16,
+        14,
+        2,
+        168,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision\">https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48564141\">https://news.ycombinator.com/item?id=48564141</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-17T08:16:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 88,
+        "ai_relevance_score": 78,
+        "product_relevance_score": 75,
+        "technical_impact_score": 55,
+        "community_heat_score": 45
+      },
+      "final_score": 73,
+      "summary_zh": "法国政府宣布放弃美国Palantir的AI数据分析工具，转而采用本土企业ChapsVision的解决方案，理由是数据主权与国家安全。此举是欧洲主要国家首次在政府级AI合同上公开排斥美国供应商，标志着AI供应链本土化趋势明显加速。",
+      "why_zh": "欧洲AI主权化提速，美欧AI市场分割加剧，影响全球供应商格局。",
+      "tags": [
+        "AI Business",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "c0c4fce9f22561a2",
+      "title": "Anthropic's latest feud with the admin may help it, sales data suggests",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/",
+      "published_raw": "Wed, 17 Jun 2026 00:43:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        17,
+        0,
+        43,
+        43,
+        2,
+        168,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/\">https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48564305\">https://news.ycombinator.com/item?id=48564305</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-17T08:43:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 88,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 72,
+        "technical_impact_score": 40,
+        "community_heat_score": 25
+      },
+      "final_score": 67,
+      "summary_zh": "TechCrunch报道，Anthropic因在AI监管立场上与特朗普政府产生摩擦而备受关注，但最新销售数据显示此次政治争议反而提升了企业客户对其品牌的信任度，推动了B端订单增长，政治独立性成为差异化卖点。",
+      "why_zh": "政治摩擦意外转化为商业信任背书，揭示企业AI采购新逻辑。",
+      "tags": [
+        "AI Business",
+        "AI Regulation"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Business",
+      "count": 6
+    },
+    {
+      "tag": "LLM",
+      "count": 4
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 4
+    },
+    {
+      "tag": "AI Product",
+      "count": 3
+    },
+    {
+      "tag": "Open Source",
+      "count": 2
+    },
+    {
+      "tag": "Research",
+      "count": 2
+    },
+    {
+      "tag": "Multimodal",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1228,
+    "selected": 10,
+    "keywords": 7
+  },
+  "pm_insights": [
+    {
+      "point": "数据主权正成为政府采购硬门槛",
+      "detail": "多个欧洲国家相继放弃境外AI服务、转向本土方案，产品出海或服务公共部门时，数据本地化与主权合规能力已从加分项变为准入前提，需提前纳入架构设计。"
+    },
+    {
+      "point": "本地部署成熟，隐私敏感市场窗口打开",
+      "detail": "本地推理框架与硬件门槛双双降低，医疗、金融、政务等对数据出境高度敏感的领域正迎来可落地的私有部署窗口，产品应提前准备离线或内网部署形态。"
+    },
+    {
+      "point": "AI头部亏损揭示：用量定价模型难以为继",
+      "detail": "行业头部公司营收远低于支出，说明当前普遍的按量收费定价无法覆盖真实算力成本，产品需更精细地设计分级套餐与使用上限，避免重度用户持续侵蚀毛利。"
+    },
+    {
+      "point": "政治独立性可转化为企业客户信任资产",
+      "detail": "AI公司与政府的监管摩擦若处置得当，反而能向企业买家传递「不依附政治压力」的信号，提升品牌公信力；在市场教育中主动沟通价值立场，可作为差异化的软性竞争壁垒。"
+    }
+  ]
+}
