@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喵仔仔 AI 周报 - 2026年06月15日 – 06月21日</title>
+<style>
+  :root{
+    --bg:#f4f7fb; --card:#ffffff; --ink:#1a2433; --sub:#5b6b82;
+    --line:#e3e9f2; --blue:#2563eb; --blue-deep:#1e40af; --cyan:#06b6d4;
+    --glow:rgba(6,182,212,.28); --chip:#eef3fb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 60px}
+
+  header{text-align:center;padding:28px 0 22px;
+    background:linear-gradient(135deg,#0b1f3a 0%,#13315c 60%,#0e2a4d 100%);
+    border-radius:18px;color:#fff;position:relative;overflow:hidden}
+  header::after{content:"";position:absolute;inset:0;
+    background:radial-gradient(600px 120px at 50% -20%,var(--glow),transparent 70%)}
+  header h1{font-size:30px;font-weight:800;letter-spacing:.5px;position:relative}
+  header .sub{margin-top:8px;color:#bcd2f0;font-size:15px;position:relative}
+  header .gen{margin-top:6px;color:#7fa8d6;font-size:13px;position:relative}
+
+  h2{font-size:19px;margin:34px 0 14px;display:flex;align-items:center;gap:8px}
+  h2::before{content:"";width:4px;height:18px;border-radius:3px;
+    background:linear-gradient(var(--blue),var(--cyan))}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:16px 12px;text-align:center}
+  .stat .num{font-size:28px;font-weight:800;
+    background:linear-gradient(90deg,var(--blue),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat .lbl{font-size:12px;color:var(--sub);margin-top:4px}
+
+  /* 本周总览 */
+  .overview{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px 20px;font-size:15px;color:#33415a;margin-top:18px}
+
+  /* 重点（与日报 PM 启发同款） */
+  .insight-list{list-style:none;counter-reset:ins;display:flex;flex-direction:column;gap:10px}
+  .insight-list li{counter-increment:ins;background:var(--card);border:1px solid var(--line);
+    border-left:4px solid var(--cyan);border-radius:12px;padding:13px 16px 13px 46px;position:relative}
+  .insight-list li::before{content:counter(ins);position:absolute;left:12px;top:13px;
+    width:24px;height:24px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--cyan));
+    color:#fff;font-size:12.5px;font-weight:800;display:flex;align-items:center;justify-content:center;
+    box-shadow:0 3px 9px var(--glow)}
+  .insight-list .pt{display:block;font-weight:800;font-size:15.5px;margin-bottom:4px;
+    background:linear-gradient(90deg,var(--blue-deep),var(--cyan));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .insight-list .dt{font-size:13.5px;color:#46546b;line-height:1.55}
+
+  /* 卡片 */
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--cyan);
+    border-radius:14px;padding:18px;margin-bottom:14px;transition:.2s ease;position:relative}
+  .card:hover{transform:translateY(-2px);border-color:var(--cyan);box-shadow:0 8px 28px var(--glow)}
+  .card .row{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .card h3{font-size:17px;font-weight:700;line-height:1.45}
+  .meta{font-size:12.5px;color:var(--sub);margin:7px 0 9px}
+  .meta .cat{display:inline-block;padding:1px 7px;border-radius:6px;
+    background:var(--chip);color:var(--blue-deep);font-weight:600;margin-right:6px}
+  .summary{font-size:14.5px;color:#33415a}
+  .score{flex-shrink:0;text-align:center;min-width:48px}
+  .score .v{font-size:20px;font-weight:800;color:var(--blue)}
+  .bar{height:4px;border-radius:3px;background:var(--line);margin-top:3px;overflow:hidden}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+
+  .kw{display:flex;flex-wrap:wrap;gap:9px}
+  .kw .k{padding:5px 13px;border-radius:22px;background:var(--card);
+    border:1px solid var(--line);font-size:13px;font-weight:600}
+  .kw .k b{color:var(--cyan);margin-left:5px}
+
+  .srclist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px}
+  .srclist a{display:flex;justify-content:space-between;gap:10px;
+    padding:7px 0;border-bottom:1px dashed var(--line);font-size:13.5px}
+  .srclist a:last-child{border-bottom:none}
+  .srclist a:hover{color:var(--blue)}
+  .srclist .s{color:var(--sub);flex-shrink:0}
+
+  .home{display:inline-block;margin-top:8px;color:var(--blue);font-size:13.5px}
+  footer{text-align:center;color:var(--sub);font-size:12px;margin-top:36px}
+  @media(max-width:600px){.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🐱 喵仔仔 AI 周报</h1>
+    <div class="sub">本周 AI 重点回顾 · 2026年06月15日 – 06月21日</div>
+    <div class="gen">北京时间 2026-06-21 10:00（每周日北京时间自动生成）</div>
+  </header>
+
+  <!-- 数据概览 -->
+  <div class="stats">
+    <div class="stat"><div class="num">7</div><div class="lbl">覆盖天数</div></div>
+    <div class="stat"><div class="num"><built-in method items of dict object at 0x7f0163f76100></div><div class="lbl">本周入选</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周重点</div></div>
+    <div class="stat"><div class="num">12</div><div class="lbl">本周关键词</div></div>
+  </div>
+
+  <!-- 本周总览 -->
+  
+  <h2>本周总览</h2>
+  <div class="overview">本周AI行业呈现三条主线：顶尖人才向头部机构集中加速行业整合；医疗AI首次在顶级学术期刊获得大规模临床验证，步入正规化落地阶段；开源与本地模型体验质变，国产开源模型登顶国际权威榜单。与此同时，头部AI企业持续亏损的财务压力引发业界对商业模式可持续性的广泛审视。</div>
+  
+
+  <!-- 本周重点 -->
+  
+  <h2>本周重点</h2>
+  <ol class="insight-list">
+    
+    <li><span class="pt">医疗AI突破学术认证门槛</span><span class="dt">AI医疗助理研究登上《自然》期刊，并在真实临床场景验证了对复杂慢性病及儿科罕见遗传病的诊断辅助价值，标志医疗AI从演示走向有据可查的实证落地。</span></li>
+    
+    <li><span class="pt">顶尖研究人才加速向头部集中</span><span class="dt">变换器架构核心论文作者、行业顶级系统架构师转投OpenAI，折射出当前AI竞争已从算力军备扩展为对少数关键人才的争夺，头部效应进一步加剧。</span></li>
+    
+    <li><span class="pt">开源大模型国际竞争力显著提升</span><span class="dt">国产开源模型在国际权威智能评测平台登顶所有开放权重模型，获开发者社区高度关注，表明开源赛道的全球竞争格局已实质性重塑。</span></li>
+    
+    <li><span class="pt">本地运行AI模型体验迎来质变</span><span class="dt">硬件门槛持续下降、推理框架日趋成熟，开发者社区普遍确认本地模型可用性已达到生产可用水平，AI部署模式多元化趋势明朗。</span></li>
+    
+    <li><span class="pt">AI商业模式可持续性遭遇质疑</span><span class="dt">头部AI企业持续高额亏损的财务数据引发广泛讨论，业界开始系统性审视当前AI产品定价、算力成本与变现路径能否在中长期达到平衡。</span></li>
+    
+  </ol>
+  
+
+  <!-- 本周最值得关注 -->
+  <h2>本周最值得关注</h2>
+  
+  <a class="card" href="https://www.reuters.com/technology/googles-gemini-co-lead-noam-shazeer-join-openai-2026-06-18/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Noam Shazeer is joining OpenAI</h3></div>
+      <div class="score"><div class="v">89</div>
+        <div class="bar"><i style="width:89%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (AI 关键词) · 06-18 08:31</div>
+    <div class="summary">路透社报道：谷歌 Gemini 项目联合负责人 Noam Shazeer 将加入 OpenAI。Shazeer 是《Attention is All You Need》论文核心作者之一，后离开谷歌创办 Character.AI，并以约25亿美元将技术授权回谷歌，是当今最顶级的 AI 系统架构师之一。此次加盟大幅强化 OpenAI 顶尖研究人才储备。</div>
+  </a>
+  
+  <a class="card" href="https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>New research shows how AMIE, our medical AI, could help manage health conditions.</h3></div>
+      <div class="score"><div class="v">87</div>
+        <div class="bar"><i style="width:87%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>Google AI Blog · 06-17 23:00</div>
+    <div class="summary">谷歌在《自然》期刊发表研究，显示其对话式医疗AI系统AMIE在复杂慢性病管理方面表现与初级保健医生相当，研究在真实患者场景中验证了AI医疗助理的临床价值，标志着医疗AI进入顶级学术认证阶段。</div>
+  </a>
+  
+  <a class="card" href="https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Running local models is good now</h3></div>
+      <div class="score"><div class="v">86</div>
+        <div class="bar"><i style="width:86%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-16 22:36</div>
+    <div class="summary">知名技术博主 Vicki Boykis 撰文指出本地运行 AI 模型的体验已大幅改善，文章引发 HN 社区高度共鸣（1020 赞、433 评论），探讨了硬件门槛降低、推理框架成熟带来的本地模型可用性质变，是开发者社区对本地 AI 现状的一次集体确认。</div>
+  </a>
+  
+  <a class="card" href="https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Leaked financial docs show OpenAI is losing billions of dollars a year</h3></div>
+      <div class="score"><div class="v">86</div>
+        <div class="bar"><i style="width:86%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-18 05:31</div>
+    <div class="summary">泄露财务文件显示OpenAI每年亏损数十亿美元，尽管收入持续增长，但研发与运营成本极高，引发业界对其商业模式可持续性的广泛质疑，Hacker News上引发热烈讨论（296分/209评论）。</div>
+  </a>
+  
+  <a class="card" href="https://qwen.ai/blog?id=qwen-robotsuite" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-16 21:15</div>
+    <div class="summary">阿里通义千问团队发布 Qwen-Robot Suite，这是一套面向物理世界智能的基础模型套件，整合感知、规划与控制能力，旨在为机器人应用提供统一的多模态基础模型支撑，标志 Qwen 系列从语言向具身智能延伸。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/ai-chemist-improves-reaction" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-17 18:00</div>
+    <div class="summary">OpenAI与Molecule.one合作，展示了一个近乎自主的AI化学家，利用GPT-5.4改进了药物合成中一项关键反应步骤，推动药物化学研究自动化进程，为新药研发提速提供了实证案例。</div>
+  </a>
+  
+  <a class="card" href="https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>GLM-5.2 is the new leading open weights model on Artificial Analysis</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-17 17:12</div>
+    <div class="summary">智谱 GLM-5.2 在 Artificial Analysis 智能指数上超越所有开放权重模型，登顶榜首，HN 上获得792点赞、385条评论，成为近期社区热度最高的开源模型事件，标志中国开源大模型取得重要里程碑。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/diagnose-rare-childhood-diseases" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Using AI to help physicians diagnose rare genetic diseases affecting children</h3></div>
+      <div class="score"><div class="v">85</div>
+        <div class="bar"><i style="width:85%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-18 16:00</div>
+    <div class="summary">研究人员利用OpenAI推理模型协助儿科罕见遗传病诊断，在此前无法确诊的病例中新增确诊18例。该研究展示了AI推理模型在复杂医学诊断中的实际落地价值，为疑难罕见病患者提供了新的解题路径。</div>
+  </a>
+  
+  <a class="card" href="https://openrouter.ai/blog/insights/royale-last-agent-standing/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>A robot is sprinting towards you. Do you want it running on Claude or Grok?</h3></div>
+      <div class="score"><div class="v">84</div>
+        <div class="bar"><i style="width:84%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-18 05:00</div>
+    <div class="summary">OpenRouter发布"最后存活Agent"竞技场测试，系统对比Claude、Grok等主流AI模型在自主Agent及机器人控制场景下的实战表现，揭示不同LLM在复杂自主任务中的显著差异，Hacker News引发热议（168分/138评论）。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/introducing-openai-partner-network" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Introducing the OpenAI Partner Network</h3></div>
+      <div class="score"><div class="v">81</div>
+        <div class="bar"><i style="width:81%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-15 01:00</div>
+    <div class="summary">OpenAI宣布成立合作伙伴网络，投资1.5亿美元支持全球合作伙伴加速企业AI采用与数字化转型，旨在通过生态合作推动大规模企业级AI部署。</div>
+  </a>
+  
+  <a class="card" href="https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>GPT‑NL: a sovereign language model for the Netherlands</h3></div>
+      <div class="score"><div class="v">81</div>
+        <div class="bar"><i style="width:81%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">A</span>Hacker News (Front Page) · 06-17 01:54</div>
+    <div class="summary">荷兰应用科研机构 TNO 发布 GPT-NL，这是荷兰首个本土主权大语言模型，目标是减少对境外 AI 服务的依赖，保障数据主权并优化荷兰语及欧洲小语种的语言适配能力。</div>
+  </a>
+  
+  <a class="card" href="https://openai.com/index/improving-health-intelligence-in-chatgpt" target="_blank" rel="noopener">
+    <div class="row">
+      <div style="flex:1"><h3>Improving health intelligence in ChatGPT</h3></div>
+      <div class="score"><div class="v">81</div>
+        <div class="bar"><i style="width:81%"></i></div></div>
+    </div>
+    <div class="meta"><span class="cat">C</span>OpenAI Blog · 06-18 19:00</div>
+    <div class="summary">OpenAI推出GPT-5.5 Instant专项强化ChatGPT健康医疗问答能力，涵盖更强推理、更好上下文理解与更清晰的沟通表达，评估过程参考了医生反馈，目标是提供更准确可靠的健康信息。</div>
+  </a>
+  
+
+  <!-- 本周关键词 -->
+  <h2>本周关键词</h2>
+  <div class="kw">
+    <span class="k">AI Business<b>31</b></span><span class="k">LLM<b>23</b></span><span class="k">AI Product<b>20</b></span><span class="k">AI Regulation<b>13</b></span><span class="k">Research<b>12</b></span><span class="k">Open Source<b>11</b></span><span class="k">Agent<b>11</b></span><span class="k">AI Infra<b>9</b></span><span class="k">AI Safety<b>8</b></span><span class="k">AI Coding<b>7</b></span><span class="k">Benchmark<b>5</b></span><span class="k">Multimodal<b>4</b></span>
+  </div>
+
+  <!-- 每日回看 -->
+  <h2>本周每日日报</h2>
+  <div class="srclist">
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-21.html"><span>06-21（周日）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-20.html"><span>06-20（周六）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-19.html"><span>06-19（周五）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-18.html"><span>06-18（周四）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-17.html"><span>06-17（周三）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-16.html"><span>06-16（周二）</span><span class="s">查看 ↗</span></a>
+    
+    <a href="https://mengzheng001-prog.github.io/miao-ai-daily/reports/2026-06-15.html"><span>06-15（周一）</span><span class="s">查看 ↗</span></a>
+    
+  </div>
+  <a class="home" href="https://mengzheng001-prog.github.io/miao-ai-daily/">← 回到日报首页</a>
+
+  <footer>喵仔仔 AI 周报 · 一周一次，掌握 AI 行业主线</footer>
+</div>
+</body>
+</html>
