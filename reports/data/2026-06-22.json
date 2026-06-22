@@ -1,0 +1,445 @@
+{
+  "date": "2026-06-22",
+  "date_cn": "2026年06月22日（周一）",
+  "top3": [
+    {
+      "id": "eebdb7f63bb5dd4f",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "published_raw": "Sun, 21 Jun 2026 23:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        23,
+        0,
+        0,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "published_at": "2026-06-22T07:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 70,
+        "community_heat_score": 75
+      },
+      "final_score": 85,
+      "summary_zh": "三星电子宣布向全球员工大规模部署ChatGPT Enterprise和Codex，成为OpenAI迄今最大规模的企业级AI落地案例之一，覆盖研发、办公等多类工作流场景。",
+      "why_zh": "三星+OpenAI头部联手标志企业AI规模化落地提速，具有行业示范效应。",
+      "tags": [
+        "LLM",
+        "AI Product",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "174425f454f7c2a3",
+      "title": "Identity verification on Claude",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+      "published_raw": "Sun, 21 Jun 2026 12:44:13 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        12,
+        44,
+        13,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/\" rel=\"nofollow\">https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48618455\">https://news.ycombinator.com/item?id=48618455</a></p>\n<p>Points: 576</p>\n<p># Comments: 512</p>",
+      "published_at": "2026-06-21T20:44:13+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 78,
+        "freshness_score": 85,
+        "ai_relevance_score": 88,
+        "product_relevance_score": 85,
+        "technical_impact_score": 72,
+        "community_heat_score": 95
+      },
+      "final_score": 83,
+      "summary_zh": "Anthropic为Claude平台引入身份验证机制，在特定场景要求用户进行实名认证，该议题在HN引发576点热议与512条评论，社区围绕隐私权、AI访问门槛及安全合规展开激烈讨论。",
+      "why_zh": "Claude身份验证直接影响开发者与企业用户的使用体验及合规策略。",
+      "tags": [
+        "AI Safety",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "a996387d6b39f5f0",
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://apertvs.ai/",
+      "published_raw": "Sun, 21 Jun 2026 21:29:43 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        21,
+        29,
+        43,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://apertvs.ai/\">https://apertvs.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48622778\">https://news.ycombinator.com/item?id=48622778</a></p>\n<p>Points: 192</p>\n<p># Comments: 74</p>",
+      "published_at": "2026-06-22T05:29:43+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 88,
+        "ai_relevance_score": 82,
+        "product_relevance_score": 70,
+        "technical_impact_score": 72,
+        "community_heat_score": 65
+      },
+      "final_score": 74,
+      "summary_zh": "Apertus是一个面向主权AI的开源基础模型项目，旨在让各国和组织能够在自有基础设施上独立运行AI系统，摆脱对少数大型科技公司的依赖，在HN获得192点关注和74条评论。",
+      "why_zh": "主权AI需求上升，开源基础模型是各国建立独立AI能力的关键路径。",
+      "tags": [
+        "Open Source",
+        "LLM",
+        "AI Safety"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "73f106057c25db94",
+      "title": "Bill that would mandate AI chip location tracking gains industry support",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500",
+      "published_raw": "Sun, 21 Jun 2026 23:03:15 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        23,
+        3,
+        15,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500\">https://www.nbcnews.com/tech/tech-news/chips-security-act-gains-industry-support-letter-rcna350500</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623494\">https://news.ycombinator.com/item?id=48623494</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-22T07:03:15+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 20
+      },
+      "final_score": 71,
+      "summary_zh": "美国\"芯片安全法案\"获得科技行业联名支持，该法案要求强制追踪AI芯片的地理位置信息，核心目标是防止英伟达等高端AI芯片通过灰色渠道流入被制裁国家，多家科技公司和行业协会公开表态支持立法。",
+      "why_zh": "法案若通过将直接影响AI芯片供应链管理与出口合规体系。",
+      "tags": [
+        "AI Regulation",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "8ded1fd2a64b885b",
+      "title": "China's Z.ai open-sourced a frontier coding model as Washington bans it rival",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/",
+      "published_raw": "Sun, 21 Jun 2026 23:28:26 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        23,
+        28,
+        26,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/\">https://startupfortune.com/chinas-zai-open-sourced-a-frontier-coding-model-the-same-day-washington-banned-its-american-rival/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623686\">https://news.ycombinator.com/item?id=48623686</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-22T07:28:26+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 75,
+        "technical_impact_score": 80,
+        "community_heat_score": 20
+      },
+      "final_score": 70,
+      "summary_zh": "中国Z.ai在美国政府封禁其美国竞争对手的同一天开源了一款前沿编程模型，此举被广泛解读为对美国AI制裁政策的直接反制，凸显中美AI竞争持续升级，开源正成为地缘政治博弈的新战场。",
+      "why_zh": "中美AI博弈升级，中国借开源对冲制裁，影响全球编程AI格局。",
+      "tags": [
+        "AI Coding",
+        "Open Source",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "a929fb4bc7b22163",
+      "title": "Americans and AI 2026: Chatbots, Smart Devices and Views on Impact",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "published_raw": "Mon, 22 Jun 2026 01:29:18 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        1,
+        29,
+        18,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/\">https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48624535\">https://news.ycombinator.com/item?id=48624535</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-22T09:29:18+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 72,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 68,
+        "technical_impact_score": 52,
+        "community_heat_score": 30
+      },
+      "final_score": 69,
+      "summary_zh": "皮尤研究中心发布2026年美国人与AI最新调查报告，涵盖聊天机器人使用率、智能设备普及度及公众对AI社会影响的态度，为行业提供权威的用户行为与公众认知数据基准。",
+      "why_zh": "皮尤权威调查数据是研判美国AI普及现状与公众接受度的重要参考。",
+      "tags": [
+        "AI Business",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "201ce65b3ce57d12",
+      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "published_raw": "Sun, 21 Jun 2026 22:55:23 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        22,
+        55,
+        23,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions\">https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623434\">https://news.ycombinator.com/item?id=48623434</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+      "published_at": "2026-06-22T06:55:23+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 40,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 65,
+        "technical_impact_score": 65,
+        "community_heat_score": 35
+      },
+      "final_score": 66,
+      "summary_zh": "开发者分享对Qwen 3:0.6B超小型本地LLM进行微调以完成问题分类任务的完整实践，展示了用少量标注数据即可在极低成本模型上取得良好分类效果的方法，包括数据准备、训练配置和结果验证。",
+      "why_zh": "证明超小参数模型经微调可胜任垂直任务，大幅降低AI本地部署成本。",
+      "tags": [
+        "LLM",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "e4883e2b3c7fa117",
+      "title": "Show HN: Bifrost Edge: runs on PC of ur organization and routes all AI traffic",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://docs.getbifrost.ai/edge/overview",
+      "published_raw": "Sun, 21 Jun 2026 22:04:55 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        22,
+        4,
+        55,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://docs.getbifrost.ai/edge/overview\">https://docs.getbifrost.ai/edge/overview</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623080\">https://news.ycombinator.com/item?id=48623080</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-22T06:04:55+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 78,
+        "technical_impact_score": 70,
+        "community_heat_score": 15
+      },
+      "final_score": 65,
+      "summary_zh": "Bifrost Edge 是一款可在企业本地 PC 上部署的 AI 流量路由网关，统一管理和路由组织内所有 AI 请求，解决企业在数据隐私、合规出境、成本控制和多模型切换等方面的痛点，定位为企业私有化 AI 基础设施。",
+      "why_zh": "本地化 AI 网关是数据敏感型企业落地 AI 的关键基础设施，市场需求真实。",
+      "tags": [
+        "AI Infra",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "0601df44aab4b37c",
+      "title": "Show HN: EGC - MCP server that gives AI coding tools memory across sessions",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/Fmarzochi/EGC",
+      "published_raw": "Sun, 21 Jun 2026 22:01:38 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        22,
+        1,
+        38,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/Fmarzochi/EGC\">https://github.com/Fmarzochi/EGC</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623049\">https://news.ycombinator.com/item?id=48623049</a></p>\n<p>Points: 1</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-22T06:01:38+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 45,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 75,
+        "technical_impact_score": 65,
+        "community_heat_score": 10
+      },
+      "final_score": 65,
+      "summary_zh": "EGC 是一个基于 MCP 协议的服务器项目，为 Claude Code、Cursor 等 AI 编码工具提供跨会话持久记忆能力，解决 AI 助手每次对话「失忆」的核心痛点，让其记住项目上下文、开发偏好和历史决策，提升长期协作效率。",
+      "why_zh": "跨会话记忆是 AI 编码工具实用化的关键缺口，MCP 标准化实现方向值得关注。",
+      "tags": [
+        "AI Coding",
+        "Agent",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "2d4a33022c681c88",
+      "title": "Show HN: ANMA, boundary contracts for cheaper AI coding agents",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://github.com/anma-labs/anma",
+      "published_raw": "Sun, 21 Jun 2026 23:41:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        21,
+        23,
+        41,
+        2,
+        6,
+        172,
+        0
+      ],
+      "raw_text": "<p>I built ANMA because I noticed that cheaper models would often ignore architecture rules. So I did several benchmarks using \"Claude Haiku 4.5\" with and without ANMA; without ANMA it ignored the \"rules\" 13 out of 19 runs, with ANMA, 0 out of 20 runs.<p>What is \"ANMA\"? \nYAML contracts with CLAUDE.md, hooks, and CI checks<p>What about stronger/expensive models?\nThey followed the architecture rules.<p>The question is, would cheaper models with stronger rules be the best affordable default for coding?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48623765\">https://news.ycombinator.com/item?id=48623765</a></p>\n<p>Points: 1</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-22T07:41:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 25
+      },
+      "final_score": 64,
+      "summary_zh": "开发者发布ANMA框架，通过YAML合约结合CLAUDE.md和CI检查约束AI编程Agent遵守架构规则。实测Claude Haiku 4.5在无ANMA时13/19次违规，有ANMA后20次全部合规，探索以廉价模型加强规则替代昂贵模型的可行路径。",
+      "why_zh": "低成本模型配合强约束可媲美贵模型效果，为AI编程降本增效提供新思路。",
+      "tags": [
+        "AI Coding",
+        "Agent",
+        "Open Source"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "Open Source",
+      "count": 5
+    },
+    {
+      "tag": "AI Product",
+      "count": 4
+    },
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "AI Coding",
+      "count": 3
+    },
+    {
+      "tag": "AI Business",
+      "count": 2
+    },
+    {
+      "tag": "AI Safety",
+      "count": 2
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1230,
+    "selected": 10,
+    "keywords": 9
+  },
+  "pm_insights": [
+    {
+      "point": "企业AI从试点走向全员覆盖",
+      "detail": "大型企业正将AI工具从小范围试用推进至全员部署，覆盖研发、办公等核心工作流，AI已不再是加分项而是基础生产力工具，产品经理需重新评估全员规模下的管理和成本模型。"
+    },
+    {
+      "point": "合规压力推动AI平台引入身份验证",
+      "detail": "AI平台在特定场景强制实名认证，反映监管与安全合规需求正向产品层渗透；做面向企业或敏感场景的AI产品，需提前将身份验证、权限分级纳入核心设计而非事后补丁。"
+    },
+    {
+      "point": "小模型微调可低成本实现专项能力",
+      "detail": "超小参数量的本地模型经少量标注数据微调后，即可在垂直分类任务上取得良好效果；产品侧可借此路径降低推理成本、保护数据隐私，适合预算有限但需定制能力的场景。"
+    },
+    {
+      "point": "AI Agent需硬性约束保证架构合规",
+      "detail": "实测表明，不加约束的AI编程Agent在架构规则遵守上违规率极高；通过声明式合约配合CI检查，可以用廉价模型替代昂贵模型并大幅提升合规率，为团队规模化使用Agent提供可落地的治理思路。"
+    }
+  ]
+}
