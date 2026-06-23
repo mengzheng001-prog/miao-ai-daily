@@ -1,0 +1,450 @@
+{
+  "date": "2026-06-23",
+  "date_cn": "2026年06月23日（周二）",
+  "top3": [
+    {
+      "id": "7648813b85285a5f",
+      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "published_raw": "Tue, 23 Jun 2026 01:36:08 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        1,
+        36,
+        8,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://openai.com/index/daybreak-securing-the-world/\">https://openai.com/index/daybreak-securing-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639063\">https://news.ycombinator.com/item?id=48639063</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-23T09:36:08+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 92,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 88,
+        "technical_impact_score": 88,
+        "community_heat_score": 20
+      },
+      "final_score": 85,
+      "summary_zh": "OpenAI发布DayBreak项目，推出GPT-5.5-Cyber网络安全专用模型，旨在协助安全研究人员识别漏洞和防御网络威胁。这是OpenAI首次针对网络安全垂直场景发布专用模型，将AI能力系统性引入主动防御领域。",
+      "why_zh": "OpenAI布局AI+网络安全赛道，垂直领域专用模型策略是重要行业信号。",
+      "tags": [
+        "LLM",
+        "AI Safety",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "92895844e6cd7ef7",
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://hustvl.github.io/Moebius/",
+      "published_raw": "Mon, 22 Jun 2026 13:53:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        13,
+        53,
+        2,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://hustvl.github.io/Moebius/\">https://hustvl.github.io/Moebius/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48630171\">https://news.ycombinator.com/item?id=48630171</a></p>\n<p>Points: 234</p>\n<p># Comments: 64</p>",
+      "published_at": "2026-06-22T21:53:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 82,
+        "ai_relevance_score": 92,
+        "product_relevance_score": 78,
+        "technical_impact_score": 88,
+        "community_heat_score": 82
+      },
+      "final_score": 84,
+      "summary_zh": "Moebius是华中科技大学视觉实验室推出的0.2B参数图像修复模型，在标准基准上达到10B级模型的性能水平。通过创新架构设计大幅降低推理成本，同时保持高质量修复效果，在HN获234点好评和64条技术讨论。",
+      "why_zh": "小模型逼近大模型性能的范式突破，对边缘部署和低成本图像应用意义重大。",
+      "tags": [
+        "Research",
+        "Multimodal",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "f7e9d38ae7326e72",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "published_raw": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        10,
+        0,
+        0,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "published_at": "2026-06-22T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 78,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 88,
+        "technical_impact_score": 82,
+        "community_heat_score": 72
+      },
+      "final_score": 83,
+      "summary_zh": "OpenAI正式发布Daybreak网络安全平台，推出Codex Security漏洞自动检测工具及GPT-5.5-Cyber专项网络安全模型，可帮助各类组织大规模自动化发现、验证和修复安全漏洞，标志OpenAI正式进入企业安全赛道。",
+      "why_zh": "OpenAI以专项安全模型切入企业安全市场，AI应用边界显著扩展。",
+      "tags": [
+        "AI Product",
+        "AI Safety",
+        "LLM"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "6ea2d494b2547dc1",
+      "title": "Runing GLM-5.2 on local hardware",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "published_raw": "Mon, 22 Jun 2026 21:21:01 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        21,
+        21,
+        1,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://unsloth.ai/docs/models/glm-5.2\">https://unsloth.ai/docs/models/glm-5.2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48636377\">https://news.ycombinator.com/item?id=48636377</a></p>\n<p>Points: 175</p>\n<p># Comments: 73</p>",
+      "published_at": "2026-06-23T05:21:01+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 72,
+        "freshness_score": 85,
+        "ai_relevance_score": 88,
+        "product_relevance_score": 80,
+        "technical_impact_score": 82,
+        "community_heat_score": 72
+      },
+      "final_score": 80,
+      "summary_zh": "Unsloth发布GLM-5.2本地部署指南，支持用户在消费级硬件上高效运行智谱AI最新GLM-5.2模型。该帖在Hacker News获175点热度与73条讨论，吸引大量关注本地LLM部署的开发者关注。",
+      "why_zh": "优质中文大模型实现本地高效运行，显著降低使用门槛，利好开发者生态。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "72e247ee906f2e02",
+      "title": "Show HN: Oak – Git alternative designed for agents",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://oak.space/oak/oak",
+      "published_raw": "Mon, 22 Jun 2026 15:37:48 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        15,
+        37,
+        48,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Oak is a version control system I've been working on designed for agents (<a href=\"https://oak.space\" rel=\"nofollow\">https://oak.space</a>). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download everything or fight worktrees. Version control shouldn't waste you or your agents time. It should be fast, creative and fun to make things with agents.<p>Oak is still early in development. There's no Windows build and missing plenty of features (no CI, no issues, no comments). We still use GitHub Actions for building Oak now, but we've been fully bootstrapped on Oak with no Git backup for several months: <a href=\"https://oak.space/oak/oak\" rel=\"nofollow\">https://oak.space/oak/oak</a>.<p>Blog post: <a href=\"https://oak.space/blog#git-is-forever\" rel=\"nofollow\">https://oak.space/blog#git-is-forever</a><p>Docs: <a href=\"https://oak.space/docs\" rel=\"nofollow\">https://oak.space/docs</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48631726\">https://news.ycombinator.com/item?id=48631726</a></p>\n<p>Points: 148</p>\n<p># Comments: 141</p>",
+      "published_at": "2026-06-22T23:37:48+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 72,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 78,
+        "technical_impact_score": 80,
+        "community_heat_score": 65
+      },
+      "final_score": 78,
+      "summary_zh": "开发者推出Oak版本控制系统，专为AI Agent设计，通过虚拟挂载技术让Agent无需下载完整仓库即可运行，支持多任务并行，解决传统Git在Agent工作流中速度慢、上下文不足的痛点。",
+      "why_zh": "专为Agent设计的新型版本控制工具，或成为AI编程基础设施重要一环。",
+      "tags": [
+        "Agent",
+        "AI Infra",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "f0ab1740b8b7f5b3",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/patch-the-planet",
+      "published_raw": "Mon, 22 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        10,
+        0,
+        0,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "published_at": "2026-06-22T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 78,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 60
+      },
+      "final_score": 72,
+      "summary_zh": "OpenAI推出Patch the Planet项目，作为Daybreak安全计划的组成部分，借助AI技术与专家审查帮助开源软件维护者发现、验证并修复代码漏洞，旨在系统性提升全球开源生态的安全水平。",
+      "why_zh": "OpenAI将AI能力引入开源安全维护，有助于降低软件供应链风险。",
+      "tags": [
+        "AI Safety",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "981b32aa77bb3da2",
+      "title": "AI's Brokenomics",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.wheresyoured.at/brokenomics/",
+      "published_raw": "Tue, 23 Jun 2026 01:00:53 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        1,
+        0,
+        53,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wheresyoured.at/brokenomics/\">https://www.wheresyoured.at/brokenomics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48638776\">https://news.ycombinator.com/item?id=48638776</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-23T09:00:53+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 93,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 55,
+        "community_heat_score": 15
+      },
+      "final_score": 66,
+      "summary_zh": "文章深度剖析AI产业经济模式的系统性问题，指出AI公司普遍面临高算力成本与低变现效率的结构性困境。作者认为当前AI热潮建立在不可持续的经济基础上，收入增长无法覆盖基础设施投入，商业模式存在根本性裂痕。",
+      "why_zh": "AI泡沫与可持续性的深度拷问，对判断行业格局与投资走向有参考价值。",
+      "tags": [
+        "AI Business",
+        "LLM"
+      ]
+    },
+    {
+      "id": "2e24f8524b79b944",
+      "title": "Ask HN: How do you make the LLM generate good code?",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://news.ycombinator.com/item?id=48637538",
+      "published_raw": "Mon, 22 Jun 2026 22:51:35 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        22,
+        51,
+        35,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Lately, I wanted to see if I could get the bot to help me organize my music collection. Specifically, I want it to code a Python function that takes the path to an audio file of a song and returns the name of the canonical (i.e., first) album of that song. If one ignores remasters, live recordings, bootlegs, etc., this is an easy heuristic surjective mapping: Smoke on the Water -> Machine Head, Come as You Are -> Nevermind, Fools Gold -> The Stone Roses.<p>I can code this function quickly using the MusicBrainz API and I believe most other HN readers can too. Yet many hours later, no matter how I prompt the bot I can't get it to do it. This is what ChatGPT generates---other bots reply with similar garbage:<p>https://chatgpt.com/share/6a396ea9-44d4-83eb-bdfd-216dfcc87e99<p>They complain about how the problem is ambiguous (is not) or how MusicBrainz doesn't have the data (it does). Am I prompting the bot incorrectly or not using powerful enough coding models? The results are very underwhelming.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48637538\">https://news.ycombinator.com/item?id=48637538</a></p>\n<p>Points: 2</p>\n<p># Comments: 3</p>",
+      "published_at": "2026-06-23T06:51:35+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 50,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 60,
+        "community_heat_score": 40
+      },
+      "final_score": 66,
+      "summary_zh": "HN 社区讨论如何让 LLM 生成高质量代码，提问者以整理音乐库为具体案例，探讨在 LLM 无法直接调用成熟 API 时的代码生成策略，引发开发者就提示工程与任务拆解等实战技巧展开交流。",
+      "why_zh": "聚焦 LLM 编码实战痛点，开发者经验分享对提升 AI 编码效率有直接参考价值。",
+      "tags": [
+        "AI Coding",
+        "LLM"
+      ]
+    },
+    {
+      "id": "04cee7f947a84e04",
+      "title": "Show HN: DELN – An interactive atlas of AI training datasets",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://deln.ai/atlas",
+      "published_raw": "Tue, 23 Jun 2026 00:27:05 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        0,
+        27,
+        5,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>This is a map of major web crawl datasets.  You can see how they relate and influence one another. Play with the dropdown to see new relationships.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48638511\">https://news.ycombinator.com/item?id=48638511</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-23T08:27:05+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 60,
+        "community_heat_score": 10
+      },
+      "final_score": 64,
+      "summary_zh": "DELN 发布 AI 训练数据集交互地图，可视化主要网络爬取数据集（如 Common Crawl 等）之间的关系与相互影响，支持多维度下拉筛选探索各数据集的渊源脉络与继承关系。",
+      "why_zh": "首个可视化 AI 训练数据谱系工具，助研究者快速理解数据集来源与依赖关系。",
+      "tags": [
+        "Research",
+        "AI Infra",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "021ac8fbbefcce48",
+      "title": "Google Investing in 'Backrooms' Studio A24 in AI research partnership",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe",
+      "published_raw": "Mon, 22 Jun 2026 22:58:49 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        22,
+        22,
+        58,
+        49,
+        0,
+        173,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe\">https://www.wsj.com/tech/ai/google-investing-in-backrooms-studio-a24-e7585ebe</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48637623\">https://news.ycombinator.com/item?id=48637623</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-23T06:58:49+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 55,
+        "product_relevance_score": 50,
+        "technical_impact_score": 45,
+        "community_heat_score": 5
+      },
+      "final_score": 59,
+      "summary_zh": "WSJ 报道谷歌将向知名独立电影公司 A24（代表作《瞬息全宇宙》等）进行战略投资，双方建立 AI 研究合作伙伴关系。此举可能涉及视频生成、创意内容 AI 及多模态模型训练数据获取等方向。",
+      "why_zh": "科技巨头跨界顶级内容公司，标志 AI 视频与创意生成赛道加速向好莱坞渗透。",
+      "tags": [
+        "AI Business",
+        "Multimodal"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 5
+    },
+    {
+      "tag": "Open Source",
+      "count": 5
+    },
+    {
+      "tag": "AI Safety",
+      "count": 3
+    },
+    {
+      "tag": "AI Infra",
+      "count": 3
+    },
+    {
+      "tag": "AI Product",
+      "count": 2
+    },
+    {
+      "tag": "Research",
+      "count": 2
+    },
+    {
+      "tag": "Multimodal",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 2
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1238,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "垂直专用模型成差异化关键",
+      "detail": "通用模型饱和后，垂直专用模型正成为新战场；产品应深耕细分场景的专业深度，而非追求能力的全面覆盖。"
+    },
+    {
+      "point": "小模型架构创新可媲美大模型",
+      "detail": "参数量不是性能的唯一变量；架构设计的突破可大幅降低推理成本，产品选型时应关注效率指标而非单纯规模。"
+    },
+    {
+      "point": "AI产品须正视商业模式裂痕",
+      "detail": "高算力成本与低变现效率是行业普遍困境；PM应在产品设计阶段即关注收入路径，而非依赖持续融资支撑运营。"
+    },
+    {
+      "point": "Agent场景需重构底层工具链",
+      "detail": "AI Agent在传统工具体系下效率受限；围绕Agent工作流设计原生基础设施，正成为产品竞争力的新维度。"
+    }
+  ]
+}
