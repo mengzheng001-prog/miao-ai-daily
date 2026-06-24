@@ -1,0 +1,446 @@
+{
+  "date": "2026-06-24",
+  "date_cn": "2026年06月24日（周三）",
+  "top3": [
+    {
+      "id": "7c36fb32c6285fc2",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "published_raw": "Tue, 23 Jun 2026 17:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        17,
+        0,
+        0,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "published_at": "2026-06-24T01:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 90,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 85,
+        "technical_impact_score": 75,
+        "community_heat_score": 85
+      },
+      "final_score": 86,
+      "summary_zh": "免疫学家 Derya Unutmaz 借助 GPT-5 Pro 解开困扰三年的 T 细胞行为谜题，获得关键生物学洞见，相关发现有望推进癌症与自身免疫疾病研究，是 LLM 助力科学发现的典型案例。",
+      "why_zh": "GPT-5 Pro 助解真实科研难题，验证 AI 科学助手的实际落地价值。",
+      "tags": [
+        "LLM",
+        "AI Product",
+        "Research"
+      ]
+    },
+    {
+      "id": "c67823bff2e2b413",
+      "title": "Unlimited OCR: One-shot long-horizon parsing",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "published_raw": "Tue, 23 Jun 2026 11:35:05 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        11,
+        35,
+        5,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://github.com/baidu/Unlimited-OCR\">https://github.com/baidu/Unlimited-OCR</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48643426\">https://news.ycombinator.com/item?id=48643426</a></p>\n<p>Points: 438</p>\n<p># Comments: 101</p>",
+      "published_at": "2026-06-23T19:35:05+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 75,
+        "freshness_score": 75,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 78,
+        "community_heat_score": 78
+      },
+      "final_score": 77,
+      "summary_zh": "百度开源Unlimited OCR项目，实现单次推理解析超长文档的能力，突破传统OCR逐页分割处理的局限，可一次性处理整本书或大型文档，在Hacker News获438点高热度及101条评论，社区反响强烈。",
+      "why_zh": "百度开源长程OCR重大突破，大幅提升文档AI处理效率与准确性。",
+      "tags": [
+        "Research",
+        "Open Source",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "6507bbb3977767d1",
+      "title": "Helping build shared standards for advanced AI",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "published_raw": "Tue, 23 Jun 2026 13:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        13,
+        0,
+        0,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "published_at": "2026-06-23T21:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 80,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 60,
+        "technical_impact_score": 65,
+        "community_heat_score": 70
+      },
+      "final_score": 76,
+      "summary_zh": "OpenAI 发布声明，通过支持 Appia 基金会，积极参与构建先进 AI 共同评估框架、安全实践与全球合作标准，推动 AI 行业规范化治理与国际协调机制建立。",
+      "why_zh": "OpenAI 参与全球 AI 标准制定，直接影响行业监管与安全走向。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "4652fdf1e7b048ee",
+      "title": "How Meta Engineered Ultra-Narrow Batteries for AI Glasses",
+      "source": "Meta Engineering (AI/Infra)",
+      "category": "C",
+      "url": "https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/",
+      "published_raw": "Tue, 23 Jun 2026 16:00:38 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        16,
+        0,
+        38,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Smart glasses like the Ray-Ban Meta and Oakley Meta Vanguards need to pack enough energy to power features like cameras, speakers, AI workloads, and even a display. But it all has to fit into the glasses’ temple arms. So how do you place a battery with enough power to run a pair of smart glasses [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast/\">How Meta Engineered Ultra-Narrow Batteries for AI Glasses</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+      "published_at": "2026-06-24T00:00:38+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 65,
+        "product_relevance_score": 75,
+        "technical_impact_score": 62,
+        "community_heat_score": 65
+      },
+      "final_score": 74,
+      "summary_zh": "Meta 工程团队详解如何在 Ray-Ban Meta、Oakley Meta Vanguards 智能眼镜镜腿内集成超窄电池，同时驱动摄像头、扬声器、AI 工作负载及显示屏，揭示可穿戴 AI 硬件量产的核心工程挑战与解决方案。",
+      "why_zh": "揭示 AI 眼镜量产瓶颈，超紧凑电池设计是可穿戴 AI 硬件关键门槛。",
+      "tags": [
+        "AI Product",
+        "AI Infra",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "f8b5fd93c0142cf9",
+      "title": "New chip could help tiny robots traverse complex environments",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
+      "published_raw": "Tue, 23 Jun 2026 00:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        4,
+        0,
+        0,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "Researchers combined an efficient algorithm with dedicated hardware to rapidly generate 3D maps for navigation using minimal memory and power.",
+      "published_at": "2026-06-23T12:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 75,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 55,
+        "technical_impact_score": 80,
+        "community_heat_score": 60
+      },
+      "final_score": 71,
+      "summary_zh": "MIT 研究人员开发新型专用芯片，结合高效算法与定制硬件，可在极低内存和功耗下为微型机器人实时生成 3D 导航地图，显著提升复杂环境遍历能力，对边缘 AI 和机器人领域有重要意义。",
+      "why_zh": "超低功耗 AI 导航芯片突破边缘端算力瓶颈，推动微型机器人实用化。",
+      "tags": [
+        "AI Infra",
+        "Research"
+      ]
+    },
+    {
+      "id": "cf8d405963fe07e7",
+      "title": "Exploring the societal impacts of AI",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/exploring-societal-impacts-of-ai-0623",
+      "published_raw": "Tue, 23 Jun 2026 16:40:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        20,
+        40,
+        0,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "During the AI and Society Forum, leading MIT researchers examined critical questions about AI’s influence on employment and democracy.",
+      "published_at": "2026-06-24T04:40:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 85,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 40,
+        "technical_impact_score": 45,
+        "community_heat_score": 55
+      },
+      "final_score": 67,
+      "summary_zh": "MIT 举办 AI 与社会论坛，顶尖研究人员就 AI 对就业市场和民主政治的影响展开深度讨论，系统审视技术加速背景下 AI 带来的社会代价与治理挑战。",
+      "why_zh": "MIT 学者系统审视 AI 社会风险，为政策制定提供权威学术参考。",
+      "tags": [
+        "AI Safety",
+        "AI Regulation"
+      ]
+    },
+    {
+      "id": "442aa6968d350433",
+      "title": "FUTO Swipe – A new swipe typing model",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://swipe.futo.tech/",
+      "published_raw": "Tue, 23 Jun 2026 17:50:22 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        17,
+        50,
+        22,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://swipe.futo.tech/\">https://swipe.futo.tech/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48648619\">https://news.ycombinator.com/item?id=48648619</a></p>\n<p>Points: 279</p>\n<p># Comments: 87</p>",
+      "published_at": "2026-06-24T01:50:22+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 85,
+        "ai_relevance_score": 55,
+        "product_relevance_score": 60,
+        "technical_impact_score": 45,
+        "community_heat_score": 65
+      },
+      "final_score": 62,
+      "summary_zh": "FUTO发布全新滑动输入模型Swipe，基于机器学习优化手势识别与词语预测，专为移动端虚拟键盘设计，提供更准确的滑动打字体验，在Hacker News获279点高关注，社区讨论活跃。",
+      "why_zh": "开源ML滑动键盘模型，可能影响移动端输入法AI技术格局。",
+      "tags": [
+        "AI Product",
+        "Open Source"
+      ]
+    },
+    {
+      "id": "6ea12989cc77d3ba",
+      "title": "'The Worst It's Ever Been': Why Meta's AI Reorg Backfired Spectacularly",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.inc.com/jessica-stillman/the-worst-its-ever-been-why-metas-massive-ai-reorg-backfired-spectacularly/91363370",
+      "published_raw": "Wed, 24 Jun 2026 00:20:51 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        0,
+        20,
+        51,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.inc.com/jessica-stillman/the-worst-its-ever-been-why-metas-massive-ai-reorg-backfired-spectacularly/91363370\">https://www.inc.com/jessica-stillman/the-worst-its-ever-been-why-metas-massive-ai-reorg-backfired-spectacularly/91363370</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48653507\">https://news.ycombinator.com/item?id=48653507</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-24T08:20:51+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 55,
+        "technical_impact_score": 30,
+        "community_heat_score": 35
+      },
+      "final_score": 60,
+      "summary_zh": "Meta大规模AI组织重组被曝产生严重反效果，内部员工描述当前工作状态\"比以往任何时候都糟糕\"。此次重组原本旨在加速AI产品落地，却导致团队职责混乱、协作效率下降，AI研发进度受到明显拖累。",
+      "why_zh": "Meta作为顶级AI投入方，其组织失误揭示大厂AI转型中人才管理的深层矛盾。",
+      "tags": [
+        "AI Business"
+      ]
+    },
+    {
+      "id": "4d6f0ea17e21145a",
+      "title": "GitKraken Unveils Code Flow to Help Teams Navigate the AI Era",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://sdtimes.com/softwaredev/gitkraken-unveils-code-flow-to-help-teams-navigate-the-ai-era/",
+      "published_raw": "Tue, 23 Jun 2026 23:53:25 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        23,
+        23,
+        53,
+        25,
+        1,
+        174,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://sdtimes.com/softwaredev/gitkraken-unveils-code-flow-to-help-teams-navigate-the-ai-era/\">https://sdtimes.com/softwaredev/gitkraken-unveils-code-flow-to-help-teams-navigate-the-ai-era/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48653306\">https://news.ycombinator.com/item?id=48653306</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-24T07:53:25+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 78,
+        "ai_relevance_score": 62,
+        "product_relevance_score": 65,
+        "technical_impact_score": 50,
+        "community_heat_score": 12
+      },
+      "final_score": 57,
+      "summary_zh": "GitKraken 发布新功能 Code Flow，旨在帮助开发团队应对 AI 编码时代代码变更频率加剧、PR 协作复杂度上升的挑战，提供可视化分支与工作流管理能力，融入 AI 辅助开发场景。",
+      "why_zh": "主流开发工具厂商针对 AI Coding 趋势的直接产品响应，反映研发协作工具正加速重塑。",
+      "tags": [
+        "AI Coding",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "e7b3587a99e62ef8",
+      "title": "UN chief urges AI companies to 'come clean' about the pollution they generate",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.fastcompany.com/91563535/un-chief-urges-ai-companies-come-clean-about-pollution-create",
+      "published_raw": "Wed, 24 Jun 2026 01:13:28 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        1,
+        13,
+        28,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.fastcompany.com/91563535/un-chief-urges-ai-companies-come-clean-about-pollution-create\">https://www.fastcompany.com/91563535/un-chief-urges-ai-companies-come-clean-about-pollution-create</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48653894\">https://news.ycombinator.com/item?id=48653894</a></p>\n<p>Points: 2</p>\n<p># Comments: 0</p>",
+      "published_at": "2026-06-24T09:13:28+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 72,
+        "product_relevance_score": 20,
+        "technical_impact_score": 15,
+        "community_heat_score": 10
+      },
+      "final_score": 48,
+      "summary_zh": "联合国秘书长公开敦促各大AI公司披露数据中心运营所产生的碳排放与水资源消耗数据，直指AI行业在环境代价上的透明度缺失，呼吁企业对外界\"坦白\"实际污染状况。",
+      "why_zh": "联合国介入AI环境问责，或推动各国出台AI能耗强制披露法规。",
+      "tags": [
+        "AI Regulation",
+        "AI Safety"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Product",
+      "count": 5
+    },
+    {
+      "tag": "Research",
+      "count": 3
+    },
+    {
+      "tag": "AI Safety",
+      "count": 3
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 3
+    },
+    {
+      "tag": "Open Source",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "LLM",
+      "count": 1
+    },
+    {
+      "tag": "Multimodal",
+      "count": 1
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1239,
+    "selected": 10,
+    "keywords": 10
+  },
+  "pm_insights": [
+    {
+      "point": "AI可解锁原本不可达的结果",
+      "detail": "LLM已帮助专业人员突破多年瓶颈，PM定义AI价值主张时应超越'效率提升'，聚焦'解锁原先不可能完成的目标'，重新评估垂直场景的认知杠杆空间。"
+    },
+    {
+      "point": "单次完整处理成AI体验新标准",
+      "detail": "突破逐步分段的传统限制、一次推理搞定完整任务，正成为用户期待的基线，PM在流程设计上需重新评估拆分操作与整合输出的边界。"
+    },
+    {
+      "point": "组织重组是AI落地的隐性风险",
+      "detail": "技术领先不等于产品成功，职责模糊与协作断层会抵消AI投入，PM推进AI功能时须同步设计跨团队责任边界，避免内耗拖累交付。"
+    },
+    {
+      "point": "行业合规透明将成产品准入门槛",
+      "detail": "从全球AI治理框架到数据中心环境披露，外部监管预期持续抬高，AI产品需提前内建可解释与合规能力，而非事后补救。"
+    }
+  ]
+}
