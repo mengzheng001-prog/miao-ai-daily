@@ -1,0 +1,368 @@
+{
+  "date": "2026-06-25",
+  "date_cn": "2026年06月25日（周四）",
+  "top3": [
+    {
+      "id": "0ce8c6adc247f334",
+      "title": "Introducing computer use in Gemini 3.5 Flash",
+      "source": "Google DeepMind",
+      "category": "C",
+      "url": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
+      "published_raw": "Wed, 24 Jun 2026 16:30:01 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        16,
+        30,
+        1,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "",
+      "published_at": "2026-06-25T00:30:01+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 90,
+        "technical_impact_score": 85,
+        "community_heat_score": 82
+      },
+      "final_score": 91,
+      "summary_zh": "Google DeepMind宣布在Gemini 3.5 Flash中引入computer use（计算机操控）功能，使模型能够自主操控桌面应用和UI界面，执行复杂的多步骤任务，将AI能力从对话扩展至真实环境自动化操控场景。",
+      "why_zh": "Gemini正面进入computer use赛道，与Claude竞争自主Agent能力，加速AI接管日常操作进程。",
+      "tags": [
+        "Agent",
+        "Multimodal",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "38ac16d3ad22e31f",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "published_raw": "Wed, 24 Jun 2026 17:47:00 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        17,
+        47,
+        0,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Announcement: <a href=\"https://openai.com/index/openai-broadcom-jalapeno-inference-chip/\" rel=\"nofollow\">https://openai.com/index/openai-broadcom-jalapeno-inference-...</a><p><a href=\"https://decrypt.co/371971/openai-broadcom-jalapeno-first-custom-ai-chip\" rel=\"nofollow\">https://decrypt.co/371971/openai-broadcom-jalapeno-first-cus...</a><p><a href=\"https://www.cnn.com/2026/06/24/tech/openai-broadcom-jalapeno-ai-chip\" rel=\"nofollow\">https://www.cnn.com/2026/06/24/tech/openai-broadcom-jalapeno...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48663324\">https://news.ycombinator.com/item?id=48663324</a></p>\n<p>Points: 532</p>\n<p># Comments: 332</p>",
+      "published_at": "2026-06-25T01:47:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 85,
+        "technical_impact_score": 90,
+        "community_heat_score": 95
+      },
+      "final_score": 91,
+      "summary_zh": "OpenAI发布首款自研推理芯片\"Jalapeno\"，由博通（Broadcom）代工制造。这是OpenAI在AI基础设施自主化道路上迈出的里程碑式一步，旨在摆脱对英伟达GPU的高度依赖，通过定制化推理芯片大幅降低推理成本并掌握更强的算力控制权。",
+      "why_zh": "OpenAI自研芯片入局，或重塑AI算力供应链格局，撼动英伟达垄断地位。",
+      "tags": [
+        "AI Infra",
+        "LLM"
+      ]
+    },
+    {
+      "id": "d6274878b4601061",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "published_raw": "Wed, 24 Jun 2026 17:21:34 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        17,
+        21,
+        34,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48662999\">https://news.ycombinator.com/item?id=48662999</a></p>\n<p>Points: 174</p>\n<p># Comments: 104</p>",
+      "published_at": "2026-06-25T01:21:34+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 90,
+        "technical_impact_score": 85,
+        "community_heat_score": 80
+      },
+      "final_score": 90,
+      "summary_zh": "谷歌宣布Gemini 3.5 Flash模型新增计算机使用（Computer Use）能力，允许AI模型直接操控桌面应用与浏览器完成复杂任务。此功能将高级Agent能力引入快速且低成本的Flash系列，大幅降低开发者构建自动化Agent的门槛与费用。",
+      "why_zh": "轻量模型获Computer Use能力，AI Agent规模化落地成本将大幅下降。",
+      "tags": [
+        "Agent",
+        "Multimodal",
+        "AI Product"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "1a015f5dfa42958d",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "published_raw": "Wed, 24 Jun 2026 06:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        6,
+        0,
+        0,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "published_at": "2026-06-24T14:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 80,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 85,
+        "technical_impact_score": 90,
+        "community_heat_score": 85
+      },
+      "final_score": 89,
+      "summary_zh": "OpenAI与博通联合推出专为LLM推理优化的定制AI芯片Jalapeño，目标是提升AI系统推理性能、能效与规模化能力。这是OpenAI在自研芯片领域的重要里程碑，标志着其在算力供应链上寻求更大自主权。",
+      "why_zh": "OpenAI自研推理芯片落地，直接挑战英伟达垄断地位，将重塑AI算力生态格局。",
+      "tags": [
+        "AI Infra",
+        "LLM"
+      ]
+    },
+    {
+      "id": "d37ff76460735d1c",
+      "title": "Qualcomm to Acquire Modular",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.reuters.com/business/qualcomm-buy-ai-startup-modular-2026-06-24/",
+      "published_raw": "Wed, 24 Jun 2026 13:49:16 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        13,
+        49,
+        16,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx\" rel=\"nofollow\">https://investor.qualcomm.com/news-events/press-releases/new...</a><p><a href=\"https://www.modular.com/blog/qualcomm-to-acquire-modular\" rel=\"nofollow\">https://www.modular.com/blog/qualcomm-to-acquire-modular</a><p><a href=\"https://x.com/clattner_llvm/status/2069769232477192354\" rel=\"nofollow\">https://x.com/clattner_llvm/status/2069769232477192354</a>, <a href=\"https://xcancel.com/clattner_llvm/status/2069769232477192354\" rel=\"nofollow\">https://xcancel.com/clattner_llvm/status/2069769232477192354</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48659798\">https://news.ycombinator.com/item?id=48659798</a></p>\n<p>Points: 146</p>\n<p># Comments: 37</p>",
+      "published_at": "2026-06-24T21:49:16+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 85,
+        "community_heat_score": 72
+      },
+      "final_score": 84,
+      "summary_zh": "高通宣布收购AI基础设施公司Modular——即Mojo编程语言和MAX高性能推理引擎的开发商，由LLVM创始人Chris Lattner创立。此次收购将Modular的AI编译器与推理技术整合入高通生态，大幅强化其在端侧AI芯片上的软件栈竞争力。",
+      "why_zh": "高通借收购补齐AI软件栈短板，端侧AI推理生态整合提速。",
+      "tags": [
+        "AI Infra",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "718777a4697f571a",
+      "title": "45°C cooling design cuts data center water use to near zero",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "published_raw": "Wed, 24 Jun 2026 14:10:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        14,
+        10,
+        11,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/\">https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48660178\">https://news.ycombinator.com/item?id=48660178</a></p>\n<p>Points: 194</p>\n<p># Comments: 151</p>",
+      "published_at": "2026-06-24T22:10:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 80,
+        "community_heat_score": 77
+      },
+      "final_score": 80,
+      "summary_zh": "英伟达发布45°C液冷AI数据中心设计方案，通过提升冷却液温度将AI工厂用水量压缩至近零，在维持GPU高性能的同时大幅降低能耗与水资源消耗。该方案为大规模可持续AI算力基础设施建设提供了可落地的工程路径。",
+      "why_zh": "从根本上解决AI数据中心高耗水痛点，对超大规模AI算力部署至关重要。",
+      "tags": [
+        "AI Infra"
+      ]
+    },
+    {
+      "id": "d934f96c2dfc4ff7",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://rubyllm.com/",
+      "published_raw": "Wed, 24 Jun 2026 14:41:41 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        14,
+        41,
+        41,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://rubyllm.com/\">https://rubyllm.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48660711\">https://news.ycombinator.com/item?id=48660711</a></p>\n<p>Points: 347</p>\n<p># Comments: 55</p>",
+      "published_at": "2026-06-24T22:41:41+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 65,
+        "technical_impact_score": 70,
+        "community_heat_score": 82
+      },
+      "final_score": 75,
+      "summary_zh": "RubyLLM是一个开源Ruby框架，统一接入OpenAI、Anthropic、Google等主流AI提供商，提供一致的API接口与工具调用支持，大幅简化Ruby开发者集成多家LLM的工作量。在HN获得347点好评，社区反响热烈。",
+      "why_zh": "填补Ruby生态AI工具链空白，为Ruby开发者提供便捷的多LLM接入方案。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "AI Coding"
+      ]
+    },
+    {
+      "id": "178b50425d827f6a",
+      "title": "PR spam today looks like email spam in the early 2000s",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "published_raw": "Wed, 24 Jun 2026 14:32:12 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        24,
+        14,
+        32,
+        12,
+        2,
+        175,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.greptile.com/blog/prs-on-openclaw\">https://www.greptile.com/blog/prs-on-openclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48660579\">https://news.ycombinator.com/item?id=48660579</a></p>\n<p>Points: 181</p>\n<p># Comments: 100</p>",
+      "published_at": "2026-06-24T22:32:12+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 75
+      },
+      "final_score": 73,
+      "summary_zh": "Greptile博客指出，AI生成的垃圾PR已泛滥至类似2000年代初电子邮件垃圾的规模。大量低质量AI代码提交正在冲击开源社区，消耗维护者大量精力，引发对AI编码工具被规模化滥用及开源社区治理危机的广泛讨论。",
+      "why_zh": "揭示AI编码工具滥用新趋势，开源社区信任与治理机制面临严峻挑战。",
+      "tags": [
+        "AI Coding",
+        "AI Safety"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "AI Infra",
+      "count": 4
+    },
+    {
+      "tag": "LLM",
+      "count": 3
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "Multimodal",
+      "count": 2
+    },
+    {
+      "tag": "AI Product",
+      "count": 2
+    },
+    {
+      "tag": "AI Coding",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    },
+    {
+      "tag": "AI Safety",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 7,
+    "raw": 1220,
+    "selected": 8,
+    "keywords": 9
+  },
+  "pm_insights": [
+    {
+      "point": "AI Agent门槛正在快速下探",
+      "detail": "桌面操控能力从旗舰模型下沉至轻量快速版本，意味着自动化Agent的推理成本将大幅降低，产品团队可将更复杂的多步骤操作纳入规划。"
+    },
+    {
+      "point": "头部玩家加速自建基础设施",
+      "detail": "芯片自研、推理引擎并购等动作表明，掌握算力供应链正成为AI产品的核心竞争壁垒，依赖单一外部供应商的风险敞口值得重新评估。"
+    },
+    {
+      "point": "多模型接入需提前做抽象层",
+      "detail": "统一封装多家AI提供商接口的框架受到广泛认可，产品架构早期引入Provider抽象层，可显著降低未来切换模型或多路灰度的改造成本。"
+    },
+    {
+      "point": "AI生成内容需配套质量治理机制",
+      "detail": "低质量AI内容规模化涌入已成真实运营挑战，产品在开放AI生成入口的同时，应同步设计审核、评分或门控机制，避免陷入内容质量螺旋下降。"
+    }
+  ]
+}
