@@ -1,0 +1,249 @@
+{
+  "date": "2026-06-26",
+  "date_cn": "2026年06月26日（周五）",
+  "top3": [
+    {
+      "id": "1c527416fa636a6c",
+      "title": "Improving the speed and energy-efficiency of AI agents",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
+      "published_raw": "Thu, 25 Jun 2026 00:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        25,
+        4,
+        0,
+        0,
+        3,
+        176,
+        0
+      ],
+      "raw_text": "A new system, known as Murakkab, optimizes the design and deployment of multistep workflows that power AI applications.",
+      "published_at": "2026-06-25T12:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 75,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 75,
+        "technical_impact_score": 80,
+        "community_heat_score": 55
+      },
+      "final_score": 78,
+      "summary_zh": "MIT研究团队提出新系统Murakkab，专门针对驱动AI应用的多步骤工作流进行设计与部署优化，可同时提升AI智能体的运行速度并显著降低能耗，为大规模Agent部署提供新的基础架构方案。",
+      "why_zh": "多步骤工作流效率直接影响Agent落地成本，MIT方案具有重要工程参考价值。",
+      "tags": [
+        "Agent",
+        "AI Infra",
+        "Research"
+      ]
+    },
+    {
+      "id": "ffe3ad04b60070d8",
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "published_raw": "Thu, 25 Jun 2026 20:50:02 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        25,
+        20,
+        50,
+        2,
+        3,
+        176,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/\">https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48679007\">https://news.ycombinator.com/item?id=48679007</a></p>\n<p>Points: 111</p>\n<p># Comments: 28</p>",
+      "published_at": "2026-06-26T04:50:02+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 60,
+        "freshness_score": 85,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 75,
+        "community_heat_score": 55
+      },
+      "final_score": 73,
+      "summary_zh": "初创公司 Unconv AI 发布 Un-0 图像生成模型，采用耦合振荡器架构取代传统扩散模型，通过非线性动力学系统生成图像，是图像生成技术路线的全新探索，HN 获 111 赞引发技术社区讨论。",
+      "why_zh": "非扩散范式的图像生成新路线，值得关注其技术突破潜力。",
+      "tags": [
+        "Research",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "92e984f406a4ce43",
+      "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
+      "source": "Meta Engineering (AI/Infra)",
+      "category": "C",
+      "url": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+      "published_raw": "Thu, 25 Jun 2026 22:30:51 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        25,
+        22,
+        30,
+        51,
+        3,
+        176,
+        0
+      ],
+      "raw_text": "<p> Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. This can be complex, as demonstrated by a field simply named &#8220;age&#8220;: In one context, it might [...]</p>\n<p><a class=\"btn btn-secondary understrap-read-more-link\" href=\"https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/\">Read More...</a></p>\n<p>The post <a href=\"https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/\">Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study</a> appeared first on <a href=\"https://engineering.fb.com\">Engineering at Meta</a>.</p>",
+      "published_at": "2026-06-26T06:30:51+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 85,
+        "ai_relevance_score": 75,
+        "product_relevance_score": 60,
+        "technical_impact_score": 70,
+        "community_heat_score": 50
+      },
+      "final_score": 71,
+      "summary_zh": "Meta 工程博客发布 AI 原生时代隐私感知基础设施案例研究，探讨通过资产分类系统精准理解数据语义，支撑保留策略、访问控制、目的限定、匿名化等隐私控制有效执行，应对大规模 AI 部署下的数据治理挑战。",
+      "why_zh": "大规模 AI 数据治理实践，对行业隐私合规建设具有参考价值。",
+      "tags": [
+        "AI Infra",
+        "AI Safety"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "7157eeceef549a6e",
+      "title": "An entire Herculaneum scroll has been read for the first time",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://scrollprize.org/firstscroll",
+      "published_raw": "Thu, 25 Jun 2026 15:48:07 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        25,
+        15,
+        48,
+        7,
+        3,
+        176,
+        0
+      ],
+      "raw_text": "<p>Preprint: <a href=\"https://scrollprize.org/pdf/main.pdf\" rel=\"nofollow\">https://scrollprize.org/pdf/main.pdf</a><p><a href=\"https://github.com/ScrollPrize/villa\" rel=\"nofollow\">https://github.com/ScrollPrize/villa</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48675179\">https://news.ycombinator.com/item?id=48675179</a></p>\n<p>Points: 987</p>\n<p># Comments: 218</p>",
+      "published_at": "2026-06-25T23:48:07+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 65,
+        "freshness_score": 90,
+        "ai_relevance_score": 65,
+        "product_relevance_score": 35,
+        "technical_impact_score": 80,
+        "community_heat_score": 95
+      },
+      "final_score": 68,
+      "summary_zh": "Vesuvius Challenge 团队宣布首次完整解读一卷赫库兰尼姆古卷，借助 AI 辅助的 X 射线扫描解码技术成功还原约 2000 年前碳化莎草纸内容，预印本与代码已开放，HN 获近千赞成热门话题。",
+      "why_zh": "AI 赋能考古里程碑，展示 AI 在文化遗产保护的突破性应用。",
+      "tags": [
+        "Research",
+        "Multimodal"
+      ]
+    },
+    {
+      "id": "3345b33384a98424",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "published_raw": "Thu, 25 Jun 2026 16:04:46 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        25,
+        16,
+        4,
+        46,
+        3,
+        176,
+        0
+      ],
+      "raw_text": "<p>Hi HN, Nick here. We’re launching OpenKnowledge (<a href=\"https://openknowledge.ai/\" rel=\"nofollow\">https://openknowledge.ai/</a>), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and other agents. Available as MacOS app or Web UI+CLI. Fully free/local and OSS.<p>We built this because we wanted a Notion-like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true WYSWIG UI and it didn’t integrate well with Claude/Codex outside of community plugins.<p>So we built OpenKnowledge. It takes shape as:<p>1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.<p>2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.<p>3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing<p>4. An embedded terminal and CLI for TUI-first users<p>OSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/trees<p>On the architecture side, the interesting eng. challenges included:<p>1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.<p>2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.<p>The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.<p>In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.<p>We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48675435\">https://news.ycombinator.com/item?id=48675435</a></p>\n<p>Points: 207</p>\n<p># Comments: 99</p>",
+      "published_at": "2026-06-26T00:04:46+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 90,
+        "ai_relevance_score": 70,
+        "product_relevance_score": 70,
+        "technical_impact_score": 50,
+        "community_heat_score": 50
+      },
+      "final_score": 65,
+      "summary_zh": "Inkeep 开源发布 OpenKnowledge，一款 AI 原生 Markdown 编辑器，直接集成 Claude、Codex 等 Agent，提供类 Notion 的所见即所得体验，支持本地运行，同时提供 macOS 应用与 Web UI/CLI，完全免费开源。",
+      "why_zh": "AI 工具与知识管理融合，开源路线降低团队采用门槛。",
+      "tags": [
+        "AI Product",
+        "Open Source",
+        "Agent"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "Research",
+      "count": 3
+    },
+    {
+      "tag": "Agent",
+      "count": 2
+    },
+    {
+      "tag": "AI Infra",
+      "count": 2
+    },
+    {
+      "tag": "Multimodal",
+      "count": 2
+    },
+    {
+      "tag": "AI Safety",
+      "count": 1
+    },
+    {
+      "tag": "AI Product",
+      "count": 1
+    },
+    {
+      "tag": "Open Source",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 7,
+    "raw": 1220,
+    "selected": 5,
+    "keywords": 7
+  },
+  "pm_insights": [
+    {
+      "point": "Agent基础设施效率决定规模化成败",
+      "detail": "随着AI智能体从单步向多步复杂工作流演进，底层运行效率与能耗成为影响部署成本和用户体验的关键瓶颈，产品团队规划规模化时需将基础设施架构纳入早期决策。"
+    },
+    {
+      "point": "成熟赛道仍存颠覆性技术路线窗口",
+      "detail": "即便是图像生成这类已有主流范式的领域，全新架构仍在持续涌现；产品经理应保持对底层技术演进的敏感度，识别可带来差异化优势的新路线机遇。"
+    },
+    {
+      "point": "AI原生产品须将隐私治理前置设计",
+      "detail": "大规模AI部署使数据流动更复杂，事后补救难以保障用户信任；通过资产分类、访问控制与目的限定等机制将隐私能力内嵌于产品架构，已成行业标杆做法。"
+    },
+    {
+      "point": "Agent深度集成重塑生产力工具标准",
+      "detail": "用户对AI加持的预期已从独立附加功能转向原生嵌入工作流；将AI能力整合至核心使用路径而非以插件形式叠加，正成为新一代工具类产品的基本准入门槛。"
+    }
+  ]
+}
