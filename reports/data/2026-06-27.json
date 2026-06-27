@@ -1,0 +1,455 @@
+{
+  "date": "2026-06-27",
+  "date_cn": "2026年06月27日（周六）",
+  "top3": [
+    {
+      "id": "0077efc5b4db8ed1",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "published_raw": "Fri, 26 Jun 2026 17:06:55 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        17,
+        6,
+        55,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>System card: <a href=\"https://deploymentsafety.openai.com/gpt-5-6-preview\" rel=\"nofollow\">https://deploymentsafety.openai.com/gpt-5-6-preview</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48689028\">https://news.ycombinator.com/item?id=48689028</a></p>\n<p>Points: 848</p>\n<p># Comments: 504</p>",
+      "published_at": "2026-06-27T01:06:55+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 95,
+        "ai_relevance_score": 100,
+        "product_relevance_score": 95,
+        "technical_impact_score": 90,
+        "community_heat_score": 95
+      },
+      "final_score": 95,
+      "summary_zh": "OpenAI正式预览下一代模型GPT-5.6 Sol，同步发布系统安全卡，该消息在Hacker News获848分和504条评论，成为近期最高热度AI资讯。GPT-5.6 Sol定位为新一代旗舰模型，预计在能力与安全性上均有重大突破。",
+      "why_zh": "OpenAI新一代旗舰模型发布，直接重塑AI能力上限与竞争格局。",
+      "tags": [
+        "LLM",
+        "AI Product"
+      ]
+    },
+    {
+      "id": "e23e7cfed67a044d",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "published_raw": "Fri, 26 Jun 2026 18:23:14 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        18,
+        23,
+        14,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p><a href=\"https://archive.ph/PCQQl\" rel=\"nofollow\">https://archive.ph/PCQQl</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48690101\">https://news.ycombinator.com/item?id=48690101</a></p>\n<p>Points: 828</p>\n<p># Comments: 928</p>",
+      "published_at": "2026-06-27T02:23:14+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 92,
+        "freshness_score": 95,
+        "ai_relevance_score": 98,
+        "product_relevance_score": 95,
+        "technical_impact_score": 90,
+        "community_heat_score": 98
+      },
+      "final_score": 95,
+      "summary_zh": "华盛顿邮报报道，OpenAI表示美国政府将对GPT-5.6的使用者进行资质审查，决定谁有权访问该模型。这是史无前例的政府介入商业AI模型准入的重大举措，在HN上引发828点赞和928条评论，成为近期最热AI政策讨论话题。",
+      "why_zh": "政府首次系统审查商业AI用户资质，GPT-5.6成监管标杆，深刻影响AI商业化路径。",
+      "tags": [
+        "LLM",
+        "AI Regulation",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "adbd50c1b1db1eb7",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "source": "OpenAI Blog",
+      "category": "C",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "published_raw": "Fri, 26 Jun 2026 10:00:00 GMT",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        10,
+        0,
+        0,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published_at": "2026-06-26T18:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 95,
+        "freshness_score": 90,
+        "ai_relevance_score": 100,
+        "product_relevance_score": 95,
+        "technical_impact_score": 90,
+        "community_heat_score": 85
+      },
+      "final_score": 94,
+      "summary_zh": "OpenAI预览下一代模型GPT-5.6 Sol，在编程、科学和网络安全领域能力显著提升，同时配备了目前最先进的安全技术栈。这是OpenAI在GPT-5系列之后的重要能力升级，同时强调安全性同步迭代。",
+      "why_zh": "OpenAI新一代旗舰模型发布，编程与安全能力双升级，将重新定义AI能力天花板。",
+      "tags": [
+        "LLM",
+        "AI Safety",
+        "Benchmark"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "6ad99a5d077226eb",
+      "title": "US allows Anthropic to release Mythos to 'trusted partners'",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/",
+      "published_raw": "Fri, 26 Jun 2026 22:48:28 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        22,
+        48,
+        28,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/\">https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48692995\">https://news.ycombinator.com/item?id=48692995</a></p>\n<p>Points: 207</p>\n<p># Comments: 168</p>",
+      "published_at": "2026-06-27T06:48:28+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 90,
+        "freshness_score": 95,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 95,
+        "technical_impact_score": 85,
+        "community_heat_score": 80
+      },
+      "final_score": 91,
+      "summary_zh": "据路透社报道，美国政府允许Anthropic向部分\"可信合作伙伴\"发布其新模型Mythos，但访问须经政府审核。这与同日OpenAI GPT-5.6的政府审查机制形成呼应，标志着美国政府开始系统性管控前沿AI模型的分发权限。HN上获207点赞和168条评论。",
+      "why_zh": "政府直接介入前沿模型分发，Mythos与GPT-5.6同日出现管控，AI监管进入实操阶段。",
+      "tags": [
+        "LLM",
+        "AI Regulation",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "9fe7d464ecc8a6ed",
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html",
+      "published_raw": "Fri, 26 Jun 2026 23:00:31 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        23,
+        0,
+        31,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html\">https://www.cnbc.com/2026/06/26/us-government-anthropic-claude-mythos5-ai.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693105\">https://news.ycombinator.com/item?id=48693105</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-27T07:00:31+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 88,
+        "freshness_score": 88,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 88,
+        "technical_impact_score": 85,
+        "community_heat_score": 30
+      },
+      "final_score": 83,
+      "summary_zh": "特朗普政府批准Anthropic将强大AI模型Mythos向部分美国企业开放，但附加访问限制。此举标志着美国政府首次对顶级AI模型实施发布管控，企业须经政府许可方可获取，开创了政府介入前沿AI模型分发的先例。",
+      "why_zh": "美政府首次管控顶尖AI模型发布权限，开创政府干预AI分发的关键先例。",
+      "tags": [
+        "LLM",
+        "AI Regulation",
+        "AI Safety"
+      ]
+    },
+    {
+      "id": "a6a3f9fd6a48ad60",
+      "title": "US releases powerful Anthropic model Mythos to some US companies",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "published_raw": "Fri, 26 Jun 2026 22:58:25 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        22,
+        58,
+        25,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies\">https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48693088\">https://news.ycombinator.com/item?id=48693088</a></p>\n<p>Points: 2</p>\n<p># Comments: 1</p>",
+      "published_at": "2026-06-27T06:58:25+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 82,
+        "freshness_score": 88,
+        "ai_relevance_score": 95,
+        "product_relevance_score": 88,
+        "technical_impact_score": 85,
+        "community_heat_score": 25
+      },
+      "final_score": 81,
+      "summary_zh": "Semafor报道，美国政府已批准向部分美国企业释放Anthropic高性能AI模型Mythos，与CNBC同日报道相互印证。这表明美国正建立针对高能力AI系统的政府许可机制，限定特定企业才可获取最强大的AI模型。",
+      "why_zh": "多方权威媒体证实美政府管控AI模型发布，监管框架正式落地。",
+      "tags": [
+        "LLM",
+        "AI Regulation",
+        "AI Business"
+      ]
+    },
+    {
+      "id": "58b19a63fcfa8078",
+      "title": "LLMs help robots understand vague instructions and focus on key details",
+      "source": "MIT News - AI",
+      "category": "C",
+      "url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+      "published_raw": "Fri, 26 Jun 2026 09:00:00 -0400",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        13,
+        0,
+        0,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "To help robots do chores in places like homes and factories, a new approach from MIT uses one language model to clarify users’ instructions, then another to ignore irrelevant info.",
+      "published_at": "2026-06-26T21:00:00+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 80,
+        "freshness_score": 88,
+        "ai_relevance_score": 90,
+        "product_relevance_score": 70,
+        "technical_impact_score": 80,
+        "community_heat_score": 55
+      },
+      "final_score": 79,
+      "summary_zh": "MIT研究人员提出双LLM架构帮助机器人理解模糊自然语言指令：第一个模型负责澄清用户意图，第二个模型负责过滤无关上下文信息，使机器人能够在家庭和工厂环境中更准确地执行任务。",
+      "why_zh": "双模型架构突破自然语言歧义瓶颈，推动LLM在具身机器人场景的实际落地。",
+      "tags": [
+        "LLM",
+        "Agent",
+        "Research"
+      ]
+    },
+    {
+      "id": "7bd447334a412b55",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "published_raw": "Fri, 26 Jun 2026 21:14:47 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        21,
+        14,
+        47,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://blog.doubleword.ai/frontier-os-llm\">https://blog.doubleword.ai/frontier-os-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48692058\">https://news.ycombinator.com/item?id=48692058</a></p>\n<p>Points: 118</p>\n<p># Comments: 99</p>",
+      "published_at": "2026-06-27T05:14:47+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 93,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 70,
+        "technical_impact_score": 65,
+        "community_heat_score": 65
+      },
+      "final_score": 75,
+      "summary_zh": "DoubleWord AI博客深度分析了开源权重LLM与闭源LLM之间的能力差距，涵盖性能基准、安全性、商业化适用性等维度，探讨当前开源模型能否追上GPT、Claude等闭源前沿模型。HN上引发118点赞和99条社区讨论。",
+      "why_zh": "系统梳理开源vs闭源能力鸿沟，直接影响企业AI选型和开发者技术路线决策。",
+      "tags": [
+        "LLM",
+        "Open Source",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "95a277e58827a1e8",
+      "title": "Enterprise AI customers pulling back from OpenAI and Anthropic as costs mount",
+      "source": "Hacker News (AI 关键词)",
+      "category": "A",
+      "url": "https://qz.com/enterprise-ai-spending-openai-anthropic-roi-pullback-062626",
+      "published_raw": "Sat, 27 Jun 2026 01:10:03 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        27,
+        1,
+        10,
+        3,
+        5,
+        178,
+        0
+      ],
+      "raw_text": "<p>Article URL: <a href=\"https://qz.com/enterprise-ai-spending-openai-anthropic-roi-pullback-062626\">https://qz.com/enterprise-ai-spending-openai-anthropic-roi-pullback-062626</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48694123\">https://news.ycombinator.com/item?id=48694123</a></p>\n<p>Points: 2</p>\n<p># Comments: 4</p>",
+      "published_at": "2026-06-27T09:10:03+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 70,
+        "freshness_score": 90,
+        "ai_relevance_score": 85,
+        "product_relevance_score": 80,
+        "technical_impact_score": 60,
+        "community_heat_score": 20
+      },
+      "final_score": 72,
+      "summary_zh": "Quartz报道指出，企业AI用户正逐步缩减对OpenAI和Anthropic的投入，核心原因是成本持续攀升但投资回报率难以量化。这标志着企业AI采购从探索期向成熟理性期转变，AI公司商业模式面临考验。",
+      "why_zh": "企业ROI担忧蔓延，将倒逼AI厂商重新定价与证明业务价值。",
+      "tags": [
+        "AI Business"
+      ]
+    },
+    {
+      "id": "14667f465e7535d7",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "source": "Hacker News (Front Page)",
+      "category": "A",
+      "url": "https://github.com/workweave/router",
+      "published_raw": "Fri, 26 Jun 2026 16:40:11 +0000",
+      "published_parsed": [
+        2026,
+        6,
+        26,
+        16,
+        40,
+        11,
+        4,
+        177,
+        0
+      ],
+      "raw_text": "<p>We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: <a href=\"https://www.youtube.com/watch?v=isKhAyivtfM\" rel=\"nofollow\">https://www.youtube.com/watch?v=isKhAyivtfM</a>.<p>At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn't need Opus for <i>everything</i> but we didn't want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us.<p>The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decides what model to send it to, handling all the translations required along the way. So it can use faster/cheaper models (e.g. DeepSeek v4, GLM 5.2, Kimi K2.6) when possible, and frontier models (Opus 4.8 & GPT 5.5 (& Fable whenever it's back)) when necessary.<p>How do we know what model to route to? We trained an RL model on tens of thousands (so far!) of agent traces. We reward the routing model when it selects an LLM that successfully completes the given task.<p>Here's an example: if you ask the router to plan a complex change, it will (probably) route that request to Opus 4.8. Subagents exploring the codebase to gather context will be routed to more suitable models (e.g. DeepSeek V4 Flash). Then when you have the plan ready to implement, it will be (most likely) be handed to a quicker model (e.g. GLM 5.2) to carry it out.<p>We've been using this internally for the last month or so. We've saved 40% on tokens vs. what we otherwise would have paid, with no noticeable differences in quality or velocity.<p>The router is source-available under Elastic License 2.0, so you can self-host it. Or if you prefer, you can also use our hosted version: weaverouter.com.<p>I'll be here to answer any questions you may have!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48688700\">https://news.ycombinator.com/item?id=48688700</a></p>\n<p>Points: 148</p>\n<p># Comments: 89</p>",
+      "published_at": "2026-06-27T00:40:11+08:00",
+      "keep": true,
+      "scores": {
+        "source_authority_score": 55,
+        "freshness_score": 90,
+        "ai_relevance_score": 80,
+        "product_relevance_score": 75,
+        "technical_impact_score": 70,
+        "community_heat_score": 50
+      },
+      "final_score": 71,
+      "summary_zh": "Weave团队开源了一款模型路由器，可嵌入Claude Code、Codex、Cursor等主流AI编码工具，根据请求特点智能分发至最合适的模型。该工具起源于Opus 4.7发布后编码成本飙升的痛点，旨在平衡质量与成本。",
+      "why_zh": "多模型智能路由是降低AI编码成本的实用方案，对开发者团队有直接价值。",
+      "tags": [
+        "AI Infra",
+        "AI Coding",
+        "Open Source"
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "tag": "LLM",
+      "count": 8
+    },
+    {
+      "tag": "AI Regulation",
+      "count": 4
+    },
+    {
+      "tag": "AI Safety",
+      "count": 4
+    },
+    {
+      "tag": "Benchmark",
+      "count": 2
+    },
+    {
+      "tag": "AI Business",
+      "count": 2
+    },
+    {
+      "tag": "Open Source",
+      "count": 2
+    },
+    {
+      "tag": "AI Product",
+      "count": 1
+    },
+    {
+      "tag": "Agent",
+      "count": 1
+    },
+    {
+      "tag": "Research",
+      "count": 1
+    },
+    {
+      "tag": "AI Infra",
+      "count": 1
+    },
+    {
+      "tag": "AI Coding",
+      "count": 1
+    }
+  ],
+  "stats": {
+    "sources": 8,
+    "raw": 1235,
+    "selected": 10,
+    "keywords": 11
+  },
+  "pm_insights": [
+    {
+      "point": "前沿模型访问将受政府许可管控",
+      "detail": "美国政府开始介入顶级AI模型的分发权限，企业须经审核方可获取。这意味着未来产品规划需提前考虑AI能力准入的合规路径，而非默认按需取用。"
+    },
+    {
+      "point": "企业AI采购从尝鲜期进入ROI验证期",
+      "detail": "企业正因成本攀升而收缩AI投入，说明「能用」已不够，产品须具备清晰可量化的价值主张，ROI可见性将成为续签与扩采的决定因素。"
+    },
+    {
+      "point": "模型路由是控本提质的关键架构手段",
+      "detail": "将不同复杂度的请求分发至匹配模型，可在不损失核心体验的前提下大幅降低推理成本；产品层面应在设计阶段就规划任务分级与模型分流策略。"
+    },
+    {
+      "point": "双LLM拆分「澄清意图」与「过滤噪声」",
+      "detail": "先用一个模型对齐用户真实意图，再用另一个模型聚焦关键上下文执行任务，这一解耦思路对处理模糊需求的AI产品具有普适的交互设计参考价值。"
+    }
+  ]
+}
